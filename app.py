@@ -79,8 +79,6 @@ def chatbot_response(msg):
 # Fungsi untuk memeriksa API key
 def check_api_key():
     api_key = request.headers.get('x-api-key')
-    print("Received API key:", api_key)  # Debugging
-    print("Expected API key:", API_KEY)   # Debugging
     if api_key != API_KEY:
         return jsonify({"message": "Unauthorized"}), 401
     return None
@@ -93,13 +91,6 @@ def hello():
 @app.route("/ui")
 def chat_ui():
     return render_template("index.html")
-
-# Fungsi untuk memeriksa API key
-def check_api_key():
-    api_key = request.headers.get('x-api-key')
-    if api_key != API_KEY:
-        return jsonify({"message": "Unauthorized"}), 401
-    return None
 
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -120,4 +111,4 @@ def chat():
     return jsonify({"response": response})
 
 if __name__ == '__main__':
-    app.run(debug=True, threaded=False)
+    app.run(host='0.0.0.0', port=5000, debug=True)
