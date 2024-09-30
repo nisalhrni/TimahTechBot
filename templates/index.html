@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timah TechBot Chat UI</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .chat-container {
+            width: 100%;
+            max-width: 800px;
+            height: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .chat-box {
+            flex-grow: 1;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .message {
+            padding: 10px;
+            border-radius: 20px;
+            max-width: 70%;
+            font-size: 14px;
+            word-wrap: break-word;
+            display: inline-block;
+        }
+
+        .user-message {
+            background-color: #0084ff;
+            color: white;
+            align-self: flex-end;
+            text-align: right;
+        }
+
+        .bot-message {
+            background-color: #e6e6e6;
+            color: #333;
+            align-self: flex-start;
+            text-align: left;
+        }
+
+        .timestamp {
+            font-size: 10px;
+            color: #0f0f0f;
+            text-align: right;
+            margin-top: 5px;
+        }
+
+        .input-container {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        input[type="text"] {
+            flex-grow: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            outline: none;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            font-size: 16px;
+            background-color: #0084ff;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .chat-container {
+                width: 100%;
+            }
+
+            input[type="text"], button {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box">
+            <!-- Pesan akan ditambahkan di sini -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const API_KEY = '123456789abcdef';  // Ganti dengan API key yang sebenarnya
+
+        let isFirstMessage = true; // Flag untuk menandai pesan pertama
+
+        function getCurrentDate() {
+            const now = new Date();
+            const optionsDate = { year: 'numeric', month: 'long', day: 'numeric' };
+            return now.toLocaleDateString([], optionsDate);
+        }
+
+        function getCurrentTime() {
+            const now = new Date();
+            const optionsTime = { hour: '2-digit', minute: '2-digit', hour12: false };
+            return now.toLocaleTimeString([], optionsTime);
+        }
+
+        function sendMessage() {
+            var userInput = document.getElementById("user-input").value;
+            if (userInput.trim() === "") return;
+
+            // Add date only for the first message
+            if (isFirstMessage) {
+                var chatBox = document.getElementById("chat-box");
+                var dateDiv = document.createElement("div");
+                dateDiv.className = "timestamp";
+                dateDiv.textContent = getCurrentDate();
+                chatBox.appendChild(dateDiv);
+                isFirstMessage = false;
+            }
+
+            // Add user message to the chat
+            var chatBox = document.getElementById("chat-box");
+            var userMessageDiv = document.createElement("div");
+            userMessageDiv.className = "message user-message";
+            userMessageDiv.textContent = userInput;
+
+            // Add time to user message
+            var timeDivUser = document.createElement("div");
+            timeDivUser.className = "timestamp";
+            timeDivUser.textContent = getCurrentTime();
+            userMessageDiv.appendChild(timeDivUser);
+
+            chatBox.appendChild(userMessageDiv);
+
+            // Scroll to the bottom
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+            // Clear input field
+            document.getElementById("user-input").value = "";
+
+            // Fetch response from backend Flask API
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'x-api-key': API_KEY,
+                },
+                body: JSON.stringify({ message: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Add bot message to the chat with HTML support
+                var botMessageDiv = document.createElement("div");
+                botMessageDiv.className = "message bot-message";
+
+                // Use innerHTML to allow HTML tags in the response
+                botMessageDiv.innerHTML = data.response;  // Changed from textContent to innerHTML
+
+                // Add time to bot message
+                var timeDivBot = document.createElement("div");
+                timeDivBot.className = "timestamp";
+                timeDivBot.textContent = getCurrentTime();
+                botMessageDiv.appendChild(timeDivBot);
+
+                chatBox.appendChild(botMessageDiv);
+
+                // Scroll to the bottom
+                chatBox.scrollTop = chatBox.scrollHeight;
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                var botMessageDiv = document.createElement("div");
+                botMessageDiv.className = "message bot-message";
+                botMessageDiv.textContent = "Sorry, there was an error connecting to the chatbot.";
+
+                // Add time to error message
+                var timeDivError = document.createElement("div");
+                timeDivError.className = "timestamp";
+                timeDivError.textContent = getCurrentTime();
+                botMessageDiv.appendChild(timeDivError);
+
+                chatBox.appendChild(botMessageDiv);
+
+                // Scroll to the bottom
+                chatBox.scrollTop = chatBox.scrollHeight;
+            });
+        }
+    </script>
+</body>
+</html>

@@ -3,35 +3,50 @@ nltk.download('wordnet')
 nltk.download('punkt')  # Untuk tokenisasi
 nltk.download('omw-1.4')  # Jika menggunakan lemmatizer berbasis WordNet
 from nltk.stem import WordNetLemmatizer
+from flask import Flask, jsonify, request, render_template
+
 lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
-
-from tensorflow.keras.models import load_model
-model = load_model('timahtechbot_model.h5')
 import json
 import random
-intents = json.loads(open('data_panduan.json', encoding="utf8").read())
-words = pickle.load(open('words.pkl','rb'))
-classes = pickle.load(open('classes.pkl','rb'))
 
+from tensorflow.keras.models import load_model
+from flask import Flask, jsonify, request
+import os
+from dotenv import load_dotenv
 
+# Muat file .env untuk API key
+load_dotenv()
+API_KEY = os.getenv("API_KEY")  # Ambil API key dari environment variables
+
+# Inisialisasi model, data, dan Flask
+model = load_model('timahtechbot_model.h5')
+intents = json.loads(open('data_panduan_formatted.json', encoding="utf8").read())
+words = pickle.load(open('words.pkl', 'rb'))
+classes = pickle.load(open('classes.pkl', 'rb'))
+
+app = Flask(__name__)
+
+# Membersihkan kalimat input pengguna
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 
+# Mengubah kalimat menjadi bag of words
 def bow(sentence, words, show_details=True):
     sentence_words = clean_up_sentence(sentence)
-    bag = [0]*len(words)
+    bag = [0] * len(words)
     for s in sentence_words:
         for i, w in enumerate(words):
             if w == s:
                 bag[i] = 1
                 if show_details:
-                    print("found in bag: %s" % w)
+                    print(f"found in bag: {w}")
     return np.array(bag)
 
+# Prediksi kelas kalimat menggunakan model
 def predict_class(sentence, model):
     p = bow(sentence, words, show_details=False)
     res = model.predict(np.array([p]))[0]
@@ -43,6 +58,7 @@ def predict_class(sentence, model):
         return_list.append({"intent": classes[r[0]], "probability": str(r[1])})
     return return_list
 
+# Mendapatkan respons chatbot berdasarkan intent
 def getResponse(ints, intents_json):
     if not ints:
         return "Sorry, I didn't understand that."
@@ -54,33 +70,33 @@ def getResponse(ints, intents_json):
             break
     return result
 
+# Mendapatkan respons chatbot
 def chatbot_response(msg):
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
     return res
 
-
-''' Flask code '''
-
-from flask import Flask, jsonify, request
-import os
-from dotenv import load_dotenv
-
-# Muat file .env untuk API key
-load_dotenv()
-API_KEY = os.getenv("API_KEY")  # Ambil API key dari environment variables
-
-app = Flask(__name__)
+# Fungsi untuk memeriksa API key
+def check_api_key():
+    api_key = request.headers.get('x-api-key')
+    print("Received API key:", api_key)  # Debugging
+    print("Expected API key:", API_KEY)   # Debugging
+    if api_key != API_KEY:
+        return jsonify({"message": "Unauthorized"}), 401
+    return None
 
 @app.route("/", methods=['GET'])
 def hello():
-    return jsonify({"key": "home page value"})
+    return jsonify({"message": "Welcome to Timah TechBot API!"})
+
+# Tambahkan route baru di sini untuk UI
+@app.route("/ui")
+def chat_ui():
+    return render_template("index.html")
 
 # Fungsi untuk memeriksa API key
 def check_api_key():
     api_key = request.headers.get('x-api-key')
-    print("Received API key:", api_key)  # Tambahkan ini untuk debugging
-    print("Expected API key:", API_KEY)   # Tambahkan ini untuk debugging
     if api_key != API_KEY:
         return jsonify({"message": "Unauthorized"}), 401
     return None
@@ -95,6 +111,9 @@ def chat():
     # Ambil pesan dari body permintaan
     data = request.get_json()
     user_message = data.get("message")
+
+    if not user_message:
+        return jsonify({"message": "No message provided"}), 400
 
     # Dapatkan respons dari chatbot
     response = chatbot_response(user_message)
