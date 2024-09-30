@@ -1,11 +1,12 @@
-
 import nltk
+nltk.download('wordnet')
+nltk.download('punkt')  # Untuk tokenisasi
+nltk.download('omw-1.4')  # Jika menggunakan lemmatizer berbasis WordNet
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
-#from keras.models import load_model
 from tensorflow.keras.models import load_model
 model = load_model('timahtechbot_model.h5')
 import json
@@ -20,29 +21,22 @@ def clean_up_sentence(sentence):
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]
     return sentence_words
 
-# return bag of words array: 0 or 1 for each word in the bag that exists in the sentence
-
 def bow(sentence, words, show_details=True):
-    # tokenize the pattern
     sentence_words = clean_up_sentence(sentence)
-    # bag of words - matrix of N words, vocabulary matrix
     bag = [0]*len(words)
     for s in sentence_words:
-        for i,w in enumerate(words):
+        for i, w in enumerate(words):
             if w == s:
-                # assign 1 if current word is in the vocabulary position
                 bag[i] = 1
                 if show_details:
-                    print ("found in bag: %s" % w)
-    return(np.array(bag))
+                    print("found in bag: %s" % w)
+    return np.array(bag)
 
 def predict_class(sentence, model):
-    # filter out predictions below a threshold
-    p = bow(sentence, words,show_details=False)
+    p = bow(sentence, words, show_details=False)
     res = model.predict(np.array([p]))[0]
     ERROR_THRESHOLD = 0.25
-    results = [[i,r] for i,r in enumerate(res) if r>ERROR_THRESHOLD]
-    # sort by strength of probability
+    results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
     for r in results:
@@ -53,7 +47,7 @@ def getResponse(ints, intents_json):
     tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
-        if(i['tag']== tag):
+        if i['tag'] == tag:
             result = random.choice(i['responses'])
             break
     return result
@@ -66,47 +60,49 @@ def chatbot_response(msg):
 
 ''' Flask code '''
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
+import os
+from dotenv import load_dotenv
 
+# Muat file .env untuk API key
+load_dotenv()
+API_KEY = os.getenv("API_KEY")  # Ambil API key dari environment variables
 
 app = Flask(__name__)
 
-@app.route("/", methods = ['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def hello():
-    return jsonify({"key" : "home page value"})
+    return jsonify({"key": "home page value"})
 
-#function to replace '+' character with ' ' spaces
+# function to replace '+' character with ' ' spaces
 def decrypt(msg):
-    
     string = msg
-    
-    #converting back '+' character back into ' ' spaces
-    #new_string is the normal message with spaces that was sent by the user
     new_string = string.replace("+", " ")
-    
     return new_string
 
-#here we will send a string from the client and the server will return another
-#string with som modification
-#creating a url dynamically
-@app.route('/home/<name>') 
+# Fungsi untuk memeriksa API key
+def check_api_key():
+    api_key = request.headers.get('x-api-key')
+    print("Received API key:", api_key)  # Tambahkan ini
+    print("Expected API key:", API_KEY)   # Tambahkan ini
+    if api_key != API_KEY:
+        return jsonify({"message": "Unauthorized"}), 401
+    return None
+
+
+# Membuat URL dinamis
+@app.route('/home/<name>')
 def hello_name(name):
-    
-    #dec_msg is the real question asked by the user
+    # Memeriksa API key
+    unauthorized_response = check_api_key()
+    if unauthorized_response:
+        return unauthorized_response
+
+    # Jika API key valid, proses permintaan
     dec_msg = decrypt(name)
-    
-    #get the response from the ML model & dec_msg as the argument
     response = chatbot_response(dec_msg)
-    
-    #creating a json object
-    json_obj = jsonify({"top" : {"res" : response}})
-    
+    json_obj = jsonify({"top": {"res": response}})
     return json_obj
 
-
-
 if __name__ == '__main__':
-    app.run(debug=True , threaded = False)
-
-
-
+    app.run(debug=True, threaded=False)
