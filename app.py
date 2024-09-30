@@ -44,6 +44,8 @@ def predict_class(sentence, model):
     return return_list
 
 def getResponse(ints, intents_json):
+    if not ints:
+        return "Sorry, I didn't understand that."
     tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
@@ -70,39 +72,33 @@ API_KEY = os.getenv("API_KEY")  # Ambil API key dari environment variables
 
 app = Flask(__name__)
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/", methods=['GET'])
 def hello():
     return jsonify({"key": "home page value"})
-
-# function to replace '+' character with ' ' spaces
-def decrypt(msg):
-    string = msg
-    new_string = string.replace("+", " ")
-    return new_string
 
 # Fungsi untuk memeriksa API key
 def check_api_key():
     api_key = request.headers.get('x-api-key')
-    print("Received API key:", api_key)  # Tambahkan ini
-    print("Expected API key:", API_KEY)   # Tambahkan ini
+    print("Received API key:", api_key)  # Tambahkan ini untuk debugging
+    print("Expected API key:", API_KEY)   # Tambahkan ini untuk debugging
     if api_key != API_KEY:
         return jsonify({"message": "Unauthorized"}), 401
     return None
 
-
-# Membuat URL dinamis
-@app.route('/home/<name>')
-def hello_name(name):
+@app.route('/chat', methods=['POST'])
+def chat():
     # Memeriksa API key
     unauthorized_response = check_api_key()
     if unauthorized_response:
         return unauthorized_response
 
-    # Jika API key valid, proses permintaan
-    dec_msg = decrypt(name)
-    response = chatbot_response(dec_msg)
-    json_obj = jsonify({"top": {"res": response}})
-    return json_obj
+    # Ambil pesan dari body permintaan
+    data = request.get_json()
+    user_message = data.get("message")
+
+    # Dapatkan respons dari chatbot
+    response = chatbot_response(user_message)
+    return jsonify({"response": response})
 
 if __name__ == '__main__':
     app.run(debug=True, threaded=False)
