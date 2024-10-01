@@ -4,17 +4,16 @@ nltk.download('punkt')  # Untuk tokenisasi
 nltk.download('omw-1.4')  # Jika menggunakan lemmatizer berbasis WordNet
 from nltk.stem import WordNetLemmatizer
 from flask import Flask, jsonify, request, render_template
-
-lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 import json
 import random
-
 from tensorflow.keras.models import load_model
 from flask import Flask, jsonify, request
 import os
 from dotenv import load_dotenv
+
+
 
 # Muat file .env untuk API key
 load_dotenv()
@@ -27,6 +26,10 @@ words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 
 app = Flask(__name__)
+from flask_cors import CORS
+CORS(app)
+
+lemmatizer = WordNetLemmatizer()
 
 # Membersihkan kalimat input pengguna
 def clean_up_sentence(sentence):
@@ -61,7 +64,7 @@ def predict_class(sentence, model):
 # Mendapatkan respons chatbot berdasarkan intent
 def getResponse(ints, intents_json):
     if not ints:
-        return "Sorry, I didn't understand that."
+        return "Maaf, saya tidak memahami itu."
     tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
@@ -88,7 +91,7 @@ def hello():
     return jsonify({"message": "Welcome to Timah TechBot API!"})
 
 # Tambahkan route baru di sini untuk UI
-@app.route("/ui")
+@app.route("/admin/roomchat")
 def chat_ui():
     return render_template("index.html")
 
