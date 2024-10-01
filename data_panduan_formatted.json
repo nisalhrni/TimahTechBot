@@ -107,22 +107,37 @@
                 "Bagaimana join meeting zoom?",
                 "Bagaimana join zoom?",
                 "Bagaimana cara join zoom?",
+                " Gimana cara join zoom?",
+                "Bagaimana cara join zoom aplikasi di hp?",
+                "Bagaimana cara join zoom aplikasi di dekstop?",
                 "Bagaimana join zoom meeting?",
+                "Bagaimana join zoom meeting di laptop?",
+                "Bagaimana join zoom meeting di hp?",
+                "Bagaimana join zoom meeting di pc?",
+                "Bagaimana join zoom meeting di komputer?",
                 "Bagaimana cara join zoom meeting?",
                 "join zoom",
-                "Cara sign in di zoom?",
-                "Cara sign in zoom?",
-                "Cara login zoom?",
-                "Cara login di zoom?",
-                "Bagaimana cara sign in di zoom?",
-                "Bagaimana cara sign in zoom?",
-                "login zoom",
-                "Login zoom"
+                "join zoom meeting"
             ],
             "responses": [
-                "Menggunakan Aplikasi Zoom Pada Desktop:\n\n1. \n-  Buka aplikasi Zoom.\n-  Setelah itu akan muncul tampilan dari Join Meeting. Isi Meeting ID (berupa angka) atau Personal Link Name (berupa link). Isi juga di Enter your name, nama yang user gunakan. Setelah semua diisi bisa langsung klik Join. \n-  Optional: \n- User bisa menceklis (klik pada kotak) Remember my name for future meetings agar nama yang user gunakan tidak berubah ketika mengikuti meeting Zoom yang lain. \n-  User bisa menceklis (klik pada kotak) Don't connect to audio untuk mematikan suara mic. \n-  User bisa menceklis (klik pada kotak) Turn off my video untuk mematikan video.  \n-  Jika owner yang membuat ruang diskusi menyeting ruang diskusi membutuhkan password, maka akan muncul tampilan gambar Enter meeting passcode. User harus menuliskan password yang telah diberikan. Jika tidak diatur demikian, maka user akan langsung diarahkan masuk ke ruang diskusi. \n-  Setelah berhasil masuk ke ruang diskusi Zoom, pilih Join with Computer Audio untuk menghubungkan perangkat suara dan mic pada komputer dengan aplikasi Zoom.\n\n-  Setelah semua selesai, user akan bisa melakukan diskusi di Zoom Meeting."
+                "<b>Berikut langkah-langkah untuk join zoom :</b> <ol> <li> Buka aplikasi Zoom. </li> <li> Setelah itu akan muncul tampilan dari Join Meeting. <ul><li><b>Isi Meeting ID </b> (berupa angka) atau <b>Personal Link Name</b> (berupa link).</li> <li>Isi juga di <b>Enter your name</b>, nama yang user gunakan.</li> <li>Setelah semua diisi bisa langsung klik <b>Join</b> </li> <li> User bisa menceklis (klik pada kotak) <b>Remember my name for future meetings </b>agar nama yang user gunakan tidak berubah ketika mengikuti meeting Zoom yang lain. </li> <li> User bisa menceklis (klik pada kotak)<b> Don't connect to audio </b>untuk mematikan suara mic. </li> <li> User bisa menceklis (klik pada kotak) <b> Turn off my video </b> untuk mematikan video. </li></ul></li> <li> Jika owner yang membuat ruang zoom menggunakan password, maka akan muncul tampilan gambar <b>Enter meeting passcode</b>.</li> <li> User harus menuliskan password yang telah diberikan. Jika tidak diatur demikian, maka user akan langsung diarahkan masuk ke ruang diskusi.</li> <li> Setelah berhasil masuk ke ruang diskusi Zoom, pilih <b>Join with Computer Audio</b> untuk menghubungkan perangkat suara dan mic pada komputer dengan aplikasi Zoom. </li> <li>Setelah semua selesai, user akan bisa melakukan diskusi di Zoom Meeting.</li></ol>"
             ]
         },
+        {
+            "tag": "panduan-zoom-breakout-rooms",
+            "patterns": [
+                "Cara membuat breakout rooms di Zoom?",
+                "Bagaimana cara membuat breakout rooms di Zoom?",
+                "Cara membuat ruang meeting tambahan di Zoom?",
+                "Breakout rooms di Zoom",
+                "Cara buat breakout rooms di Zoom?",
+                "Breakout rooms"
+            ],
+            "responses": [
+                "<b>Berikut adalah langkah-langkah untuk membuat breakout rooms di Zoom:</b><ol><li>Pertama, user (host meeting) bisa membuat breakout rooms dengan mengklik titik tiga (More) di bagian kanan bawah (minimize) atau klik icon Breakout Rooms (maximize).</li><li>Akan muncul pop-up <b>Create Breakout Rooms</b>. Host dapat membuat hingga 50 rooms, dengan memasukkan jumlahnya di kotak yang tersedia.<ul><li><b>Assign automatically</b>: Zoom akan menempatkan peserta secara acak di sejumlah ruang yang tersedia.</li><li><b>Assign manually</b>: Host dapat menentukan siapa peserta dan ruang mana yang mereka tempati.</li><li><b>Let participants choose room</b>: Peserta bebas memilih ruang pertemuan yang ingin mereka kunjungi.</li></ul></li><li>Setelah opsi dipilih, klik <b>Create</b>.</li><li>Host bisa menekan <b>Assign</b> dan membagi peserta ke ruang yang tersedia. Host juga dapat mengganti nama ruangan dengan mengarahkan kursor ke nama ‘Room 1’, kemudian pilih <b>Rename</b>.</li><li>Host dapat membuat ulang breakout rooms dengan menekan tombol <b>Recreate</b> atau menambah ruangan dengan mengklik <b>Add a Room</b>.</li><li>Untuk mengatur durasi sesi dan menambahkan hitung mundur sebelum breakout rooms ditutup, pilih opsi di menu <b>Options</b>.</li><li>Selama breakout rooms berlangsung, host dapat mengirim pesan ke semua peserta dengan memilih <b>Broadcast Message to All</b>, menuliskan pesan, dan menekan <b>Broadcast</b>.</li><li>Setelah itu, klik <b>Open All Rooms</b> untuk memulai sesi dan klik <b>Close Rooms</b> untuk menyelesaikannya.</li></ol>"
+            ]
+        },
+
         {
             "tag": "panduan-zoom2",
             "patterns": [
@@ -146,15 +161,27 @@
                 "Bagaimana cara buat room zoom di hp?",
                 "Bagaimana cara buat zoom?",
                 "Gimana cara buat zoom?",
+                "Bagaimana cara buat room zoom?",
+                "Gimana cara buat room zoom?",
                 "Gimana cara buat zoom meeting di dekstop?",
                 "Gimana cara buat zoom di dekstop?",
                 "Gimana cara buat zoom meeting di hp?",
+                "Gimana cara buat room zoom di hp?",
+                "Gimana cara buat room zoom meeting di laptop?",
                 "Gimana cara buat zoom di hp?",
                 "Gimana cara buat zoom meeting di laptop?",
-                "Gimana cara buat zoom di laptop?"
+                "Gimana cara buat zoom di laptop?",
+                "Gimana cara membuat zoom?",
+                "Gimana cara membuat zoom meeting di dekstop?",
+                "Gimana cara membuat zoom di dekstop?",
+                "Gimana cara membuat zoom meeting di hp?",
+                "Gimana cara membuat zoom di hp?",
+                "Gimana cara membuat zoom meeting di laptop?",
+                "cara membuat zoom di laptop?",
+                "cara membuat room zoom di laptop?"
             ],
             "responses": [
-                "Pembuatan Meeting Zoom :\n\n1. \n-  Sign In dengan akun yang dimiliki atau bisa menggunakan akun Google/Facebook/SSO. Jika belum punya akun, harap membuat akun terlebih dahulu dengan mengklik Sign Up.\n\n-  Setelah Sign In, user (host meeting) akan masuk ke tampilan dashboard Zoom. Klik pada icon Schedule untuk membuat meeting terjadwal atau bisa langsung membuat meeting pada saat itu juga dengan mengklik icon New Meeting. Setelah itu, meeting bisa dimulai.\n\n- Untuk meeting yang dijadwalkan, pilih Schedule. Kemudian akan muncul tampilan Schedule Meeting untuk mengatur jadwal meeting. Pengaturan ini terdiri dari nama topik meeting, tanggal dan jam meeting dimulai, durasi meeting, passcode, dan sebagainya. Setelah semuanya di setting, klik Save.\n\n-  Setelah di Save, jadwal meeting akan terlihat. Meeting akan memberikan user notification sebagai pemberitahuan kalau meeting siap dimulai.\n \n-  \n- Optional: \n-  Klik tanda panah di sebelah tulisan New Meeting untuk melihat pengaturan membuat meeting langsung. Start with video: tampilan user (host meeting) akan terlihat langsung. Jika tidak diceklis, maka tampilan akan berupa icon biasa. \n-  Use My Personal Meeting ID (PMI): merupakan angka ID dari user (host meeting) yang digunakan untuk mengundang user lain ke meeting Zoom yang akan dilaksanakan. \n- Copy ID dan Copy Invitation: digunakan untuk mengkopi angka ID dan link invitation dari meeting Zoom. PMI Settings: merupakan pengaturan dari ID user. "
+                "<b>Berikut cara membuat ruang meeting zoom : </b> <ol><li><b>Sign In</b> dengan akun yang dimiliki atau bisa menggunakan akun Google/Facebook/SSO.</li> <li>Jika belum punya akun, harap membuat akun terlebih dahulu dengan mengklik<b> Sign Up</b>.</li>  <li>Setelah Sign In, user (host meeting) akan masuk ke tampilan dashboard Zoom</li> <li> Klik icon <b>New Meeting</b> untuk bisa langsung membuat meeting pada saat itu juga. Setelah itu, meeting bisa dimulai. </li> <li>Klik icon <b>Schedule</b> untuk membuat jadwal meeting . </li> <li> Jika mengklik Schedule akan muncul tampilan Schedule Meeting untuk mengatur jadwal meeting. <ul> <li>Pengaturan ini terdiri dari nama topik meeting, tanggal dan jam meeting dimulai, durasi meeting, passcode, dan sebagainya. </li>  <li>Setelah semuanya di setting, klik Save. </li><li> Setelah di Save, jadwal meeting akan terlihat.</li>  <li>  Meeting akan memberikan user notification sebagai pemberitahuan kalau meeting siap dimulai. </li> </ul>   <li>Optional: <ul><li>Klik tanda panah di sebelah tulisan New Meeting untuk melihat pengaturan membuat meeting langsung.</li>Start with video: tampilan user (host meeting) akan terlihat langsung. Jika tidak diceklis, maka tampilan akan berupa icon biasa. </li> <li>Use My Personal Meeting ID (PMI): merupakan angka ID dari user (host meeting) yang digunakan untuk mengundang user lain ke meeting Zoom yang akan dilaksanakan </li> <li>Copy ID dan Copy Invitation: digunakan untuk mengkopi angka ID dan link invitation dari meeting Zoom.</li> <li>PMI Settings: merupakan pengaturan dari ID user.</li> </ul></li></ol>"
             ]
         },
         {
@@ -171,21 +198,10 @@
                 "Record zoom",
                 "Record zoom meeting",
                 "Rekam zoom",
-                "Rekam zoom meeting",
-                "Bagaimanan cara merekam meeting teams?",
-                "Bagaimanan cara merekam meeting teams?",
-                "Gimana cara merekam meeting di teams?",
-                "Gimana cara merekam meeting di microsoftt teams?",
-                "Cara merekam meeting di microsoftt teams",
-                "Cara merekam meeting di teams",
-                "Cara record meeting di microsoftt teams",
-                "Cara record  meeting di teams",
-                "Record meeting di teams",
-                "Record meeting di microsoftt teams",
-                "Rekam meeting di microsoftt teams"
+                "Rekam zoom meeting"
             ],
             "responses": [
-                "Cara Merekam Meeting Zoom di PC/Laptop:\n\n1. \n-  Pertama, user (host meeting) bisa memulai meeting Zoom dengan langsung (New Meeting) atau membuat meeting terjadwal (Schedule).\n-  Untuk merekam video meeting secara langsung, user (host meeting) bisa mengklik titik tiga (More) di bagian kanan bawah (minimize) atau icon di bagian maximize. Saat diklik, pilih antara Record on this Computer atau Record to the Cloud. Perbedaannya: \n- Record on this Computer menyimpan rekaman di penyimpanan internal komputer.\n- Record to the Cloud menyimpan rekaman di penyimpanan digital Zoom (Cloud Storage).\n-  Setelah memilih Record on this Computer atau klik keyboard Alt+R, tanda recording akan muncul. User bisa menghentikan sementara rekaman (Alt+P) dan memulai kembali dengan mengklik tanda play.\n-  Untuk menghentikan rekaman sepenuhnya, klik tanda stop atau tekan Alt+R. Pop up message akan muncul, tetapi hasil rekaman baru akan tersedia setelah meeting Zoom berakhir.\n-  Setelah selesai, hasil rekaman akan dikonversi secara otomatis dan tersimpan di folder Zoom di penyimpanan internal.\n-  Jika memilih Record to the Cloud (Alt+C), tanda recording akan muncul di kiri atas. User bisa menghentikan sementara (Alt+P) dan melanjutkan lagi rekaman dengan mengklik tanda play.\n-  Untuk menghentikan sepenuhnya rekaman di Cloud, klik tanda stop atau tekan Alt+R. Hasil rekaman akan tersedia setelah meeting Zoom berakhir. \n\n\n Cara melakukan Share Screen di ruang meeting:\n\n\n1. \n-  Saat meeting berlangsung, user dapat melakukan Share Screen dengan mengklik ikon Share di pojok kanan atas.\n-  Pilih bagian layar yang ingin dibagikan di ruang meeting.\n-  Untuk menghentikan Share Screen, arahkan kursor mouse ke bagian atas tengah layar sampai muncul toolbar Share Screen dan klik Stop presenting."
+                "<b>Cara Merekam Room Meeting Zoom:</b> <ol> <li>Pertama, user (host meeting) bisa memulai meeting Zoom dengan langsung (New Meeting) atau membuat meeting terjadwal (Schedule).</li> <li>Untuk merekam video meeting secara langsung, user (host meeting) bisa mengklik titik tiga (More) di bagian kanan bawah (minimize) atau icon di bagian maximize.</li> <li>Saat diklik, pilih antara Record on this Computer atau Record to the Cloud. Perbedaannya : <ul><li> Record on this Computer menyimpan rekaman di penyimpanan internal komputer.</li> <li>Record to the Cloud menyimpan rekaman di penyimpanan digital Zoom (Cloud Storage).</li> </li></ul> <li> Setelah memilih Record on this Computer atau klik keyboard Alt+R, tanda recording akan muncul<ul> <li>User bisa menghentikan sementara rekaman (Alt+P) dan memulai kembali dengan mengklik tanda play. </li> <li>Untuk menghentikan rekaman sepenuhnya, klik tanda stop atau tekan Alt+R. Pop up message akan muncul, tetapi hasil rekaman baru akan tersedia setelah meeting Zoom berakhir.</li>  <li>Setelah selesai, hasil rekaman akan dikonversi secara otomatis dan tersimpan di folder Zoom di penyimpanan internal.</li></ul> <li>Jika memilih Record to the Cloud (Alt+C), tanda recording akan muncul di kiri atas. <ul><li>User bisa menghentikan sementara (Alt+P) dan melanjutkan lagi rekaman dengan mengklik tanda play</li>  <li>Untuk menghentikan sepenuhnya rekaman di Cloud, klik tanda stop atau tekan Alt+R.</li> <li>Hasil rekaman akan tersedia setelah meeting Zoom berakhir.</li></ul></ol>"
             ]
         },
         {
@@ -210,7 +226,7 @@
                 "Co host zoom"
             ],
             "responses": [
-                "Cara Memberikan Akses Co-Host di Zoom:\n\n\n1. \n-  Pastikan user (host meeting) sudah mempunyai akun Zoom berbayar.\n\n-  Klik icon Participants untuk melihat daftar peserta meeting.\n\n-  Arahkan kursor ke nama peserta yang ingin dijadikan Co-Host dan klik More. Pilih opsi Make Co-host.\n\n-  Tanda Co-host akan muncul di sebelah nama peserta yang dipilih.\n\n"
+                "<b>Cara Memberikan Akses Co-Host di Zoom :</b> <ol> <li>Pastikan user (host meeting) sudah mempunyai akun Zoom berbayar.</li> <li>Klik icon Participants untuk melihat daftar peserta meeting.</li> <li>Arahkan kursor ke nama peserta yang ingin dijadikan Co-Host dan klik More. Pilih opsi Make Co-host.</li> <li>  Tanda Co-host akan muncul di sebelah nama peserta yang dipilih.</li> </ol>"
             ]
         },
         {
@@ -224,10 +240,12 @@
                 "Cara membuat poll di zoom",
                 "Bagaimana cara membuat poll di zoom",
                 "Poll zoom",
-                "Cara polling di zoom"
+                "Pol zoom",
+                "Cara polling di zoom",
+                "Cara poling di zoom"
             ],
             "responses": [
-                "Cara Membuat Polling di Zoom:\n\n\n1. \n-  Pertama, user (host meeting) klik icon Poll pada navigasi bar di bagian bawah layar Zoom.\n\n-  Setelah itu akan muncul tampilan pop up. Klik tombol Create.\n\n-  User (host meeting) akan diarahkan ke browser untuk membuat polling. Di sini user bisa membuat pertanyaan dan menuliskan jawaban (Single Choice atau Multiple Choice). Tambah pertanyaan dengan Add Questions, hapus pertanyaan dengan icon delete, atau duplikasi pertanyaan yang telah dibuat.\n\n- Jika ingin jawaban peserta bersifat anonim, klik titik tiga dan pilih Allow participants to answer questions anonymously.\n\n-  Setelah selesai mengatur polling, klik tombol Save. User masih bisa mengedit polling dengan mengklik Edit Poll di pojok kiri bawah. Klik tombol Launch untuk menyebarkan polling ke peserta meeting.\n\n-  Peserta akan mengisi polling dalam waktu yang ditentukan oleh host. Setelah pengisian selesai, klik tombol End Poll untuk menghentikan polling.\n\n-  Setelah polling selesai, host bisa melihat hasilnya. Klik titik tiga di pojok bawah untuk Re-launch Poll, Download Result, atau View Results from Browser. Host juga bisa membagikan hasil polling dengan mengklik tombol Share Results."
+                "<b>Cara Membuat Polling di Zoom :</b> <ol><li> User (host meeting) klik icon Poll pada navigasi bar di bagian bawah layar Zoom.</li> <li> Setelah itu akan muncul tampilan pop up. Klik tombol Create.</li> <li>User (host meeting) akan diarahkan ke browser untuk membuat polling. </li> <ul> <li>Di sini user bisa membuat pertanyaan dan menuliskan jawaban (Single Choice atau Multiple Choice). </li><li>Tambah pertanyaan dengan Add Questions</li><li> Hapus pertanyaan dengan icon delete </li><li> Duplikasi pertanyaan yang telah dibuat.</li> </ul><li>Jika ingin jawaban peserta bersifat anonim, klik titik tiga dan pilih Allow participants to answer questions anonymously.</li> <li>  Setelah selesai mengatur polling, klik tombol Save. </li> <li> User masih bisa mengedit polling dengan mengklik Edit Poll di pojok kiri bawah. </li> <li>Klik tombol Launch untuk menyebarkan polling ke peserta meeting.</li> <li>Peserta akan mengisi polling dalam waktu yang ditentukan oleh host. </li> <li> Setelah pengisian selesai, klik tombol End Poll untuk menghentikan polling.</li> <li> Setelah polling selesai, host bisa melihat hasilnya. Klik titik tiga di pojok bawah untuk : <ul> <li> Re-launch Poll </li> <li> Download Result </li> <li>View Results from Browser</li></ul></li> <li>Host juga bisa membagikan hasil polling dengan mengklik tombol Share Results.</li> <ol>"
             ]
         },
         {
@@ -236,18 +254,20 @@
                 "Bagaimana cara menggunakan fitur Share Screen di Zoom?",
                 "Cara berbagi layar di Zoom?",
                 "Bagaimana cara share screen di Zoom meeting?",
+                "Bagaimana cara bagikan layar di Zoom meeting?",
                 "Bagaimana cara share screen di Zoom?",
                 "Cara menggunakan share screen di Zoom?",
                 "Gimana cara berbagi layar di Zoom?",
                 "Gimana cara share screen di Zoom meeting?",
                 "Gimana cara share screen di Zoom?",
+                "Gimana cara bagikan gambar di Zoom?",
                 "Gimana menggunakan share screen di Zoom?",
                 "Share screen zoom",
                 "Berbagi layar di Zoom?",
                 "Share screen di zoom"
             ],
             "responses": [
-                "Cara Menggunakan Fitur Share Screen di Zoom:\n\nTerdapat dua cara untuk melakukan Share Screen, yaitu secara langsung sebelum meeting dan saat meeting sedang berlangsung.\n\nCara Share Screen Secara Langsung:\n\n\n1. \n-  Pertama, user harus Sign In Zoom.\n\n-  Pada tampilan awal, pilih Share Screen.\n\n-  Zoom akan meminta user untuk memasukkan Sharing Key atau Meeting ID. Setelah itu, user akan berbagi tampilan layar dengan user lain dalam meeting tersebut.\n\nCara Share Screen Saat Meeting Berlangsung:\n\n\n1. \n-  Masuk ke dalam meeting yang sedang berlangsung.\n\n-  Persiapkan tampilan yang ingin user bagikan di desktop, lalu klik icon Share Screen.\n\n-  Setelah itu, akan muncul pilihan: Basic, Advanced, atau Files. Pilih sesuai kebutuhan dan klik Share.\n\n-  Untuk menghentikan Share Screen, klik Stop Share.\n\n-  Jika ingin berbagi tampilan lain, klik icon New Share. User juga bisa menghentikan sementara dengan mengklik icon Pause Share."
+                "Terdapat dua cara untuk melakukan Share Screen di zoom, yaitu secara langsung sebelum meeting dan saat meeting sedang berlangsung. <ol><b>Cara Share Screen Secara Langsung :</b><li>User harus Sign In Zoom. </li><li>Pada tampilan awal, pilih Share Screen.</li><li>Zoom akan meminta user untuk memasukkan Sharing Key atau Meeting ID. </li><li>Setelah itu, user akan berbagi tampilan layar dengan user lain dalam meeting tersebut.</li></ol> <ol><b>Cara Share Screen Saat Meeting Berlangsung : </b><li> Masuk ke dalam meeting yang sedang berlangsung.</li> <li> Persiapkan tampilan yang ingin user bagikan di desktop, lalu klik icon Share Screen. </li><li> Setelah itu, akan muncul pilihan: Basic, Advanced, atau Files. </li><li>Pilih sesuai kebutuhan dan klik Share. </li><li> Untuk menghentikan Share Screen, klik Stop Share. </li><li>Jika ingin berbagi tampilan lain, klik icon New Share. </li><li> User juga bisa menghentikan sementara dengan mengklik icon Pause Share.</li></ol>"
             ]
         },
         {
@@ -267,7 +287,7 @@
                 "Gimana cara menjadwalkan meeting zoom"
             ],
             "responses": [
-                "Cara Menjadwalkan Meeting Zoom Melalui Website:\n\n\n1. \n-  Pertama, user harus Sign In di website Zoom di https://zoom.us/signin.\n\n-  Setelah itu, lihat jadwal meeting di bagian Meetings di navigasi bar sebelah kiri. Klik Schedule a Meeting di sebelah kanan atau langsung klik Schedule Meeting di bar atas.\n\n-  Di halaman Schedule Meeting, akan muncul form yang harus diisi.\n\n-  Isi form tersebut sebagai berikut:\n   a. Topic: Tulis topik meeting.\n   - Add Description (optional): Tuliskan penjelasan tambahan terkait meeting, seperti tugas yang harus dibawa.\n   b. When: Tentukan waktu kapan meeting dimulai (tanggal dan jam).\n   c. Duration: Tentukan lamanya meeting. Meeting akan otomatis berakhir setelah durasi yang ditentukan.\n   d. Timezone: Zona waktu dari jam meeting, biasanya sudah diatur secara default.\n   - Recurring meeting (optional): Aktifkan untuk mengatur meeting berulang berdasarkan waktu yang ditentukan (Daily, Weekly, Monthly, atau No Fixed Time).\n   e. Registration (optional): Aktifkan jika peserta harus mendaftar sebelum mengikuti meeting.\n   f. Meeting ID: Pilih antara meeting ID yang dibuat secara acak atau meeting ID personal.\n   g. Template: Gunakan format meeting yang telah disimpan sebelumnya.\n   h. Security: Atur pengaturan keamanan meeting.\n   i. Video: Atur tampilan video untuk host dan peserta.\n   j. Audio: Atur suara untuk host dan peserta; bisa menggunakan telepon, audio dari komputer, atau keduanya.\n   k. Options (optional): Atur pengaturan tambahan untuk meeting.\n\n-  Setelah semua informasi diisi dan diatur, klik tombol Save."
+                "<ol><b>Cara Menjadwalkan Meeting Zoom Melalui Website :</b><br></br><li> User harus Sign In di website Zoom di https://zoom.us/signin. </li><li> Setelah itu, lihat jadwal meeting di bagian Meetings di navigasi bar sebelah kiri. </li><li>Klik Schedule a Meeting di sebelah kanan atau langsung klik Schedule Meeting di bar atas.</li><li> Di halaman Schedule Meeting, akan muncul form yang harus diisi.</li><li>Isi form tersebut sebagai berikut: <ul> <li>Topic: Tulis topik meeting.</li><li>Add Description (optional): Tuliskan penjelasan tambahan terkait meeting, seperti tugas yang harus dibawa.</li><li>When: Tentukan waktu kapan meeting dimulai (tanggal dan jam).</li><li>Duration: Tentukan lamanya meeting. Meeting akan otomatis berakhir setelah durasi yang ditentukan.</li><li>Timezone: Zona waktu dari jam meeting, biasanya sudah diatur secara default. </li><li>Recurring meeting (optional): Aktifkan untuk mengatur meeting berulang berdasarkan waktu yang ditentukan (Daily, Weekly, Monthly, atau No Fixed Time).</li><li>Registration (optional): Aktifkan jika peserta harus mendaftar sebelum mengikuti meeting.</li><li> Meeting ID: Pilih antara meeting ID yang dibuat secara acak atau meeting ID personal.</li><li>g. Template: Gunakan format meeting yang telah disimpan sebelumnya.</li><li> Security: Atur pengaturan keamanan meeting.</li><li>Video: Atur tampilan video untuk host dan peserta.</li><li> Audio: Atur suara untuk host dan peserta; bisa menggunakan telepon, audio dari komputer, atau keduanya.</li><li>Options (optional): Atur pengaturan tambahan untuk meeting. </li><li>Setelah semua informasi diisi dan diatur, klik tombol Save.</li></ul></ol> <br></br> <ol><b>Cara Menjadwalkan Meeting Zoom Melalui Aplikasi :</b> <li>Pilih menu Sign in</li><li>Kemudian muncul tampilan dashboard dan klik icon <b>Schedule</b> untuk membuat jadwal meeting . </li> <li> Jika mengklik Schedule akan muncul tampilan Schedule Meeting untuk mengatur jadwal meeting. <ul> <li>Pengaturan ini terdiri dari nama topik meeting, tanggal dan jam meeting dimulai, durasi meeting, passcode, dan sebagainya. </li>  <li>Setelah semuanya di setting, klik Save. </li><li> Setelah di Save, jadwal meeting akan terlihat.</li>  <li>  Meeting akan memberikan user notification sebagai pemberitahuan kalau meeting siap dimulai. </li> </ul>   <li>Optional: <ul><li>Klik tanda panah di sebelah tulisan New Meeting untuk melihat pengaturan membuat meeting langsung.</li>Start with video: tampilan user (host meeting) akan terlihat langsung. Jika tidak diceklis, maka tampilan akan berupa icon biasa. </li> <li>Use My Personal Meeting ID (PMI): merupakan angka ID dari user (host meeting) yang digunakan untuk mengundang user lain ke meeting Zoom yang akan dilaksanakan </li> <li>Copy ID dan Copy Invitation: digunakan untuk mengkopi angka ID dan link invitation dari meeting Zoom.</li> <li>PMI Settings: merupakan pengaturan dari ID user.</li> </ul></li> </ol>"
             ]
         },
         {
