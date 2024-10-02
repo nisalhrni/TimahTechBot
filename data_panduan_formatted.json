@@ -102,6 +102,24 @@
             ]
         },
         {
+    "tag": "panduan-zoom-login-daftar",
+    "patterns": [
+        "Bagaimana cara login dan daftar Zoom?",
+        "Cara daftar dan login Zoom?",
+        "Gimana cara login dan daftar di Zoom?",
+        "Cara buat akun Zoom dan login?",
+        "Cara daftar akun Zoom?",
+        "Cara masuk ke Zoom?",
+        "Cara login ke Zoom?",
+        "Cara buat akun Zoom?",
+        "Masuk dan daftar Zoom",
+        "Login dan daftar Zoom"
+    ],
+    "responses": [
+        "<b>Cara Daftar dan Login ke Zoom:</b> <ol> <li>Unduh dan instal aplikasi Zoom dari <a href='https://zoom.us/download'>situs resmi Zoom</a> atau dari App Store (iOS) atau Play Store (Android), atau buka browser dan kunjungi <a href='https://zoom.us'>https://zoom.us</a>.</li> <li>Untuk mendaftar akun Zoom, klik <b>Sign Up Free</b> di halaman web atau aplikasi.</li> <li>Masukkan alamat email Anda, atau daftar menggunakan akun Google, Facebook, atau SSO (Single Sign-On).</li> <li>Ikuti instruksi untuk memverifikasi email Anda, dan buat kata sandi untuk akun Zoom Anda.</li> <li>Setelah berhasil mendaftar, buka aplikasi Zoom atau situs web Zoom.</li> <li>Klik <b>Sign In</b> di aplikasi atau di pojok kanan atas halaman web Zoom.</li> <li>Masukkan email dan kata sandi yang sudah didaftarkan, atau login menggunakan Google, Facebook, atau SSO yang Anda gunakan saat mendaftar.</li> <li>Setelah berhasil login, Anda siap untuk memulai atau bergabung dalam meeting.</li></ol>"
+    ]
+},
+        {
             "tag": "panduan-zoom1",
             "patterns": [
                 "Bagaimana join meeting zoom?",
@@ -131,7 +149,8 @@
                 "Cara membuat ruang meeting tambahan di Zoom?",
                 "Breakout rooms di Zoom",
                 "Cara buat breakout rooms di Zoom?",
-                "Breakout rooms"
+                "Breakout rooms",
+                "Breakout rooms Zoom"
             ],
             "responses": [
                 "<b>Berikut adalah langkah-langkah untuk membuat breakout rooms di Zoom:</b><ol><li>Pertama, user (host meeting) bisa membuat breakout rooms dengan mengklik titik tiga (More) di bagian kanan bawah (minimize) atau klik icon Breakout Rooms (maximize).</li><li>Akan muncul pop-up <b>Create Breakout Rooms</b>. Host dapat membuat hingga 50 rooms, dengan memasukkan jumlahnya di kotak yang tersedia.<ul><li><b>Assign automatically</b>: Zoom akan menempatkan peserta secara acak di sejumlah ruang yang tersedia.</li><li><b>Assign manually</b>: Host dapat menentukan siapa peserta dan ruang mana yang mereka tempati.</li><li><b>Let participants choose room</b>: Peserta bebas memilih ruang pertemuan yang ingin mereka kunjungi.</li></ul></li><li>Setelah opsi dipilih, klik <b>Create</b>.</li><li>Host bisa menekan <b>Assign</b> dan membagi peserta ke ruang yang tersedia. Host juga dapat mengganti nama ruangan dengan mengarahkan kursor ke nama ‘Room 1’, kemudian pilih <b>Rename</b>.</li><li>Host dapat membuat ulang breakout rooms dengan menekan tombol <b>Recreate</b> atau menambah ruangan dengan mengklik <b>Add a Room</b>.</li><li>Untuk mengatur durasi sesi dan menambahkan hitung mundur sebelum breakout rooms ditutup, pilih opsi di menu <b>Options</b>.</li><li>Selama breakout rooms berlangsung, host dapat mengirim pesan ke semua peserta dengan memilih <b>Broadcast Message to All</b>, menuliskan pesan, dan menekan <b>Broadcast</b>.</li><li>Setelah itu, klik <b>Open All Rooms</b> untuk memulai sesi dan klik <b>Close Rooms</b> untuk menyelesaikannya.</li></ol>"
@@ -241,6 +260,7 @@
                 "Bagaimana cara membuat poll di zoom",
                 "Poll zoom",
                 "Pol zoom",
+                "Poling zoom",
                 "Cara polling di zoom",
                 "Cara poling di zoom"
             ],
@@ -283,6 +303,8 @@
                 "Membuat jadwal meeting di zoom",
                 "Membuat schedule meeting di zoom",
                 "Membuat jadwal meeting zoom",
+                "Membuat skejul meeting zoom",
+                "Membuat skedul meeting zoom",
                 "Membuat schedule meeting zoom",
                 "Gimana cara menjadwalkan meeting zoom"
             ],
@@ -297,10 +319,19 @@
                 "Mengapa menggunakan Microsoft Teams?",
                 "Mengapa menggunakan Microsoft Teams?",
                 "Apa itu Microsoft Teams?",
-                "Microsoft Teams"
+                "Mengapa menggunakan Microsoft Team",
+                "Apa itu Microsoft Team?",
+                "Microsoft Teams",
+                "Mengapa menggunakan MTeams?",
+                "Apa itu Microsoft Teams?",
+                "Microsof Teams",
+                "Mengapa menggunakan Microsof Teams?",
+                "Apa itu Microsof Teams?",
+                "MTeams",
+                "ngapain kita pake  MTeams"
             ],
             "responses": [
-                "Microsoft Teams adalah aplikasi kolaborasi yang dirancang untuk pekerjaan hybrid, memungkinkan pengguna dan tim untuk tetap mendapatkan informasi, teratur, dan terhubung dalam satu tempat. PT Timah Industri menggunakan Microsoft Teams sebagai platform berbagi informasi (Knowledge Sharing) serta penyimpanan informasi, data, dan file. Panduan ini bertujuan untuk membantu pengguna memaksimalkan penggunaan Microsoft Teams, mencakup cara menginstal aplikasi di PC dan smartphone, penjelasan bagian-bagian dari Microsoft Teams, serta cara mengupload, mengakses, dan mengedit file di aplikasi tersebut."
+                "Microsoft Teams adalah aplikasi kolaborasi yang dirancang untuk pekerjaan hybrid, memungkinkan pengguna dan tim untuk tetap mendapatkan informasi, teratur, dan terhubung dalam satu tempat. PT Timah Industri menggunakan Microsoft Teams sebagai platform berbagi informasi (Knowledge Sharing) serta penyimpanan informasi, data, dan file."
             ]
         },
         {
@@ -313,13 +344,44 @@
                 "Bagaimana cara mengunduh aplikasi Microsoft Teams?",
                 "Bagaimana cara install Teams?",
                 "Cara install microsoft teams?",
-                "Install microsoft teams?",
-                "Download aplikasi microsoft teams"
+                "Install microsoft teams?","Bagaimana cara install Teams?",
+                "Cara install microsof team?",
+                "Cara install teams?",
+                "Install microsof team?",
+                "Download aplikasi microsof team",
+                "Download aplikasi microsoft teams",
+                "Bagaimana cara install Team?",
+                "Cara install microsoft team?",
+                "Install microsoft team?",
+                "Download aplikasi microsoft team"
             ],
             "responses": [
-                "Microsoft Teams dapat diakses melalui browser atau dengan menginstal aplikasi di PC atau smartphone. Berikut langkah-langkah untuk menginstal aplikasi Microsoft Teams:\n\na) Install aplikasi di PC:\n\n1. \n-  Buka link [Microsoft Teams Download](https://www.microsoft.com/en-ww/microsoft-teams/download-app).\n-  Klik ikon Download for desktop.\n-  Pilih Teams for work or school dan tunggu proses download selesai.\n-  Klik file aplikasi Teams yang sudah terdownload dan tunggu sampai aplikasi terinstal.\n-  Sebelum aplikasi terbuka, login ke Microsoft Teams dengan akun email perusahaan PT Timah Industri. Isi alamat email > Klik Next > Isikan password > Klik Sign In. Tunggu sampai tampilan muncul, klik OK. Jika tampilan kedua muncul, klik Done.\n-  Setelah berhasil Sign In, Anda dapat menggunakan Microsoft Teams.\n\nb) Install aplikasi di Smartphone/Handphone:\n\n1. \n-  Buka Google Play (Android) atau App Store (iOS).\n-  Cari aplikasi Microsoft Teams.\n-  Klik Install.\n-  Tunggu sampai aplikasi terinstal.\n-  Buka aplikasi dan Sign In menggunakan akun email perusahaan untuk menggunakan fasilitas Microsoft Teams di Smartphone/Handphone."
+                "Microsoft Teams dapat diakses melalui browser atau dengan menginstal aplikasi di PC atau smartphone. <br><b>Berikut langkah-langkah untuk menginstal aplikasi Microsoft Teams:<b></br> <ol>Install aplikasi di PC: <li> Buka link [Microsoft Teams Download](https://www.microsoft.com/en-ww/microsoft-teams/download-app). </li><li>Klik ikon Download for desktop. </li><li>Pilih Teams for work or school dan tunggu proses download selesai.</li><li> Klik file aplikasi Teams yang sudah terdownload dan tunggu sampai aplikasi terinstal. </li><li> Sebelum aplikasi terbuka, login ke Microsoft Teams dengan akun email perusahaan PT Timah Industri. <ul><li>Isi alamat email </li><li>Klik Next </li><li> Isikan password </li><li>Klik Sign In. </li></ul></li><li>Tunggu sampai tampilan muncul, klik OK. </li><li>Jika tampilan kedua muncul, klik Done. </li><li> Setelah berhasil Sign In, Anda dapat menggunakan Microsoft Teams.</li></ol> <ol>Install aplikasi di Smartphone/Handphone: </li><li> Buka Google Play (Android) atau App Store (iOS).</li><li>Cari aplikasi Microsoft Teams. </li><li>Klik Install.</li><li>Tunggu sampai aplikasi terinstal.</li><li> Buka aplikasi dan Sign In menggunakan akun email perusahaan untuk menggunakan fasilitas Microsoft Teams di Smartphone/Handphone.</li></ol>"
             ]
         },
+        {
+    "tag": "panduan-teams-record",
+    "patterns": [
+        "Bagaimana cara merekam Teams?",
+        "Bagaimana cara merekam meeting di Microsoft Teams?",
+        "Gimana cara merekam Teams?",
+        "Gimana cara merekam meeting di Teams?",
+        "Cara merekam Teams",
+        "Cara merekam meeting di Teams",
+        "Cara record Teams",
+        "Cara ngerecord Teams",
+        "ngerecord meeting di MTeams",
+        "Cara record Teams meeting",
+        "Record Teams",
+        "Record Teams meeting",
+        "Rekam Teams",
+        "ngerekam Teams meeting",
+        "Rekam Teams meeting"
+    ],
+    "responses": [
+        "<b>Cara Merekam Rapat di Microsoft Teams:</b> <ol> <li>Mulailah dengan masuk ke rapat di Microsoft Teams.</li> <li>Setelah berada di dalam rapat, klik titik tiga (More options) yang ada di toolbar di bagian atas layar.</li> <li>Pilih opsi <b>Start Recording</b> dari menu yang muncul. </li> <li>Setelah itu, Teams akan mulai merekam rapat dan tanda rekaman akan muncul di bagian atas layar.</li> <li>Selama perekaman, user bisa menjeda rekaman dengan memilih <b>Pause Recording</b> atau menghentikan rekaman dengan memilih <b>Stop Recording</b>.</li> <li>Setelah rapat selesai, hasil rekaman akan disimpan di Microsoft OneDrive atau SharePoint, tergantung pada pengaturan organisasi Anda.</li> <li>User akan menerima notifikasi ketika rekaman tersedia dan dapat mengaksesnya melalui tab Chat atau di lokasi penyimpanan yang telah ditentukan.</li></ol>"
+    ]
+},
         {
             "tag": "panduanteams3",
             "patterns": [
@@ -375,9 +437,32 @@
                 "Cloud apa saja yang bisa digunakan files Microsoft Teams"
             ],
             "responses": [
-                "Activity di Microsoft Teams adalah tempat untuk melihat history aktivitas user saat menggunakan aplikasi. Terdapat dua pengaturan untuk melihat activity:\n\n\n1. \n-  Read: Menampilkan semua aktivitas yang telah dilihat.\n-  Unread Only: Hanya menampilkan aktivitas yang belum dilihat. User dapat mematikan pengaturan Unread Only untuk melihat aktivitas yang sudah dilakukan.\n\nUntuk mengatur pengaturan di Microsoft Teams, klik ikon Settings. \n\nUser juga bisa memfilter pencarian activity dengan mengklik ikon Filter atau menggunakan shortcut keyboard Ctrl + Shift + F. Dengan ini, user dapat memfilter aktivitas berdasarkan kriteria yang diinginkan, seperti mencari aktivitas berdasarkan user lain. \n\n Fungsi Chat di Microsoft Teams digunakan untuk berkomunikasi antar individu atau grup mengenai pekerjaan, proyek, atau sekadar berbincang-bincang. Dalam Chat, user dapat:\n\n\n1. \n-  Melakukan Video Call dan Audio Call.\n-  Mengirim dan melampirkan Files.\n-  Mengatur format tulisan untuk menyesuaikan pesan yang dikirim.\n\nDengan fitur-fitur ini, Chat memudahkan kolaborasi dan komunikasi di antara anggota tim.\n\n\n Di Microsoft Teams, user dapat membuat Teams dan Channel untuk mengumpulkan orang-orang dan bekerja dalam ruang berfokus yang mencakup percakapan dan file. Berikut adalah beberapa poin penting tentang fungsi ini:\n\n\n1. \n-  Membuat Teams dan Channel: User bisa membuat satu atau lebih Channel dalam Teams untuk memfasilitasi diskusi yang terfokus.\n-  Interaksi di Channel: Anggota Channel dapat berinteraksi untuk membahas pekerjaan atau file yang relevan.\n-  Mengupload dan Mengedit File: User dapat mengupload file serta mengeditnya langsung di Teams.\n-  Migrasi Data File: Data file dari folder server akan dimigrasikan agar bisa diakses di Channel yang disesuaikan dengan Departemen di PT Timah Industri.\n\nInstruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.\n\n\n Di Microsoft Teams, Calendar memungkinkan user untuk:\n\n\n1. \n-  Melihat Koneksi: User dapat melihat koneksi dengan orang lain sebelum, selama, dan setelah rapat, sehingga persiapan dan tindak lanjut menjadi lebih mudah.\n-  Sinkronisasi dengan Outlook: Calendar disinkronkan dengan kalender di Outlook user, memudahkan akses dan pengelolaan jadwal.\n-  Membuat dan Melihat Jadwal Meeting: User dapat membuat dan melihat jadwal meeting yang telah diatur.\n\nInstruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.\n\n\n\n Di Microsoft Teams, Calls memungkinkan user untuk:\n\n\n1. \n-  Melihat History Kontak: User dapat melihat history kontak yang dihubungi menggunakan Microsoft Teams dan daftar Contacts yang telah ditambahkan.\n-  Status Kontak: User bisa melihat daftar kontak yang Missed, Incoming, dan Voicemail.\n-  Menelepon User Lain: User dapat menelepon user lain dalam satu organisasi PT Timah Industri, baik secara individu maupun grup.\n\n\n\n Pada bagian Files di Microsoft Teams, user dapat:\n\n\n1. \n-  Melihat File: User bisa melihat file-file yang sudah diakses dan file yang telah diunduh.\n-  Cloud Storage: Di bagian ini terdapat Cloud Storage seperti OneDrive. User juga dapat menambahkan Cloud Storage lain seperti Google Drive atau Dropbox.\n-  Aplikasi Terhubung: User dapat melihat aplikasi yang terhubung dengan Microsoft Teams dan menggunakan fasilitas aplikasi ini tanpa harus mengunduh aplikasi tambahan. Aplikasi yang akan digunakan secara wajib di PT Timah Industri adalah Word, Excel, dan PowerPoint. "
+                "<ol>Activity di Microsoft Teams adalah tempat untuk melihat history aktivitas user saat menggunakan aplikasi. <br><b>Terdapat dua pengaturan untuk melihat activity: <b></br> <li>Read: Menampilkan semua aktivitas yang telah dilihat.</li><li>Unread Only: Hanya menampilkan aktivitas yang belum dilihat. User dapat mematikan pengaturan Unread Only untuk melihat aktivitas yang sudah dilakukan.</li><li>Untuk mengatur pengaturan di Microsoft Teams, klik ikon Settings. </li><li>User juga bisa memfilter pencarian activity dengan mengklik ikon Filter atau menggunakan shortcut keyboard Ctrl + Shift + F. Dengan ini, user dapat memfilter aktivitas berdasarkan kriteria yang diinginkan, seperti mencari aktivitas berdasarkan user lain. </li></ol><ol>Fungsi Chat di Microsoft Teams digunakan untuk berkomunikasi antar individu atau grup mengenai pekerjaan, proyek, atau sekadar berbincang-bincang. <br>Dalam Chat, user dapat: </br> <li>Melakukan Video Call dan Audio Call. </li><li>Mengirim dan melampirkan Files.</li><li>Mengatur format tulisan untuk menyesuaikan pesan yang dikirim. </li><li>Dengan fitur-fitur ini, Chat memudahkan kolaborasi dan komunikasi di antara anggota tim.</li></ol> <ol> Di Microsoft Teams, user dapat membuat Teams dan Channel untuk mengumpulkan orang-orang dan bekerja dalam ruang berfokus yang mencakup percakapan dan file. <br>Berikut adalah beberapa poin penting tentang fungsi ini:</br> <li>Membuat Teams dan Channel: User bisa membuat satu atau lebih Channel dalam Teams untuk memfasilitasi diskusi yang terfokus.</li><li> Interaksi di Channel: Anggota Channel dapat berinteraksi untuk membahas pekerjaan atau file yang relevan.</li><li> Mengupload dan Mengedit File: User dapat mengupload file serta mengeditnya langsung di Teams.</li><li> Migrasi Data File: Data file dari folder server akan dimigrasikan agar bisa diakses di Channel yang disesuaikan dengan Departemen di PT Timah Industri.Instruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.</li></ol><ol>Di Microsoft Teams, Calendar memungkinkan user untuk: <li>Melihat Koneksi: User dapat melihat koneksi dengan orang lain sebelum, selama, dan setelah rapat, sehingga persiapan dan tindak lanjut menjadi lebih mudah.</li><li>Sinkronisasi dengan Outlook: Calendar disinkronkan dengan kalender di Outlook user, memudahkan akses dan pengelolaan jadwal.</li><li>  Membuat dan Melihat Jadwal Meeting: User dapat membuat dan melihat jadwal meeting yang telah diatur.</li><li>Instruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.</li></ol><ol> Di Microsoft Teams, Calls memungkinkan user untuk: <li>Melihat History Kontak: User dapat melihat history kontak yang dihubungi menggunakan Microsoft Teams dan daftar Contacts yang telah ditambahkan.</li><li>  Status Kontak: User bisa melihat daftar kontak yang Missed, Incoming, dan Voicemail.</li><li> Menelepon User Lain: User dapat menelepon user lain dalam satu organisasi PT Timah Industri, baik secara individu maupun grup.</li></ol><li> Pada bagian Files di Microsoft Teams, user dapat: <li>Melihat File: User bisa melihat file-file yang sudah diakses dan file yang telah diunduh.</li><li> Cloud Storage: Di bagian ini terdapat Cloud Storage seperti OneDrive. User juga dapat menambahkan Cloud Storage lain seperti Google Drive atau Dropbox.</li><li>  Aplikasi Terhubung: User dapat melihat aplikasi yang terhubung dengan Microsoft Teams dan menggunakan fasilitas aplikasi ini tanpa harus mengunduh aplikasi tambahan. Aplikasi yang akan digunakan secara wajib di PT Timah Industri adalah Word, Excel, dan PowerPoint.</li></ol> "
             ]
         },
+        {
+        "tag": "panduan-teams-share-screen",
+        "patterns": [
+        "Bagaimana cara menggunakan fitur Share Screen di Microsoft Teams?",
+        "Cara berbagi layar di Microsoft Teams?",
+        "Bagaimana cara share screen di Teams meeting?",
+        "Bagaimana cara bagikan layar di Teams meeting?",
+        "Bagaimana cara share screen di Microsoft Teams?",
+        "Cara menggunakan share screen di Microsoft Teams?",
+        "Gimana cara berbagi layar di Teams?",
+        "Gimana cara share screen di Teams meeting?",
+        "Gimana cara share screen di Teams?",
+        "Gimana cara bagikan gambar di Teams?",
+        "Gimana menggunakan share screen di Teams?",
+        "Share screen Teams",
+        "Berbagi layar di Microsoft Teams?",
+        "Share screen di Teams"
+    ],
+    "responses": [
+        "Untuk berbagi layar di Microsoft Teams, ada dua cara yang dapat dilakukan: sebelum rapat dimulai dan saat rapat sedang berlangsung. <ol><b>Cara Share Screen Sebelum Rapat Dimulai :</b><li>User harus masuk ke Microsoft Teams dan bergabung dalam rapat yang sudah dijadwalkan.</li><li>Setelah masuk ke dalam rapat, klik tombol Share Screen di toolbar di bagian atas layar.</li><li>Teams akan menampilkan beberapa pilihan, termasuk berbagi layar penuh, jendela tertentu, atau file PowerPoint.</li><li>Pilih opsi sesuai kebutuhan Anda dan klik Share.</li></ol> <ol><b>Cara Share Screen Saat Rapat Sedang Berlangsung:</b><li>Masuk ke dalam rapat yang sedang berlangsung.</li><li>Persiapkan tampilan yang ingin user bagikan, lalu klik ikon Share di toolbar.</li><li>Pilih opsi seperti Desktop, Jendela, atau File.</li><li>Jika ingin berhenti berbagi layar, klik Stop Sharing di bagian atas layar.</li><li>User juga dapat mengganti layar yang dibagikan dengan mengklik ikon Share dan memilih layar lain.</li></ol>"
+    ]
+},
+
         {
             "tag": "panduanteams4",
             "patterns": [
@@ -466,22 +551,10 @@
                 "Membuat schedule meeting di teams",
                 "Membuat jadwal meeting teams",
                 "Membuat schedule meeting teams",
-                "Gimana cara menjadwalkan meeting teams",
-                "Cara schedule meeting zoom ",
-                "Cara menjadwalkan meeting di zoom?",
-                "Bagaimana cara membuat jadwal meeting di zoom?",
-                "Bagaimana cara menjadwalkan meeting zoom",
-                "Gimana cara schedule meeting zoom ",
-                "Gimana cara menjadwalkan meeting di zoom?",
-                "Gimana cara membuat jadwal meeting di zoom?",
-                "Membuat jadwal meeting di zoom",
-                "Membuat schedule meeting di zoom",
-                "Membuat jadwal meeting zoom",
-                "Membuat schedule meeting zoom",
-                "Gimana cara menjadwalkan meeting zoom"
+                "Gimana cara menjadwalkan meeting teams"
             ],
             "responses": [
-                "Berikut adalah cara membuat ruang meeting terjadwal di Microsoft Teams:\n\n1. \n-  Buka Calendar di Microsoft Teams.\n-  Klik ikon New meeting di pojok kanan atas.\n-  Tampilan New meeting akan muncul. Isi pengaturan Details meeting, seperti judul meeting, undang peserta, atur jam meeting, dan tentukan apakah meeting berulang atau tidak.\n-  Jika ingin menambahkan Channel, maka semua anggota Channel tersebut dapat mengikuti meeting yang dijadwalkan. Lokasi meeting bersifat opsional.\n-  Tambahkan deskripsi meeting dan undang peserta dari luar perusahaan jika diperlukan.\n-  Gunakan Scheduling Assistant untuk mengatur jadwal peserta meeting, jika dibutuhkan.\n-  Setelah semua pengaturan selesai, klik Save untuk menyimpan jadwal meeting.\n\n\n Cara Menjadwalkan Meeting Zoom Melalui Website:\n\n\n1. \n-  Pertama, user harus Sign In di website Zoom di https://zoom.us/signin.\n\n-  Setelah itu, lihat jadwal meeting di bagian Meetings di navigasi bar sebelah kiri. Klik Schedule a Meeting di sebelah kanan atau langsung klik Schedule Meeting di bar atas.\n\n-  Di halaman Schedule Meeting, akan muncul form yang harus diisi.\n\n-  Isi form tersebut sebagai berikut:\n   a. Topic: Tulis topik meeting.\n   - Add Description (optional): Tuliskan penjelasan tambahan terkait meeting, seperti tugas yang harus dibawa.\n   b. When: Tentukan waktu kapan meeting dimulai (tanggal dan jam).\n   c. Duration: Tentukan lamanya meeting. Meeting akan otomatis berakhir setelah durasi yang ditentukan.\n   d. Timezone: Zona waktu dari jam meeting, biasanya sudah diatur secara default.\n   - Recurring meeting (optional): Aktifkan untuk mengatur meeting berulang berdasarkan waktu yang ditentukan (Daily, Weekly, Monthly, atau No Fixed Time).\n   e. Registration (optional): Aktifkan jika peserta harus mendaftar sebelum mengikuti meeting.\n   f. Meeting ID: Pilih antara meeting ID yang dibuat secara acak atau meeting ID personal.\n   g. Template: Gunakan format meeting yang telah disimpan sebelumnya.\n   h. Security: Atur pengaturan keamanan meeting.\n   i. Video: Atur tampilan video untuk host dan peserta.\n   j. Audio: Atur suara untuk host dan peserta; bisa menggunakan telepon, audio dari komputer, atau keduanya.\n   k. Options (optional): Atur pengaturan tambahan untuk meeting.\n\n-  Setelah semua informasi diisi dan diatur, klik tombol Save."
+                "Berikut adalah cara membuat ruang meeting terjadwal di Microsoft Teams:\n\n1. \n-  Buka Calendar di Microsoft Teams.\n-  Klik ikon New meeting di pojok kanan atas.\n-  Tampilan New meeting akan muncul. Isi pengaturan Details meeting, seperti judul meeting, undang peserta, atur jam meeting, dan tentukan apakah meeting berulang atau tidak.\n-  Jika ingin menambahkan Channel, maka semua anggota Channel tersebut dapat mengikuti meeting yang dijadwalkan. Lokasi meeting bersifat opsional.\n-  Tambahkan deskripsi meeting dan undang peserta dari luar perusahaan jika diperlukan.\n-  Gunakan Scheduling Assistant untuk mengatur jadwal peserta meeting, jika dibutuhkan.\n-  Setelah semua pengaturan selesai, klik Save untuk menyimpan jadwal meeting.\n\n\n"
             ]
         },
         {
@@ -496,18 +569,7 @@
                 "Bagaimana cara gabung ke meeting teams?",
                 "Bagaimana join meeting teams?",
                 "Bagaimana cara join meeting teams?",
-                "join meeting teams",
-                "Bagaimanan cara merekam meeting teams?",
-                "Bagaimanan cara merekam meeting teams?",
-                "Gimana cara merekam meeting di teams?",
-                "Gimana cara merekam meeting di microsoftt teams?",
-                "Cara merekam meeting di microsoftt teams",
-                "Cara merekam meeting di teams",
-                "Cara record meeting di microsoftt teams",
-                "Cara record  meeting di teams",
-                "Record meeting di teams",
-                "Record meeting di microsoftt teams",
-                "Rekam meeting di microsoftt teams"
+                "join meeting teams"
             ],
             "responses": [
                 "Berikut adalah cara bergabung dan memulai meeting di Microsoft Teams:\n\n\n1. \n-  Untuk bergabung dengan meeting yang sudah dijadwalkan, klik jadwal meeting di Calendar.\n-  Setelah diklik, akan muncul tampilan pop up My Calendar, lalu klik Join untuk masuk ke ruang meeting.\n-  User akan masuk ke pengaturan tampilan meeting. Setelah selesai melakukan pengaturan, klik Join now.\n-  Setelah itu, user akan masuk ke ruang meeting dan dapat memulai meeting dengan user lain."
@@ -603,7 +665,13 @@
                 "instal printer Epson L4150 Menggunakan USB  ",
                 "instal printer Epson L4150 Menggunakan Wifi  ",
                 "install printer ke laptop",
-                "install printer ke komputer",
+                "install printer ke komputer", 
+                "install mesin print ke komputer",
+                "install alat print ke komputer",
+                "install mesin print ke laptop",
+                "install alat print ke laptop",
+                "install mesin print",
+                "install alat print",
                 "Kenapa printer ini nggak terhubung ke komputer? Sudah saya coba beberapa kali.",
                 "Driver printer saya kayaknya nggak terinstal dengan baik, jadi nggak bisa cetak."
             ],
@@ -611,6 +679,26 @@
                 "Penginstalan Printer Epson L4150 ke komputer/laptop \n\n A. Mengaktifkan Wifi Direct Mode: \n \n1. \n- Install printer software ke komputer/laptop yang diinginkan sebelum memulai menggunakan printer. \n Tekan tombol Wifi dan tombol status jaringan secara bersamaan dan tahan sampai lampu status wifi dan wifi direct menyala. \n Tekan tombol status jaringan selama 10 detik untuk mencetak lembar status jaringan sebagai percobaan. \n Hubungkan jaringan wifi printer dengan komputer/laptop, cari nama wifi printer dan koneksikan. Nama wifi dan password ada di lembar status jaringan. \n User bisa menggunakan printer untuk mencetak data. Jika ada kesalahan, ulangi lagi dari petunjuk yang di atas. \n\n B. Menggunakan WPS (Wifi Protected Setup) untuk mengkoneksikan jaringan: \n \n1. \n-  Tekan tombol WPS pada printer dan router secara bersamaan. \n 2. Tunggu hingga lampu status koneksi menyala, yang menandakan koneksi berhasil. \n 3. Pastikan printer sudah terhubung ke jaringan yang sama dengan komputer/laptop. \n C. Menggunakan USB Connection: \n \n1. \n-  Install printer software ke komputer/laptop yang diinginkan sebelum memulai menggunakan printer \n 2. Pasangkan kabel USB yang telah disediakan dan pasangkan dari USB port di printer ke USB port komputer/laptop. \n\n\n\n Penginstalan Printer Epson L360 ke komputer/laptop \n\n A. Menghubungkan printer ke komputer/laptop CD/DVD Drive \n \n1. \n- Hubungkan kabel USB dari printer ke komputer/laptop. \n 2.Masukkan CD/DVD Drive, instal printer Epson L360 program ke komputer/laptop user.\n 3.Ikuti intruksi penginstalan. \n 4. Setelah selesai instalasi, user bisa mencoba melakukan print. Jika ada kendala, uninstall Epson L360 program dan ulangi lagi instruksinya dari awal.\n\n B.Mehubungkan printer ke komputer/laptop tanpa CD/DVD Drive: \n\n1. \n-  Jika user tidak memiliki CD/DVD Drive yang berisi softtware Epson L360, user bisa mengunjungi situs Epson dan mencari software Epson L360.\n 2. Setelah semuanya di download, user bisa menginstalnya. \n 3. Setelah semuanya selesai, user bisa mencoba printernya.    "
             ]
         },
+        {
+    "tag": "panduan-instal-scanner-epson-ds1630",
+    "patterns": [
+        "cara menginstal scanner Epson DS-1630 ke komputer atau laptop",
+        "cara menghubungkan scanner ke komputer",
+        "cara menghubungkan scanner ke laptop",
+        "cara install scanner Epson DS-1630",
+        "install scanner Epson DS-1630 ke komputer",
+        "install scanner Epson DS-1630 ke laptop",
+        "menghubungkan scanner Epson DS-1630 dengan komputer",
+        "menghubungkan scanner ke laptop menggunakan USB",
+        "install scanner Epson",
+        "install scanner ke komputer",
+        "install scanner ke laptop"
+    ],
+    "responses": [
+        "<b>Cara Menginstal Scanner Epson DS-1630 ke Komputer atau Laptop:</b> <ol> <li>Pastikan di komputer/laptop sudah terinstal program software Epson DS-1630. Program ini bisa diinstal dari CD/DVD yang diberikan saat pembelian, atau bisa diunduh dari situs resmi Epson.</li> <li>Untuk proses instalasi software, ikuti saja petunjuk yang muncul di layar setelah menjalankan program instalasi.</li> <li>Setelah software terinstal, hubungkan scanner ke komputer/laptop menggunakan kabel USB yang sudah disediakan.</li> <li>Pastikan koneksi USB antara scanner dan komputer/laptop berfungsi dengan baik. Setelah terkoneksi, scanner akan siap digunakan untuk proses pemindaian dokumen.</li></ol>"
+    ]
+},
+
         {
             "tag": "panduanprinter&scanner2",
             "patterns": [
@@ -732,9 +820,16 @@
                 "tintanya ga terang",
                 "printernya rusak",
                 "ga bisa diprint",
+                "mesin print rusak",
+                "mesin print ngga nyala",
+                "alat print ngga nyala",
+                "alat print rusak",
                 "ngga bisa ngeprint",
                 "printnya macet",
-                "printnya mati",
+                "printer mati",
+                "printer nya rusak",
+                "mesin printnya mati",
+                "alat printnya mati",
                 "printnya ga jalan",
                 "printer saya tidak nyala kenapa?",
                 "warna tintanya aneh",
@@ -796,7 +891,16 @@
                 "Berapa lama waktu yang dibutuhkan untuk pemasangan perangkat meeting?",
                 "pemasangan perangkat meeting Jarak Jauh?",
                 "Gimana cara masang perangkat meeting?",
-                "Panduan pasang perangkat meeting Jarak Jauh"
+                "Gimana cara masang perangkat meeting logitech?",
+                "Gimana cara masang alat alat meeting logitech?",
+                "Gimana pasang alat - alat meeting Jarak Jauh",
+                "Panduan pasang alat - alat meeting Jarak Jauh",
+                "Panduan pasang perangkat meeting Jarak Jauh logitech",
+                "masangin perangkat meeting ?",
+                "masangin alat -alat meeting ",
+                "mau masangin perangkat meeting gimana?",
+                "mau masangin alat meeting gimana?",
+                "mau pasang alat meeting gimana?"
             ],
             "responses": [
                 "Berikut adalah langkah-langkah untuk memasang perangkat meeting jarak jauh:\n\n\n1. \n-  Siapkan semua perangkat meeting seperti PC/laptop, Webcam, Speaker, Microphone (jika diperlukan), Hub/Adaptor, dan kabel-kabel yang diperlukan. Persiapkan waktu minimal 10 menit untuk pemasangan.\n\n-  Sambungkan kabel-kabel ke perangkat meeting:\n   - Hubungkan kabel Webcam (kepala kabel biru) ke lubang kabel Webcam.\n   - Hubungkan kabel Speaker (kepala kabel merah) ke lubang kabel Speaker.\n   - Jika perlu, hubungkan kabel Microphone (kepala kabel hijau terang) ke lubang kabel Microphone di Speaker.\n\n-  Hubungkan semua kabel yang telah terpasang ke Hub/Adaptor:\n   - Kabel Power Inlet ke stop kontak listrik.\n   - Kabel USB ke PC/laptop.\n   - Kabel Webcam ke Webcam.\n   - Kabel Speaker ke Speaker.\n\n-  Hubungkan kabel USB ke PC/laptop dan pasang kabel Power Inlet ke stop kontak listrik. Perangkat akan otomatis menyala, ditandai dengan lampu biru dan suara speaker.\n\n-  Buka aplikasi program meeting (Zoom, Google Meet, dll).\n\n-  Masuk ke pengaturan video dan audio, lalu cari dan pilih nama perangkat yang telah dihubungkan, seperti memilih Echo Cancelling Speakerphone di Zoom.\n\n-  Setelah semua pengaturan selesai, Anda bisa melaksanakan kegiatan meeting."
@@ -812,7 +916,10 @@
                 "Bagaimana cara menjaga kebersihan perangkat meeting?",
                 "Gimana cara saya menjaga kebersihan perangkat meeting?",
                 "Perangkat meeting bermasalah",
-                "perangkat meeting hilang"
+                "alat-alat meeting bermasalah",
+                "perangkat meeting gamau nyambung",
+                "alat meeting ngga mau nyambung",
+                "Microphone, Webcam, Speaker mati ga berfungsi ngga nyala"
             ],
             "responses": [
                 "Berikut adalah hal-hal yang harus diperhatikan dalam menjaga dan merawat perangkat meeting:\n\n\n1. \n-  Jangan mengguncang perangkat seperti Microphone, Webcam, Speaker, dan lainnya.\n-  Jika terkena basah, segera lap dan keringkan bagian yang terkena. Pastikan perangkat tidak tersiram air.\n-  Setelah selesai digunakan, segera matikan perangkat.\n-  Cek kelengkapan perangkat meeting, seperti kabel dan remote. Pastikan tidak ada yang hilang. Jika ada yang hilang, segera hubungi Satker IT.\n-  Periksa kebersihan perangkat. Jika terdapat debu atau kotoran, segera bersihkan dengan lap atau tisu.\n-  Periksa fungsi dari perangkat meeting, kabel, dan remote untuk memastikan semuanya berfungsi dengan baik."
@@ -842,7 +949,12 @@
                 "tunjukin cara menghubungkan pc ke smart tv",
                 "tunjukin cara menghubungkan komputer ke smart tv",
                 "smart tv",
-                "saya ingin menggunakan smart tv gimana caranya?"
+                "saya ingin menggunakan smart tv gimana caranya?",
+                 "tampilan PC/Laptop tidak muncul dan tampilan PC/Laptop berkedip-kedip saat mencoba menghubungkan perangkat meeting",
+                 "tampilan  layar PC/Laptop berkedip-kedip saat mencoba menghubungkan perangkat meeting",
+                 "tampilan PC/Laptop tidak muncul waktu menghubungkan perangkat meeting",
+                 "tampilan  layar PC/Laptop berkedip-kedip waktu menghubungkan perangkat meeting"
+    
             ],
             "responses": [
                 "Berikut adalah alat yang dibutuhkan untuk mengkoneksikan perangkat dengan Smart TV PT Timah Industri:\n- Kabel USB (untuk menghubungkan Transmitter ke TV dan/atau menghubungkan Receiver ke PC untuk mengisi baterai Receiver)\n- Kabel HDMI (untuk menghubungkan Transmitter ke TV)\n- PC/Laptop\n- Android/iOS (bisa dihubungkan)\n- Smart TV\n\nMenghubungkan perangkat PC/Laptop ke Smart TV:\n\n1. \n-  Siapkan alat dan pasangkan transmitter ke TV.\n-  Pasangkan Receiver ke port HDMI di PC/Laptop.\n-  Tunggu beberapa saat sampai tampilan PC/Laptop muncul di TV.\n-  Jika tampilan tidak muncul dan berkedip, baterai Receiver mungkin habis. Pasangkan kabel USB dari Receiver ke PC untuk mengisi baterainya.\n\nMenghubungkan perangkat Android/iOS ke Smart TV:\n\n1. \n-  Untuk iOS, aktifkan Wi-Fi dan sambungkan ke hotspot device Wireless HDMI Extender Adapter.\n-  Cari hotspot dengan nama RX-BF06A684 dan sambungkan dengan password 12345678.\n-  Tunggu beberapa saat hingga tampilan iOS muncul di Smart TV.\n-  Untuk Android, buka Settings atau aplikasi Smart View/Smart Mirroring/Wireless Project.\n-  Setiap merk smartphone Android mungkin memiliki penamaan yang berbeda.\n-  Klik aplikasi tersebut dan cari device dengan nama RX-BF06A684.\n-  Sambungkan device dan tunggu beberapa saat hingga tampilan Android muncul di Smart TV."
@@ -856,12 +968,14 @@
                 "Bisakah Anda menjelaskan cara mengisi baterai Receiver?",
                 "Kapan saya perlu mengisi daya Receiver?",
                 "Apa yang harus dilakukan jika lampu Receiver berkedip?",
+                "lampu Receiver berkedip biru?",
                 "lampu Receiver berkedip kenapa?",
                 "saya mau ngisi batre Receiver",
                 "saya mau ngisi batre hdmi wireless ",
                 "perangkat wireless hdmi extender adapter (receiver)",
                 "saya mau ngecas batre hdmi wireless gimana cara nya ",
                 "saya mau ngecas batre hdmi wireless gimana cara nya "
+                
             ],
             "responses": [
                 "Berikut adalah cara mengisi baterai Receiver dari perangkat Wireless HDMI Extender Adapter:\n\n1. \n-  Pastikan Receiver perlu diisi baterainya.\n-  Tanda bahwa Receiver butuh diisi adalah lampu biru berkedip dan tampilan berkedap-kedip saat menghubungkan PC/Laptop ke Smart TV.\n-  Untuk mengisi baterainya, pasangkan kabel USB ke Receiver dan sambungkan ke PC/Laptop atau gunakan kepala charger.\n-  Biarkan mengisi hingga daya baterai terpenuhi."
@@ -1289,6 +1403,393 @@
             "responses": [
                 "Untuk mengubah password Oracle NetSuite, ikuti langkah-langkah berikut:\n\n\n1. \n-  Buka bagian Settings di pojok kiri bawah Dashboard Oracle NetSuite.\n\n-  Cari dan klik Change Password.\n\n-  Setelah tampilan Change Password muncul, masukkan password saat ini di CURRENT PASSWORD. Isi password baru di NEW PASSWORD dan ulangi password baru di CONFIRM NEW PASSWORD. Pastikan semua kriteria password yang ditunjukkan di sebelah kanan memiliki centang hijau.\n\n-  Klik Save setelah semua kolom terisi. Jika password berhasil diubah, Anda akan melihat tampilan konfirmasi.\n\nJika Anda tidak bisa menemukan opsi untuk mengganti password atau mengalami masalah lainnya, silakan hubungi admin untuk bantuan."
             ]
+        },
+
+    {
+        "tag": "internet_lemot",
+        "patterns": [
+            "Kenapa internet di kantor sering lambat?",
+            "Mengapa koneksi internet suka terputus?",
+            "Apa yang menyebabkan internet di kantor tidak stabil?",
+            "Bagaimana cara mengatasi internet yang lemot di kantor?"
+        ],
+        "responses": [
+            "Cek terlebih dahulu apakah ada banyak perangkat yang menggunakan jaringan atau mungkin ada pekerjaan perawatan jaringan. Jika masalah berlanjut, coba restart modem atau router, atau laporkan ke aplikasi ticketing untuk pemeriksaan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "email",
+        "patterns": [
+            "Mengapa saya tidak bisa mengakses email kantor?",
+            "Kenapa email saya tidak bisa dibuka?",
+            "Apa yang harus saya lakukan jika email tidak masuk?",
+            "Bagaimana cara memperbaiki masalah akses email?"
+        ],
+        "responses": [
+            "Pastikan Anda terhubung ke internet. Periksa kembali apakah username dan password yang dimasukkan sudah benar. Jika Anda lupa password, gunakan opsi Lupa Password. Jika masalah berlanjut, laporkan ke aplikasi ticketing untuk pemeriksaan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "printer",
+        "patterns": [
+            "Bagaimana cara mengatasi masalah printer yang tidak bisa mencetak?",
+            "Kenapa printer tidak merespons saat saya cetak?",
+            "Apa yang harus saya lakukan jika printer terjebak kertas?",
+            "Mengapa printer tidak mau mencetak dokumen?"
+        ],
+        "responses": [
+            "Pastikan printer terhubung dengan baik ke komputer. Cek apakah ada kertas atau tinta yang habis. Jika masalah masih terjadi, restart printer dan coba lagi. Jika masih bermasalah, laporkan ke aplikasi ticketing untuk pemeriksaan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "komputer_lambat",
+        "patterns": [
+            "Kenapa komputer saya tiba-tiba menjadi lambat?",
+            "Apa penyebab komputer sering lemot?",
+            "Bagaimana cara mempercepat kinerja komputer yang lambat?",
+            "Kenapa aplikasi di komputer saya memuat sangat lama?"
+        ],
+        "responses": [
+            "Kemungkinan komputer Anda membutuhkan pembaruan sistem atau terlalu banyak aplikasi yang berjalan. Coba tutup aplikasi yang tidak digunakan dan restart komputer. Jika masih lambat, laporkan ke aplikasi ticketing untuk pemeriksaan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "aplikasi_internal",
+        "patterns": [
+            "Kenapa aplikasi internal perusahaan sering crash?",
+            "Mengapa aplikasi perusahaan tidak responsif?",
+            "Apa yang harus saya lakukan jika aplikasi internal hang?",
+            "Bagaimana cara mengatasi aplikasi yang sering error?"
+        ],
+        "responses": [
+            "Aplikasi mungkin memerlukan pembaruan atau ada masalah kompatibilitas. Coba restart aplikasi atau komputer Anda. Jika masalah terus terjadi, laporkan ke IT agar dilakukan pengecekan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "install_software",
+        "patterns": [
+            "Bagaimana cara mengatasi masalah software yang tidak bisa diinstal?",
+            "Kenapa saya tidak bisa menginstal aplikasi baru di komputer?",
+            "Apa yang harus dilakukan jika instalasi software gagal?",
+            "Mengapa saya tidak mendapatkan izin untuk menginstal software?"
+        ],
+        "responses": [
+            "Pastikan komputer Anda memiliki izin untuk menginstal software dan cek apakah spesifikasi komputer sesuai dengan kebutuhan software. Hubungi IT jika memerlukan akses admin untuk instalasi."
+        ]
+    },
+    {
+        "tag": "eror_app",
+        "patterns": [
+            "Apa yang harus dilakukan jika saya mendapatkan pesan error saat membuka aplikasi?",
+            "Kenapa aplikasi saya selalu menampilkan pesan error?",
+            "Bagaimana cara mengatasi aplikasi yang error?",
+            "Apa yang harus saya lakukan jika aplikasi tidak bisa dibuka?"
+        ],
+        "responses": [
+            "Catat atau screenshot pesan error tersebut dan restart aplikasi. Jika error terus muncul, laporkan ke aplikasi ticketing dengan detail error tersebut untuk bantuan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "eror_meeting",
+        "patterns": [
+            "Kenapa saya tidak bisa terhubung ke meeting online?",
+            "Mengapa aplikasi Zoom tidak bisa diakses?",
+            "Apa yang harus dilakukan jika saya tidak bisa masuk ke meeting Teams?",
+            "Bagaimana cara mengatasi masalah saat ingin bergabung dengan meeting online?"
+        ],
+        "responses": [
+            "Pastikan koneksi internet stabil dan aplikasi meeting online telah diperbarui. Jika masih bermasalah, restart aplikasi atau komputer Anda. Hubungi IT jika kendala berlanjut."
+        ]
+    },
+    {
+        "tag": "layar_blank",
+        "patterns": [
+            "Kenapa layar saya blank saat menggunakan komputer?",
+            "Apa yang harus saya lakukan jika layar tidak merespons?",
+            "Mengapa tampilan monitor saya kosong?",
+            "Bagaimana cara mengatasi layar blank saat menggunakan aplikasi?"
+        ],
+        "responses": [
+            "Coba tekan tombol <b>Ctrl + Alt + Del</b> untuk membuka Task Manager. Jika layar tetap tidak merespons, restart komputer dengan menekan tombol power. Jika masih bermasalah, laporkan ke aplikasi ticketing dengan detail error tersebut untuk bantuan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "email_not_sent",
+        "patterns": [
+            "Bagaimana cara memperbaiki masalah pada email yang tidak terkirim?",
+            "Kenapa email saya tidak diterima oleh penerima?",
+            "Apa yang harus saya lakukan jika email stuck di Outbox?",
+            "Mengapa pesan email saya tidak sampai ke alamat tujuan?"
+        ],
+        "responses": [
+            "Periksa apakah alamat email yang dituju benar dan jaringan internet stabil. Cek juga folder <b>Outbox atau Spam</b> untuk memastikan email terkirim atau diterima. Jika masih bermasalah, laporkan ke aplikasi ticketing dengan detail error tersebut untuk bantuan lebih lanjut."
+        ]
+    },
+
+    {
+        "tag": "excel_crash",
+        "patterns": [
+            "Mengapa Excel saya sering mengalami crash saat dibuka?",
+            "Kenapa Excel sering hang saat saya membuka file?",
+            "Apa yang harus dilakukan jika Excel terus menerus crash?",
+            "Bagaimana cara mengatasi Excel yang tiba-tiba menutup?"
+        ],
+        "responses": [
+            "Cobalah untuk membuka Excel dalam Safe Mode dengan menahan tombol Ctrl saat membuka aplikasi. Jika masih terjadi crash, periksa apakah ada pembaruan yang tersedia untuk Excel dan pastikan semua add-in dinonaktifkan. Hubungi IT jika masalah berlanjut."
+        ]
+    },
+    {
+        "tag": "excel_save",
+        "patterns": [
+            "Bagaimana cara mengatasi masalah saat Excel tidak bisa menyimpan file?",
+            "Kenapa saya tidak bisa menyimpan pekerjaan saya di Excel?",
+            "Apa yang harus saya lakukan jika Excel tidak menyimpan file?",
+            "Mengapa Excel menunjukkan pesan kesalahan saat menyimpan?"
+        ],
+        "responses": [
+            "Periksa apakah Anda memiliki izin untuk menyimpan file di lokasi tersebut dan pastikan penyimpanan tidak penuh. Jika Excel tetap tidak bisa menyimpan, coba simpan dengan nama baru atau di lokasi yang berbeda. Jika masalah terus berlanjut, hubungi IT."
+        ]
+    },
+    {
+        "tag": "excel_formula_error",
+        "patterns": [
+            "Kenapa rumus Excel saya tidak memberikan hasil yang diharapkan?",
+            "Apa penyebab kesalahan pada rumus di Excel?",
+            "Mengapa hasil perhitungan saya tidak sesuai?",
+            "Bagaimana cara memperbaiki rumus yang salah di Excel?"
+        ],
+        "responses": [
+            "Pastikan tidak ada kesalahan dalam penulisan rumus dan referensi sel. Cek juga apakah format sel sudah benar (misalnya, format angka untuk hasil perhitungan). Jika masih bingung, hubungi rekan kerja atau IT untuk bantuan."
+        ]
+    },
+    {
+        "tag": "excel_protected_file",
+        "patterns": [
+            "Bagaimana cara mengatasi file Excel yang terlindungi?",
+            "Kenapa saya tidak bisa membuka file Excel yang terkunci?",
+            "Apa yang harus dilakukan jika file Excel meminta password?",
+            "Bagaimana cara membuka file Excel yang dilindungi password?"
+        ],
+        "responses": [
+            "Jika file Excel dilindungi dengan password, Anda harus memasukkan password yang benar untuk mengaksesnya. Jika Anda lupa password, hubungi IT untuk melihat opsi pemulihan. Namun, jika tidak ada cara untuk mengakses file, file mungkin tidak bisa dibuka."
+        ]
+    },
+    {
+        "tag": "excel_edit_cell",
+        "patterns": [
+            "Kenapa saya tidak bisa mengedit sel di Excel?",
+            "Apa yang menyebabkan saya tidak bisa mengubah data di sel?",
+            "Bagaimana cara mengatasi masalah saat mengedit sel?",
+            "Mengapa sel di Excel tidak bisa diedit?"
+        ],
+        "responses": [
+            "Pastikan bahwa sel tidak dalam mode 'Protected' atau lembar kerja tidak dilindungi. Anda juga perlu memeriksa apakah file sedang dibuka oleh pengguna lain dalam mode 'Read-Only'. Jika masalah berlanjut, hubungi IT."
+        ]
+    },
+    {
+        "tag": "excel_open_file",
+        "patterns": [
+            "Bagaimana cara memperbaiki Excel yang tidak mau membuka file tertentu?",
+            "Mengapa saya tidak bisa membuka file Excel saya?",
+            "Apa yang harus dilakukan jika file Excel tidak bisa diakses?",
+            "Kenapa Excel tidak bisa membuka file yang saya butuhkan?"
+        ],
+        "responses": [
+            "Cobalah untuk membuka file tersebut di komputer lain atau gunakan opsi 'Open and Repair' di Excel. Jika file tetap tidak bisa dibuka, hubungi IT untuk bantuan lebih lanjut."
+        ]
+    },
+    {
+        "tag": "excel_vlookup_error",
+        "patterns": [
+            "Mengapa saya mendapatkan pesan error saat menggunakan VLOOKUP?",
+            "Apa penyebab kesalahan saat melakukan VLOOKUP?",
+            "Bagaimana cara memperbaiki rumus VLOOKUP yang tidak berfungsi?",
+            "Kenapa hasil VLOOKUP saya tidak muncul?"
+        ],
+        "responses": [
+            "Pesan error dapat muncul jika data pencarian tidak ditemukan atau jika ada kesalahan dalam argumen fungsi VLOOKUP. Pastikan nilai yang dicari ada di kolom pertama tabel yang digunakan dan formatnya sama."
+        ]
+    },
+    {
+        "tag": "excel_print",
+        "patterns": [
+            "Bagaimana cara mengatasi masalah saat mencetak dokumen Excel?",
+            "Kenapa dokumen saya tidak bisa dicetak dari Excel?",
+            "Apa yang harus dilakukan jika Excel tidak mengirimkan perintah cetak?",
+            "Mengapa printer tidak merespons saat saya mencoba mencetak dari Excel?"
+        ],
+        "responses": [
+            "Pastikan printer terhubung dan memiliki kertas serta tinta yang cukup. Periksa pengaturan cetak di Excel, seperti area cetak yang dipilih dan orientasi halaman. Jika masih tidak bisa mencetak, hubungi IT untuk pemeriksaan printer."
+        ]
+    },
+    {
+        "tag": "excel_graph",
+        "patterns": [
+            "Kenapa grafik di Excel tidak muncul?",
+            "Mengapa saya tidak bisa melihat grafik yang sudah saya buat?",
+            "Apa yang harus saya lakukan jika grafik di Excel hilang?",
+            "Bagaimana cara memperbaiki masalah grafik yang tidak tampil di Excel?"
+        ],
+        "responses": [
+            "Coba refresh grafik dengan mengklik kanan dan memilih 'Refresh'. Jika grafik tetap hilang, pastikan data sumber tidak terhapus dan format grafik tidak disembunyikan. Hubungi IT jika masih ada masalah."
+        ]
+    },
+    {
+        "tag": "excel_large_file",
+        "patterns": [
+            "Bagaimana cara mengatasi Excel yang lambat saat membuka file besar?",
+            "Kenapa Excel sangat lambat saat saya membuka file berukuran besar?",
+            "Apa yang harus saya lakukan jika Excel membutuhkan waktu lama untuk membuka file?",
+            "Mengapa komputer saya melambat saat membuka file Excel besar?"
+        ],
+        "responses": [
+            "Cobalah untuk menonaktifkan add-in yang tidak perlu dan pastikan tidak ada formula yang berlebihan dalam file. Menggunakan fitur 'Calculate Manual' juga bisa membantu mempercepat pembukaan file besar."
+        ]
+    },
+    {
+        "tag": "excel_function",
+        "patterns": [
+            "Mengapa saya tidak bisa menggunakan fungsi tertentu di Excel?",
+            "Apa yang harus dilakukan jika fungsi Excel tidak tersedia?",
+            "Bagaimana cara mengetahui apakah fungsi Excel bisa digunakan di versi saya?",
+            "Mengapa beberapa fungsi di Excel tidak muncul?"
+        ],
+        "responses": [
+            "Beberapa fungsi mungkin tidak tersedia di versi Excel yang Anda gunakan. Pastikan aplikasi Anda diperbarui. Jika fungsi tersebut tersedia di versi lain, Anda bisa menghubungi IT untuk opsi pembaruan."
+        ]
+    },
+    {
+        "tag": "excel_clear_format",
+        "patterns": [
+            "Bagaimana cara menghapus format dari sel di Excel?",
+            "Apa langkah-langkah untuk menghapus format sel di Excel?",
+            "Mengapa saya tidak bisa menghapus format dari sel?",
+            "Bagaimana cara mereset format sel ke default di Excel?"
+        ],
+        "responses": [
+            "Pilih sel yang ingin dihapus formatnya, kemudian klik kanan dan pilih 'Clear Formats'. Anda juga bisa menggunakan opsi 'Clear All' untuk menghapus semua konten dan format."
+        ]
+    },
+    {
+        "tag": "excel_column_row",
+        "patterns": [
+            "Kenapa saya tidak bisa mengubah ukuran kolom atau baris di Excel?",
+            "Apa yang menyebabkan kolom tidak bisa diperlebar di Excel?",
+            "Bagaimana cara mengubah ukuran baris di Excel?",
+            "Mengapa saya tidak bisa mengedit ukuran kolom di Excel?"
+        ],
+        "responses": [
+            "Pastikan lembar kerja tidak dalam mode 'Protected'. Jika file dibuka dalam mode 'Read-Only', Anda tidak akan bisa mengubah ukuran kolom atau baris. Hubungi IT jika masalah berlanjut."
+        ]
+    },
+    {
+        "tag": "excel_if_formula",
+        "patterns": [
+            "Bagaimana cara mengatasi masalah saat menggunakan formula IF di Excel?",
+            "Apa yang harus saya lakukan jika rumus IF tidak berfungsi?",
+            "Kenapa rumus IF saya tidak memberikan hasil yang benar?",
+            "Bagaimana cara memperbaiki kesalahan pada rumus IF?"
+        ],
+        "responses": [
+            "Pastikan rumus ditulis dengan benar dan tidak ada kesalahan dalam logika. Jika rumus IF kompleks, periksa setiap bagian untuk memastikan semua argumen benar."
+        ]
+    },
+    {
+        "tag": "excel_copy_paste",
+        "patterns": [
+            "Kenapa saya tidak bisa menyalin dan menempelkan data di Excel?",
+            "Apa yang menyebabkan saya tidak bisa melakukan copy-paste di Excel?",
+            "Bagaimana cara mengatasi masalah copy-paste di Excel?",
+            "Mengapa fitur copy-paste tidak berfungsi di Excel?"
+        ],
+        "responses": [
+            "Pastikan tidak ada lembar kerja yang dilindungi atau tidak ada mode 'Read-Only'. Jika masalah tetap ada, coba restart Excel dan coba lagi. Jika tidak berhasil, hubungi IT."
+        ]
+    },
+    {
+        "tag": "excel_recover_file",
+        "patterns": [
+            "Bagaimana cara mengembalikan file Excel yang tidak tersimpan?",
+            "Apa yang harus saya lakukan setelah Excel crash dan file tidak disimpan?",
+            "Kenapa saya tidak bisa menemukan file Excel yang baru saja saya kerjakan?",
+            "Bagaimana cara memulihkan file Excel yang hilang setelah aplikasi menutup?"
+        ],
+        "responses": [
+            "Buka Excel dan pergi ke 'File' > 'Info' > 'Manage Workbook' > 'Recover Unsaved Workbooks' untuk melihat apakah ada salinan yang tersedia. Jika tidak ada, Anda mungkin perlu mengulangi pekerjaan."
+        ]
+    },
+    {
+        "tag": "excel_pivottable",
+        "patterns": [
+            "Mengapa saya tidak bisa menemukan fungsi PivotTable di Excel?",
+            "Apa yang harus saya lakukan jika PivotTable tidak muncul?",
+            "Kenapa fitur PivotTable tidak tersedia di Excel saya?",
+            "Bagaimana cara mengakses PivotTable di Excel?"
+        ],
+        "responses": [
+            "Pastikan Anda menggunakan versi Excel yang mendukung PivotTable. Jika tidak muncul di menu, periksa apakah lembar kerja tidak dilindungi dan coba restart Excel. Hubungi IT jika masih tidak terlihat."
+        ]
+    },
+    {
+        "tag": "excel_filter",
+        "patterns": [
+            "Bagaimana cara mengatasi masalah saat menggunakan fitur Filter di Excel?",
+            "Mengapa filter tidak berfungsi di Excel?",
+            "Apa yang harus saya lakukan jika saya tidak bisa menerapkan filter?",
+            "Kenapa saya tidak bisa menggunakan fitur filter di data saya?"
+        ],
+        "responses": [
+            "Pastikan data Anda dalam format tabel atau rentang yang benar. Jika filter tidak berfungsi, coba hapus filter yang ada terlebih dahulu dan terapkan kembali."
+        ]
+    },
+    {
+        "tag": "excel_csv",
+        "patterns": [
+            "Kenapa Excel tidak bisa membuka file CSV dengan benar?",
+            "Apa yang harus saya lakukan jika file CSV tidak terbaca di Excel?",
+            "Mengapa data di file CSV tidak tampil dengan benar di Excel?",
+            "Bagaimana cara membuka file CSV di Excel?"
+        ],
+        "responses": [
+            "Pastikan Anda membuka file CSV menggunakan Excel dan bukan aplikasi lain. Cek juga apakah pemisah yang digunakan dalam file CSV sesuai dengan pengaturan regional di Excel (misalnya, koma atau titik koma)."
+        ]
+    },
+    {
+        "tag": "excel_date_format",
+        "patterns": [
+            "Bagaimana cara memperbaiki format tanggal yang salah di Excel?",
+            "Kenapa tanggal saya tidak muncul dengan benar di Excel?",
+            "Apa yang harus saya lakukan jika format tanggal di Excel salah?",
+            "Bagaimana cara mengubah format tanggal di Excel?"
+        ],
+        "responses": [
+            "Pastikan sel yang berisi tanggal diformat dengan benar. Anda bisa mengubah format sel dengan mengklik kanan, memilih 'Format Cells', dan kemudian memilih kategori 'Date'. Jika format tetap salah, coba gunakan fungsi DATE atau TEXT untuk memperbaikinya."
+        ]
+    },
+    {
+        "tag": "excel_formulas",
+        "patterns": [
+            "Apa saja rumus-rumus penting yang sering digunakan di Excel?",
+            "Bagaimana cara menggunakan rumus Excel dengan efektif?",
+            "Apa rumus yang paling umum dipakai di Excel?",
+            "Apa saja rumus Excel yang harus saya ketahui?"
+        ],
+        "responses": [
+            "Berikut adalah beberapa rumus penting yang sering digunakan di Excel: <b>SUM</b> untuk menjumlahkan angka, <b>AVERAGE</b> untuk menghitung rata-rata, <b>COUNT</b> untuk menghitung jumlah sel yang berisi angka, <b>COUNTA</b> untuk menghitung sel yang tidak kosong, <b>IF</b> untuk pengkondisian, <b>VLOOKUP</b> untuk mencari nilai dalam kolom, <b>HLOOKUP</b> untuk mencari nilai dalam baris, <b>CONCATENATE</b> untuk menggabungkan teks, <b>TEXT</b> untuk format angka ke teks, <b>TRIM</b> untuk menghapus spasi, <b>LEFT</b> untuk mengambil karakter dari kiri, <b>RIGHT</b> untuk mengambil karakter dari kanan, dan <b>MID</b> untuk mengambil karakter dari tengah teks."
+        ]
+    },
+{
+    "tag": "hardware_issues",
+    "patterns": [
+        "Apa yang harus saya lakukan jika mouse saya tidak berfungsi?",
+        "Bagaimana cara mengatasi keyboard yang tidak merespons?",
+        "Apa yang harus dilakukan jika layar monitor saya tidak menyala?",
+        "Bagaimana cara memperbaiki masalah perangkat keras di komputer saya?"
+    ],
+    "responses": [
+        "Jika mouse tidak berfungsi, coba periksa koneksi kabelnya atau ganti baterai jika menggunakan mouse nirkabel. Jika keyboard tidak merespons, pastikan koneksinya baik dan tidak ada kotoran yang menghalangi tombol. Untuk layar monitor yang tidak menyala, periksa kabel daya dan koneksi ke komputer. Jika masalah berlanjut, laporkan kepada tim IT untuk pemeriksaan lebih lanjut."
+            ]
         }
     ]
 }
+    
