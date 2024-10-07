@@ -356,7 +356,7 @@
                 "Download aplikasi microsoft team"
             ],
             "responses": [
-                "Microsoft Teams dapat diakses melalui browser atau dengan menginstal aplikasi di PC atau smartphone. <br><b>Berikut langkah-langkah untuk menginstal aplikasi Microsoft Teams:<b></br> <ol>Install aplikasi di PC: <li> Buka link [Microsoft Teams Download](https://www.microsoft.com/en-ww/microsoft-teams/download-app). </li><li>Klik ikon Download for desktop. </li><li>Pilih Teams for work or school dan tunggu proses download selesai.</li><li> Klik file aplikasi Teams yang sudah terdownload dan tunggu sampai aplikasi terinstal. </li><li> Sebelum aplikasi terbuka, login ke Microsoft Teams dengan akun email perusahaan PT Timah Industri. <ul><li>Isi alamat email </li><li>Klik Next </li><li> Isikan password </li><li>Klik Sign In. </li></ul></li><li>Tunggu sampai tampilan muncul, klik OK. </li><li>Jika tampilan kedua muncul, klik Done. </li><li> Setelah berhasil Sign In, Anda dapat menggunakan Microsoft Teams.</li></ol> <ol>Install aplikasi di Smartphone/Handphone: </li><li> Buka Google Play (Android) atau App Store (iOS).</li><li>Cari aplikasi Microsoft Teams. </li><li>Klik Install.</li><li>Tunggu sampai aplikasi terinstal.</li><li> Buka aplikasi dan Sign In menggunakan akun email perusahaan untuk menggunakan fasilitas Microsoft Teams di Smartphone/Handphone.</li></ol>"
+                "Microsoft Teams dapat diakses melalui browser atau dengan menginstal aplikasi di PC atau smartphone. <br><b>Berikut langkah-langkah untuk menginstal aplikasi Microsoft Teams:</b></br> <ol><b>Install aplikasi di PC:</b> <li> Buka link [Microsoft Teams Download](https://www.microsoft.com/en-ww/microsoft-teams/download-app). </li><li>Klik ikon Download for desktop. </li><li>Pilih Teams for work or school dan tunggu proses download selesai.</li><li> Klik file aplikasi Teams yang sudah terdownload dan tunggu sampai aplikasi terinstal. </li><li> Sebelum aplikasi terbuka, login ke Microsoft Teams dengan akun email perusahaan PT Timah Industri. <ul><li>Isi alamat email </li><li>Klik Next </li><li> Isikan password </li><li>Klik Sign In. </li></ul></li><li>Tunggu sampai tampilan muncul, klik OK. </li><li>Jika tampilan kedua muncul, klik Done. </li><li> Setelah berhasil Sign In, Anda dapat menggunakan Microsoft Teams.</li></ol> <ol><b>Install aplikasi di Smartphone/Handphone: </b></li><li> Buka Google Play (Android) atau App Store (iOS).</li><li>Cari aplikasi Microsoft Teams. </li><li>Klik Install.</li><li>Tunggu sampai aplikasi terinstal.</li><li> Buka aplikasi dan Sign In menggunakan akun email perusahaan untuk menggunakan fasilitas Microsoft Teams di Smartphone/Handphone.</li></ol>"
             ]
         },
         {
@@ -437,7 +437,7 @@
                 "Cloud apa saja yang bisa digunakan files Microsoft Teams"
             ],
             "responses": [
-                "<ol>Activity di Microsoft Teams adalah tempat untuk melihat history aktivitas user saat menggunakan aplikasi. <br><b>Terdapat dua pengaturan untuk melihat activity: <b></br> <li>Read: Menampilkan semua aktivitas yang telah dilihat.</li><li>Unread Only: Hanya menampilkan aktivitas yang belum dilihat. User dapat mematikan pengaturan Unread Only untuk melihat aktivitas yang sudah dilakukan.</li><li>Untuk mengatur pengaturan di Microsoft Teams, klik ikon Settings. </li><li>User juga bisa memfilter pencarian activity dengan mengklik ikon Filter atau menggunakan shortcut keyboard Ctrl + Shift + F. Dengan ini, user dapat memfilter aktivitas berdasarkan kriteria yang diinginkan, seperti mencari aktivitas berdasarkan user lain. </li></ol><ol>Fungsi Chat di Microsoft Teams digunakan untuk berkomunikasi antar individu atau grup mengenai pekerjaan, proyek, atau sekadar berbincang-bincang. <br>Dalam Chat, user dapat: </br> <li>Melakukan Video Call dan Audio Call. </li><li>Mengirim dan melampirkan Files.</li><li>Mengatur format tulisan untuk menyesuaikan pesan yang dikirim. </li><li>Dengan fitur-fitur ini, Chat memudahkan kolaborasi dan komunikasi di antara anggota tim.</li></ol> <ol> Di Microsoft Teams, user dapat membuat Teams dan Channel untuk mengumpulkan orang-orang dan bekerja dalam ruang berfokus yang mencakup percakapan dan file. <br>Berikut adalah beberapa poin penting tentang fungsi ini:</br> <li>Membuat Teams dan Channel: User bisa membuat satu atau lebih Channel dalam Teams untuk memfasilitasi diskusi yang terfokus.</li><li> Interaksi di Channel: Anggota Channel dapat berinteraksi untuk membahas pekerjaan atau file yang relevan.</li><li> Mengupload dan Mengedit File: User dapat mengupload file serta mengeditnya langsung di Teams.</li><li> Migrasi Data File: Data file dari folder server akan dimigrasikan agar bisa diakses di Channel yang disesuaikan dengan Departemen di PT Timah Industri.Instruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.</li></ol><ol>Di Microsoft Teams, Calendar memungkinkan user untuk: <li>Melihat Koneksi: User dapat melihat koneksi dengan orang lain sebelum, selama, dan setelah rapat, sehingga persiapan dan tindak lanjut menjadi lebih mudah.</li><li>Sinkronisasi dengan Outlook: Calendar disinkronkan dengan kalender di Outlook user, memudahkan akses dan pengelolaan jadwal.</li><li>  Membuat dan Melihat Jadwal Meeting: User dapat membuat dan melihat jadwal meeting yang telah diatur.</li><li>Instruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.</li></ol><ol> Di Microsoft Teams, Calls memungkinkan user untuk: <li>Melihat History Kontak: User dapat melihat history kontak yang dihubungi menggunakan Microsoft Teams dan daftar Contacts yang telah ditambahkan.</li><li>  Status Kontak: User bisa melihat daftar kontak yang Missed, Incoming, dan Voicemail.</li><li> Menelepon User Lain: User dapat menelepon user lain dalam satu organisasi PT Timah Industri, baik secara individu maupun grup.</li></ol><li> Pada bagian Files di Microsoft Teams, user dapat: <li>Melihat File: User bisa melihat file-file yang sudah diakses dan file yang telah diunduh.</li><li> Cloud Storage: Di bagian ini terdapat Cloud Storage seperti OneDrive. User juga dapat menambahkan Cloud Storage lain seperti Google Drive atau Dropbox.</li><li>  Aplikasi Terhubung: User dapat melihat aplikasi yang terhubung dengan Microsoft Teams dan menggunakan fasilitas aplikasi ini tanpa harus mengunduh aplikasi tambahan. Aplikasi yang akan digunakan secara wajib di PT Timah Industri adalah Word, Excel, dan PowerPoint.</li></ol> "
+                "<ol>Activity di Microsoft Teams adalah tempat untuk melihat history aktivitas user saat menggunakan aplikasi. <br><b>Terdapat dua pengaturan untuk melihat activity: </b></br> <li>Read: Menampilkan semua aktivitas yang telah dilihat.</li><li>Unread Only: Hanya menampilkan aktivitas yang belum dilihat. User dapat mematikan pengaturan Unread Only untuk melihat aktivitas yang sudah dilakukan.</li><li>Untuk mengatur pengaturan di Microsoft Teams, klik ikon Settings. </li><li>User juga bisa memfilter pencarian activity dengan mengklik ikon Filter atau menggunakan shortcut keyboard Ctrl + Shift + F. Dengan ini, user dapat memfilter aktivitas berdasarkan kriteria yang diinginkan, seperti mencari aktivitas berdasarkan user lain. </li></ol><ol>Fungsi Chat di Microsoft Teams digunakan untuk berkomunikasi antar individu atau grup mengenai pekerjaan, proyek, atau sekadar berbincang-bincang. <br><b>Dalam Chat, user dapat:</b> </br> <li>Melakukan Video Call dan Audio Call. </li><li>Mengirim dan melampirkan Files.</li><li>Mengatur format tulisan untuk menyesuaikan pesan yang dikirim. </li><li>Dengan fitur-fitur ini, Chat memudahkan kolaborasi dan komunikasi di antara anggota tim.</li></ol> <ol> Di Microsoft Teams, user dapat <b>membuat Teams dan Channel </b>untuk mengumpulkan orang-orang dan bekerja dalam ruang berfokus yang mencakup percakapan dan file. <br>Berikut adalah beberapa poin penting tentang fungsi ini:</br> <li>Membuat Teams dan Channel: User bisa membuat satu atau lebih Channel dalam Teams untuk memfasilitasi diskusi yang terfokus.</li><li> Interaksi di Channel: Anggota Channel dapat berinteraksi untuk membahas pekerjaan atau file yang relevan.</li><li> Mengupload dan Mengedit File: User dapat mengupload file serta mengeditnya langsung di Teams.</li><li> Migrasi Data File: Data file dari folder server akan dimigrasikan agar bisa diakses di Channel yang disesuaikan dengan Departemen di PT Timah Industri.Instruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.</li></ol><ol>Di Microsoft Teams, <b>Calendar</b> memungkinkan user untuk: <li>Melihat Koneksi: User dapat melihat koneksi dengan orang lain sebelum, selama, dan setelah rapat, sehingga persiapan dan tindak lanjut menjadi lebih mudah.</li><li>Sinkronisasi dengan Outlook: Calendar disinkronkan dengan kalender di Outlook user, memudahkan akses dan pengelolaan jadwal.</li><li>  Membuat dan Melihat Jadwal Meeting: User dapat membuat dan melihat jadwal meeting yang telah diatur.</li><li>Instruksi lebih lanjut untuk menggunakan fungsi ini akan dijelaskan di bagian selanjutnya.</li></ol><ol> Di Microsoft Teams,<b> Calls </b> memungkinkan user untuk: <li>Melihat History Kontak: User dapat melihat history kontak yang dihubungi menggunakan Microsoft Teams dan daftar Contacts yang telah ditambahkan.</li><li>  Status Kontak: User bisa melihat daftar kontak yang Missed, Incoming, dan Voicemail.</li><li> Menelepon User Lain: User dapat menelepon user lain dalam satu organisasi PT Timah Industri, baik secara individu maupun grup.</li></ol><li> <ol>Pada bagian <b>Files di Microsoft Teams </b>, user dapat: <li>Melihat File: User bisa melihat file-file yang sudah diakses dan file yang telah diunduh.</li><li> Cloud Storage: Di bagian ini terdapat Cloud Storage seperti OneDrive. User juga dapat menambahkan Cloud Storage lain seperti Google Drive atau Dropbox.</li><li>  Aplikasi Terhubung: User dapat melihat aplikasi yang terhubung dengan Microsoft Teams dan menggunakan fasilitas aplikasi ini tanpa harus mengunduh aplikasi tambahan.</li> <li>Aplikasi yang akan digunakan secara wajib di PT Timah Industri adalah Word, Excel, dan PowerPoint.</li></ol> "
             ]
         },
         {
@@ -479,8 +479,8 @@
                 "Bisakah saya membuat tim yang privat di Microsoft Teams?"
             ],
             "responses": [
-                "Berikut cara membuat Teams di Microsoft Teams:\n\n\n1. \n-  User terlebih dahulu login ke Microsoft Teams.\n-  Pilih Teams dan di pojok bawah, klik Join or create a team.\n-  Untuk membuat Team, klik Create team. Jika ingin bergabung dengan tim yang sudah dibuat, user dapat meminta kode invite dari owner Team tersebut, lalu masukkan kode di bagian Enter code pada Join a team with a code.\n-  Setelah mengklik Create team, akan muncul tampilan pop up. Pilih From scratch.\n-  Pada tampilan selanjutnya, klik Private jika ingin tim dibuat secara privat sehingga hanya beberapa user yang bisa mengaksesnya, atau klik Public jika ingin tim dapat diakses oleh semua user di PT Timah Industri.\n-  Untuk instruksi ini, tim akan dibuat secara Private."
-            ]
+                "Berikut cara membuat Teams di Microsoft Teams: <ol><li>User terlebih dahulu login ke Microsoft Teams.</li><li>Pilih <b>Teams</b> dan di pojok bawah, klik <b>Join or create a team</b>.</li><li>Untuk membuat Team, klik <b>Create team</b>. Jika ingin bergabung dengan tim yang sudah dibuat, user dapat meminta kode invite dari owner Team tersebut, lalu masukkan kode di bagian <b>Enter code</b> pada <b>Join a team with a code</b>.</li><li>Setelah mengklik <b>Create team</b>, akan muncul tampilan pop up. Pilih <b>From scratch</b>.</li><li>Pada tampilan selanjutnya, klik <b>Private</b> jika ingin tim dibuat secara privat sehingga hanya beberapa user yang bisa mengaksesnya, atau klik <b>Public</b> jika ingin tim dapat diakses oleh semua user di PT Timah Industri.</li><li>Untuk instruksi ini, tim akan dibuat secara <b>Private</b>.</li></ol>"
+                ]
         },
         {
             "tag": "panduanteams5",
@@ -497,7 +497,7 @@
                 "Cara membuat channel privat di Microsoft Teams?"
             ],
             "responses": [
-                "Berikut cara membuat Channel di Microsoft Teams:\n\n\n1. \n-  Masuk ke Team yang ingin dibuat Channel.\n-  Klik ikon titik tiga di samping nama Team, lalu pilih Add channel.\n-  Isi nama Channel dan deskripsinya, lalu pilih pengaturan Privacy. Klik Add untuk menyelesaikan proses pembuatan Channel.\n-  Pengaturan akses Channel bisa diatur di Privacy. Ada tiga jenis akses:\n  - Standard: Semua member dari Team dapat mengakses Channel.\n  - Private: Hanya user terpilih yang merupakan member Team yang dapat mengakses Channel.\n  - Shared: User yang bukan member Team dapat mengakses Channel. Untuk ini, uncheck kotak kecil Share this channel with everyone on the team agar user lain yang bukan member Team bisa mengakses Channel yang dibuat.\n-  Setelah semuanya selesai, Channel yang dibuat akan muncul di bagian kanan dan dapat digunakan untuk berkolaborasi."
+                "Berikut cara membuat Channel di Microsoft Teams: <ol><li>Masuk ke Team yang ingin dibuat Channel.</li><li>Klik ikon titik tiga di samping nama Team, lalu pilih <b>Add channel</b>.</li><li>Isi nama Channel dan deskripsinya, lalu pilih pengaturan <b>Privacy</b>. Klik <b>Add</b> untuk menyelesaikan proses pembuatan Channel.</li><li>Pengaturan akses Channel bisa diatur di <b>Privacy</b>. Ada tiga jenis akses: <ul><li><b>Standard</b>: Semua member dari Team dapat mengakses Channel.</li><li><b>Private</b>: Hanya user terpilih yang merupakan member Team yang dapat mengakses Channel.</li><li><b>Shared</b>: User yang bukan member Team dapat mengakses Channel. Untuk ini, uncheck kotak kecil <b>Share this channel with everyone on the team</b> agar user lain yang bukan member Team bisa mengakses Channel yang dibuat.</li></ul></li><li>Setelah semuanya selesai, Channel yang dibuat akan muncul di bagian kanan dan dapat digunakan untuk berkolaborasi.</li></ol>"
             ]
         },
         {
@@ -512,7 +512,7 @@
                 "Bagaimana cara upload file ke channel Teams?"
             ],
             "responses": [
-                "Berikut adalah langkah-langkah mengupload file ke Microsoft Teams:\n\n\n1. \n-  Pilih Channel tempat file akan diupload.\n-  Klik tanda plus dan akan muncul pop up Add a tab. Pilih SharePoint untuk menambahkan tab Documents.\n-  Pastikan Add content to your Teams channel berada di Channel yang diinginkan, lalu pilih Documents dan klik Save.\n-  Setelah tab Documents ditambahkan, Anda bisa mulai mengupload file/folder.\n-  Klik Upload dan pilih opsi Files atau Folder, kemudian pilih file atau folder yang ingin diupload.\n-  Proses upload akan terlihat. Klik tanda Uploading untuk melihat progress upload file.\n-  Setelah selesai, file/folder akan muncul di tab Documents dan semua anggota tim atau channel dapat mengaksesnya."
+                "Berikut adalah langkah-langkah mengupload file ke Microsoft Teams: <ol><li>Pilih Channel tempat file akan diupload.</li><li>Klik tanda plus dan akan muncul pop up <b>Add a tab</b>. Pilih <b>SharePoint</b> untuk menambahkan tab <b>Documents</b>.</li><li>Pastikan <b>Add content to your Teams channel</b> berada di Channel yang diinginkan, lalu pilih <b>Documents</b> dan klik <b>Save</b>.</li><li>Setelah tab <b>Documents</b> ditambahkan, Anda bisa mulai mengupload file/folder.</li><li>Klik <b>Upload</b> dan pilih opsi <b>Files</b> atau <b>Folder</b>, kemudian pilih file atau folder yang ingin diupload.</li><li>Proses upload akan terlihat. Klik tanda <b>Uploading</b> untuk melihat progress upload file.</li><li>Setelah selesai, file/folder akan muncul di tab <b>Documents</b> dan semua anggota tim atau channel dapat mengaksesnya.</li></ol>"
             ]
         },
         {
@@ -528,7 +528,7 @@
                 "Atur akses file dan folder di microsoft Teams"
             ],
             "responses": [
-                "Berikut adalah langkah-langkah mengatur dan memberikan akses file atau folder di Microsoft Teams:\n\n\n1. \n-  Pilih file/folder yang ingin diatur aksesnya.\n-  Klik tiga titik (...), lalu pilih Manage access.\n-  Pop up Manage access akan muncul. Untuk memberikan akses khusus, hapus akses (Channel Name) Members dan (Channel Name) Visitors dengan mengklik ikon Stop Sharing.\n-  Klik ikon plus dan pilih Grant access untuk menambahkan user.\n-  Di tampilan Grant access, cari nama user yang ingin diberikan akses, dan tambahkan mereka sekaligus. Klik Grant access.\n-  Untuk memberikan akses berbeda, setelah menambahkan user, klik ikon di samping nama mereka dan pilih akses yang diinginkan. Perubahan akan otomatis tersimpan."
+               "Berikut adalah langkah-langkah mengatur dan memberikan akses file atau folder di Microsoft Teams: <ol><li>Pilih file/folder yang ingin diatur aksesnya.</li><li>Klik tiga titik (...), lalu pilih <b>Manage access</b>.</li><li>Pop up <b>Manage access</b> akan muncul. Untuk memberikan akses khusus, hapus akses (Channel Name) Members dan (Channel Name) Visitors dengan mengklik ikon <b>Stop Sharing</b>.</li><li>Klik ikon plus dan pilih <b>Grant access</b> untuk menambahkan user.</li><li>Di tampilan <b>Grant access</b>, cari nama user yang ingin diberikan akses, dan tambahkan mereka sekaligus. Klik <b>Grant access</b>.</li><li>Untuk memberikan akses berbeda, setelah menambahkan user, klik ikon di samping nama mereka dan pilih akses yang diinginkan. Perubahan akan otomatis tersimpan.</li></ol>"
             ]
         },
         {
@@ -554,7 +554,7 @@
                 "Gimana cara menjadwalkan meeting teams"
             ],
             "responses": [
-                "Berikut adalah cara membuat ruang meeting terjadwal di Microsoft Teams:\n\n1. \n-  Buka Calendar di Microsoft Teams.\n-  Klik ikon New meeting di pojok kanan atas.\n-  Tampilan New meeting akan muncul. Isi pengaturan Details meeting, seperti judul meeting, undang peserta, atur jam meeting, dan tentukan apakah meeting berulang atau tidak.\n-  Jika ingin menambahkan Channel, maka semua anggota Channel tersebut dapat mengikuti meeting yang dijadwalkan. Lokasi meeting bersifat opsional.\n-  Tambahkan deskripsi meeting dan undang peserta dari luar perusahaan jika diperlukan.\n-  Gunakan Scheduling Assistant untuk mengatur jadwal peserta meeting, jika dibutuhkan.\n-  Setelah semua pengaturan selesai, klik Save untuk menyimpan jadwal meeting.\n\n\n"
+               "Berikut adalah cara membuat ruang meeting terjadwal di Microsoft Teams: <ol><li>Buka <b>Calendar</b> di Microsoft Teams.</li><li>Klik ikon <b>New meeting</b> di pojok kanan atas.</li><li>Tampilan <b>New meeting</b> akan muncul. Isi pengaturan <b>Details</b> meeting, seperti judul meeting, undang peserta, atur jam meeting, dan tentukan apakah meeting berulang atau tidak.</li><li>Jika ingin menambahkan Channel, maka semua anggota Channel tersebut dapat mengikuti meeting yang dijadwalkan. Lokasi meeting bersifat opsional.</li><li>Tambahkan deskripsi meeting dan undang peserta dari luar perusahaan jika diperlukan.</li><li>Gunakan <b>Scheduling Assistant</b> untuk mengatur jadwal peserta meeting, jika dibutuhkan.</li><li>Setelah semua pengaturan selesai, klik <b>Save</b> untuk menyimpan jadwal meeting.</li></ol>"
             ]
         },
         {
@@ -572,7 +572,7 @@
                 "join meeting teams"
             ],
             "responses": [
-                "Berikut adalah cara bergabung dan memulai meeting di Microsoft Teams:\n\n\n1. \n-  Untuk bergabung dengan meeting yang sudah dijadwalkan, klik jadwal meeting di Calendar.\n-  Setelah diklik, akan muncul tampilan pop up My Calendar, lalu klik Join untuk masuk ke ruang meeting.\n-  User akan masuk ke pengaturan tampilan meeting. Setelah selesai melakukan pengaturan, klik Join now.\n-  Setelah itu, user akan masuk ke ruang meeting dan dapat memulai meeting dengan user lain."
+                "Berikut adalah cara bergabung dan memulai meeting di Microsoft Teams: <ol><li>Untuk bergabung dengan meeting yang sudah dijadwalkan, klik jadwal meeting di <b>Calendar</b>.</li><li>Setelah diklik, akan muncul tampilan pop up <b>My Calendar</b>, lalu klik <b>Join</b> untuk masuk ke ruang meeting.</li><li>User akan masuk ke pengaturan tampilan meeting. Setelah selesai melakukan pengaturan, klik <b>Join now</b>.</li><li>Setelah itu, user akan masuk ke ruang meeting dan dapat memulai meeting dengan user lain.</li></ol>"
             ]
         },
         {
@@ -590,7 +590,7 @@
                 "tutor Open dan edit file di Microsoft Teams "
             ],
             "responses": [
-                "Berikut adalah cara membuka dan mengedit file di Microsoft Teams:\n\n\n1. \n-  User bisa membuka file lewat Chat, Teams, dan Files. Untuk file di Chat dan Files, file dapat dibuka langsung.\n-  Untuk melihat file per departemen, pilih Teams > pilih PT Timah Industry > pilih folder departemen/divisi user > pilih Tab Documents.\n-  Contoh di Teams Percobaan, masuk ke Tab Documents dan pilih file yang ingin dibuka.\n-  File seperti Word, Excel, dan PowerPoint akan tersimpan secara otomatis di Teams.\n-  Untuk menampilkan toolbar yang lebih lengkap, ubah layout menjadi Classic Ribbon saat membuka file di Teams."
+                "Berikut adalah cara membuka dan mengedit file di Microsoft Teams: <ol><li>User bisa membuka file lewat <b>Chat</b>, <b>Teams</b>, dan <b>Files</b>. Untuk file di <b>Chat</b> dan <b>Files</b>, file dapat dibuka langsung.</li><li>Untuk melihat file per departemen, pilih <b>Teams</b> > pilih <b>PT Timah Industry</b> > pilih folder departemen/divisi user > pilih <b>Tab Documents</b>.</li><li>Contoh di <b>Teams Percobaan</b>, masuk ke <b>Tab Documents</b> dan pilih file yang ingin dibuka.</li><li>File seperti <b>Word</b>, <b>Excel</b>, dan <b>PowerPoint</b> akan tersimpan secara otomatis di Teams.</li><li>Untuk menampilkan toolbar yang lebih lengkap, ubah layout menjadi <b>Classic Ribbon</b> saat membuka file di Teams.</li></ol>"
             ]
         },
         {
@@ -606,7 +606,7 @@
                 "new file di Microsoft Teams"
             ],
             "responses": [
-                "Berikut cara membuat file baru di Microsoft Teams:\n\n\n1. \n-  Masuk ke Channel yang diinginkan dan buka Tab Documents.\n-  Klik ikon New dan pilih jenis file yang akan dibuat (Word, Excel, PowerPoint).\n-  Isi nama file dan klik Create. Setelah beberapa saat, user akan diarahkan ke tampilan dokumen yang baru dibuat."
+                "Berikut cara membuat file baru di Microsoft Teams: <ol><li>Masuk ke Channel yang diinginkan dan buka <b>Tab Documents</b>.</li><li>Klik ikon <b>New</b> dan pilih jenis file yang akan dibuat (<b>Word</b>, <b>Excel</b>, <b>PowerPoint</b>).</li><li>Isi nama file dan klik <b>Create</b>. Setelah beberapa saat, user akan diarahkan ke tampilan dokumen yang baru dibuat.</li></ol>"
             ]
         },
         {
@@ -622,7 +622,7 @@
                 "cetak file di Microsoft Teams?"
             ],
             "responses": [
-                "Berikut cara mencetak file di Microsoft Teams:\n\n\n1. \n-  Pilih file yang ingin dicetak.\n-  Klik File di Toolbar dan pilih Print. Atau tekan Ctrl + P pada keyboard.\n-  Klik Open PDF untuk membuka file di browser dan proses cetak akan dilakukan melalui PDF.\n-  Klik Print untuk mencetak file tersebut."
+                "Berikut cara mencetak file di Microsoft Teams: <ol><li>Pilih file yang ingin dicetak.</li><li>Klik <b>File</b> di Toolbar dan pilih <b>Print</b>. Atau tekan <b>Ctrl + P</b> pada keyboard.</li><li>Klik <b>Open PDF</b> untuk membuka file di browser dan proses cetak akan dilakukan melalui PDF.</li><li>Klik <b>Print</b> untuk mencetak file tersebut.</li></ol>"
             ]
         },
         {
@@ -641,7 +641,7 @@
                 "Langkah-langkah membagikan dokumen di Microsoft Teams"
             ],
             "responses": [
-                "Berikut cara membagikan file di Microsoft Teams:\n\n\n1. \n-  Buka file yang ingin dibagikan.\n-  Klik ikon Share di bagian atas dan pilih Share.\n-  Pada tampilan pop-up Share, masukkan email penerima dan klik Send untuk membagikan file tersebut."
+               "Berikut cara membagikan file di Microsoft Teams: <ol><li>Buka file yang ingin dibagikan.</li><li>Klik ikon <b>Share</b> di bagian atas dan pilih <b>Share</b>.</li><li>Pada tampilan pop-up <b>Share</b>, masukkan email penerima dan klik <b>Send</b> untuk membagikan file tersebut.</li></ol>" 
             ]
         },
         {
@@ -672,11 +672,12 @@
                 "install alat print ke laptop",
                 "install mesin print",
                 "install alat print",
+                "ngga bisa install printer",
                 "Kenapa printer ini nggak terhubung ke komputer? Sudah saya coba beberapa kali.",
                 "Driver printer saya kayaknya nggak terinstal dengan baik, jadi nggak bisa cetak."
             ],
             "responses": [
-                "Penginstalan Printer Epson L4150 ke komputer/laptop \n\n A. Mengaktifkan Wifi Direct Mode: \n \n1. \n- Install printer software ke komputer/laptop yang diinginkan sebelum memulai menggunakan printer. \n Tekan tombol Wifi dan tombol status jaringan secara bersamaan dan tahan sampai lampu status wifi dan wifi direct menyala. \n Tekan tombol status jaringan selama 10 detik untuk mencetak lembar status jaringan sebagai percobaan. \n Hubungkan jaringan wifi printer dengan komputer/laptop, cari nama wifi printer dan koneksikan. Nama wifi dan password ada di lembar status jaringan. \n User bisa menggunakan printer untuk mencetak data. Jika ada kesalahan, ulangi lagi dari petunjuk yang di atas. \n\n B. Menggunakan WPS (Wifi Protected Setup) untuk mengkoneksikan jaringan: \n \n1. \n-  Tekan tombol WPS pada printer dan router secara bersamaan. \n 2. Tunggu hingga lampu status koneksi menyala, yang menandakan koneksi berhasil. \n 3. Pastikan printer sudah terhubung ke jaringan yang sama dengan komputer/laptop. \n C. Menggunakan USB Connection: \n \n1. \n-  Install printer software ke komputer/laptop yang diinginkan sebelum memulai menggunakan printer \n 2. Pasangkan kabel USB yang telah disediakan dan pasangkan dari USB port di printer ke USB port komputer/laptop. \n\n\n\n Penginstalan Printer Epson L360 ke komputer/laptop \n\n A. Menghubungkan printer ke komputer/laptop CD/DVD Drive \n \n1. \n- Hubungkan kabel USB dari printer ke komputer/laptop. \n 2.Masukkan CD/DVD Drive, instal printer Epson L360 program ke komputer/laptop user.\n 3.Ikuti intruksi penginstalan. \n 4. Setelah selesai instalasi, user bisa mencoba melakukan print. Jika ada kendala, uninstall Epson L360 program dan ulangi lagi instruksinya dari awal.\n\n B.Mehubungkan printer ke komputer/laptop tanpa CD/DVD Drive: \n\n1. \n-  Jika user tidak memiliki CD/DVD Drive yang berisi softtware Epson L360, user bisa mengunjungi situs Epson dan mencari software Epson L360.\n 2. Setelah semuanya di download, user bisa menginstalnya. \n 3. Setelah semuanya selesai, user bisa mencoba printernya.    "
+            "Penginstalan Printer Epson L4150 ke komputer/laptop: <b>A. Mengaktifkan Wifi Direct Mode:</b><ol><li>Install printer software ke komputer/laptop yang diinginkan.</li><li>Tekan tombol Wifi dan tombol status jaringan secara bersamaan dan tahan sampai lampu status wifi dan wifi direct menyala.</li><li>Tekan tombol status jaringan selama 10 detik untuk mencetak lembar status jaringan.</li><li>Hubungkan jaringan wifi printer dengan komputer/laptop menggunakan nama wifi dan password yang ada di lembar status jaringan.</li></ol><b>B. Menggunakan WPS (Wifi Protected Setup):</b><ol><li>Tekan tombol WPS pada printer dan router secara bersamaan.</li><li>Tunggu hingga lampu status koneksi menyala, menandakan koneksi berhasil.</li><li>Pastikan printer sudah terhubung ke jaringan yang sama dengan komputer/laptop.</li></ol><b>C. Menggunakan USB Connection:</b><ol><li>Install printer software ke komputer/laptop.</li><li>Pasangkan kabel USB dari printer ke komputer/laptop.</li></ol><br>Penginstalan Printer Epson L360 ke komputer/laptop: <b>A. Menggunakan CD/DVD Drive:</b><ol><li>Hubungkan kabel USB dari printer ke komputer/laptop.</li><li>Masukkan CD/DVD Drive dan instal software printer Epson L360.</li><li>Ikuti instruksi penginstalan dan coba cetak.</li></ol><b>B. Tanpa CD/DVD Drive:</b><ol><li>Download software Epson L360 dari situs Epson.</li><li>Instal software dan coba cetak dokumen.</li></ol>"
             ]
         },
         {
@@ -718,7 +719,7 @@
                 "isi tinta printer"
             ],
             "responses": [
-                "Pengisian tinta printer pada Epson L4150 memiliki empat tabung: hitam (BK), kuning (Y), magenta (M), dan cyan (C). User dapat memesan tinta dengan kode 001 untuk semua warna. Berikut cara pengisiannya: \n\n \n1. \n-  Mengisi tinta bisa saat printer dalam keadaan mati maupun hidup. \n 2. Angkat penutup printer ke atas. \n 3. Bukalah penutup tempat tinta dan buka penutup tabung yang akan diisi. \n 4. Bukalah botol tinta. Jangan dikocok atau ditekan, hati-hati saat menyentuh bagian atas botol setelah tutup botol terbuka. \n 5. Tuangkan tinta secara perlahan ke tabung tinta yang sesuai hingga botol masuk ke dalam tabung. \n 6. Tinta akan turun sendiri ke dalam tabung, tidak perlu menekan botol. \n 7. Tunggu hingga tabung tinta penuh. Setelah penuh, lepas botol tinta dan tutup tabung tinta. \n 8. Pastikan tabung sudah terisi penuh. Tutup penutup tempat tinta dan tutup penutup printer. \n\n Pengisian tinta printer pada Epson L360 memiliki empat tabung: hitam (BK), kuning (Y), magenta (M), dan cyan (C). User dapat memesan tinta dengan kode 664 untuk semua warna. Berikut cara pengisiannya: \n\n \n1. \n-  Mengisi tinta bisa saat printer dalam keadaan mati maupun hidup. \n 2. Lepaskan kotak tinta dari printer dan balikkan kotak tintanya. \n 3. Bukalah penutup kotak tinta dan buka penutup tabung yang akan diisi. \n 4. Bukalah botol tinta dengan hati-hati. Jangan dikocok atau ditekan, hati-hati saat menyentuh bagian atas botol setelah tutup botol terbuka. \n 5. Tuangkan tinta secara perlahan ke tabung tinta yang sesuai (pastikan warnanya sama) hingga botol masuk ke dalam tabung. \n 6. Teken botol tinta perlahan-lahan agar tinta cepat turun. \n 7. Tunggu hingga tabung tinta penuh. Setelah penuh, lepas botol tinta dan tutup tabung tinta. \n 8. Pastikan tabung sudah terisi penuh. Tutup penutup kotak tinta dan pasang kembali kotaknya pada printer."
+                "<b>Pengisian tinta printer pada Epson L4150</b> memiliki empat tabung: hitam (BK), kuning (Y), magenta (M), dan cyan (C).<br> User dapat menggunakan tinta dengan kode 001 untuk semua warna.</br> <ol><li>Mengisi tinta bisa saat printer dalam keadaan mati maupun hidup.</li><li>Angkat penutup printer dan buka penutup tabung tinta yang akan diisi.</li><li>Buka botol tinta dan tuangkan secara perlahan hingga penuh.</li></ol><b>Pengisian tinta printer pada Epson L360 menggunakan kode tinta 664 untuk semua warna.</b> <ol><li>Mengisi tinta bisa saat printer dalam keadaan mati maupun hidup.</li><li>Lepaskan kotak tinta dari printer, buka penutup tabung, dan tuangkan tinta hingga penuh.</li><li>Pastikan tabung sudah penuh sebelum menutup kembali.</li></ol>"  
             ]
         },
         {
@@ -742,7 +743,7 @@
                 "cara ngeprint gimana?"
             ],
             "responses": [
-                "Cara mencetak dokumen dengan printer Epson L4150: \n\n \n1. \n-  Pastikan perangkat keras (seperti komputer/laptop) sudah terinstall software printer Epson L4150 dan sudah terhubung dengan jaringan wifi printer. \n 2. Buka dokumen yang ingin dicetak. \n 3. Cari perintah Print atau tekan Ctrl+P di keyboard. \n 4. Tampilan pengaturan print akan muncul. Jika nama printer tidak langsung muncul, cari nama printernya. \n 5. Atur pengaturan print sesuai dengan dokumen yang ingin dicetak. \n 6. Tekan Print/Ok untuk mulai mencetak. \n\n Cara mencetak dokumen dengan printer Epson L360: \n\n \n1. \n-  Pastikan perangkat keras (seperti komputer/laptop) sudah terinstall software printer Epson L360 dan sudah terhubung dengan printer melalui kabel. \n 2. Buka dokumen yang ingin dicetak. \n 3. Cari perintah Print atau tekan Ctrl+P di keyboard. \n 4. Tampilan pengaturan print akan muncul. Jika nama printer tidak langsung muncul, cari nama printernya. \n 5. Atur pengaturan print sesuai dengan dokumen yang ingin dicetak. \n 6. Tekan Print/Ok untuk mulai mencetak."
+                "Cara mencetak dokumen dengan <b>printer Epson L4150: </b><ol><li>Pastikan komputer/laptop terhubung ke jaringan wifi printer.</li><li>Buka dokumen yang ingin dicetak dan tekan <b>Ctrl+P</b>.</li><li>Atur pengaturan cetak dan tekan <b>Print</b>.</li></ol>Cara mencetak dokumen dengan <b>printer Epson L360:</b> <ol><li>Pastikan komputer/laptop terhubung dengan printer melalui kabel USB.</li><li>Buka dokumen dan tekan <b>Ctrl+P</b>.</li><li>Atur pengaturan cetak dan tekan <b>Print</b>.</li></ol>"
             ]
         },
         {
@@ -765,7 +766,7 @@
                 "fotocopy"
             ],
             "responses": [
-                "Cara fotocopy dokumen dengan printer Epson L4150: \n\n \n1. \n-  Letakkan dokumen yang ingin dikopi di tempat scan, menghadap kaca scanner. \n 2. Siapkan kertas kosong di tempat pengisian kertas. \n 3. Pilih mode fotocopy: \n    - Tekan tombol fotocopy hitam putih (B&W) untuk mengkopi hitam putih. \n    - Tekan tombol fotocopy berwarna untuk mengkopi berwarna. \n    - Untuk draft mode, tekan tombol fotocopy yang sesuai dan tombol Stop secara bersamaan. \n 4. Untuk mengkopi lebih dari satu, tekan tombol fotocopy sesuai jumlah salinan yang dibutuhkan. \n 5. Setelah proses fotocopy selesai, hasilnya bisa dilihat. Tekan tombol Stop untuk menghentikan proses jika diperlukan. \n\n Cara fotocopy dokumen dengan printer Epson L360: \n\n \n1. \n-  Letakkan dokumen yang ingin dikopi di tempat scan, menghadap kaca scanner. \n 2. Siapkan kertas kosong di tempat pengisian kertas. \n 3. Pilih mode fotocopy: \n    - Tekan tombol fotocopy hitam putih (B&W) untuk mengkopi hitam putih. \n    - Tekan tombol fotocopy berwarna untuk mengkopi berwarna. \n    - Untuk draft mode, tekan tombol fotocopy yang sesuai dan tombol Stop secara bersamaan. \n 4. Untuk mengkopi lebih dari satu, tekan tombol fotocopy sesuai jumlah yang diinginkan. \n 5. Setelah proses fotocopy selesai, hasilnya bisa diperiksa. Tekan tombol Stop untuk menghentikan proses jika diperlukan."
+                "<b>Cara fotocopy dokumen dengan printer Epson L4150:</b> <ol><li>Letakkan dokumen yang ingin dikopi di tempat scan, menghadap kaca scanner.</li><li>Siapkan kertas kosong di tempat pengisian kertas.</li><li>Pilih mode fotocopy:</li><ul><li>Tekan tombol fotocopy hitam putih (B&W) untuk mengkopi hitam putih.</li><li>Tekan tombol fotocopy berwarna untuk mengkopi berwarna.</li><li>Untuk draft mode, tekan tombol fotocopy yang sesuai dan tombol Stop secara bersamaan.</li></ul><li>Untuk mengkopi lebih dari satu, tekan tombol fotocopy sesuai jumlah salinan yang dibutuhkan.</li><li>Setelah proses fotocopy selesai, hasilnya bisa dilihat. Tekan tombol Stop untuk menghentikan proses jika diperlukan.</li></ol><br><b>Cara fotocopy dokumen dengan printer Epson L360: </b><ol><li>Letakkan dokumen yang ingin dikopi di tempat scan, menghadap kaca scanner.</li><li>Siapkan kertas kosong di tempat pengisian kertas.</li><li>Pilih mode fotocopy:</li><ul><li>Tekan tombol fotocopy hitam putih (B&W) untuk mengkopi hitam putih.</li><li>Tekan tombol fotocopy berwarna untuk mengkopi berwarna.</li><li>Untuk draft mode, tekan tombol fotocopy yang sesuai dan tombol Stop secara bersamaan.</li></ul><li>Untuk mengkopi lebih dari satu, tekan tombol fotocopy sesuai jumlah yang diinginkan.</li><li>Setelah proses fotocopy selesai, hasilnya bisa diperiksa. Tekan tombol Stop untuk menghentikan proses jika diperlukan.</li></ol>"
             ]
         },
         {
@@ -799,7 +800,7 @@
                 "Gimana sih cara scan kertas"
             ],
             "responses": [
-                "Cara melakukan scan menggunakan Epson L4150: \n\n \n1. \n-  Pastikan user sudah menginstal program software Epson L4150 di komputer/laptop dan kabel USB terhubung. \n 2. Tekan tombol fotocopy hitam putih (B&W) dan tombol fotocopy berwarna secara bersamaan. \n 3. Hasil scan akan tersimpan sebagai PDF di komputer/laptop. \n 4. Alternatif: buka program Epson L4150 untuk menggunakan Event Manager. \n 5. Buka Event Software dan pilih Event Manager. \n 6. Pilih dan buka Scanner. \n 7. Klik Make Job Settings dan buka Edit Job Settings, pilih Scan Job Settings untuk melihat atau mengganti pengaturan. \n 8. Sesuaikan pengaturan sesuai kebutuhan dan klik OK. \n 9. Klik Close untuk menutup jendela Event Manager. \n\n Cara melakukan scan menggunakan smartphone atau tablet: \n\n \n1. \n-  Download aplikasi Epson iPrint. \n 2. Letakkan dokumen yang ingin di scan. \n 3. Buka aplikasi dan pilih printer Epson L4150. \n 4. Pilih Scan Settings dan scan dokumen. \n 5. Simpan hasil scan di perangkat atau cloud. \n\n Cara melakukan scan menggunakan Epson L360: \n\n \n1. \n-  Pastikan user sudah menginstall Epson Scan dan Epson Event Manager di komputer/laptop. \n 2. Letakkan dokumen di kaca scanner. \n 3. Tekan tombol fotocopy hitam putih (monochrome) dan tombol fotocopy berwarna (color) secara bersamaan. \n 4. Hasil scan akan masuk ke komputer. \n 5. Alternatif: buka program Epson Scan di komputer/laptop tanpa menekan tombol fotocopy. \n 6. Pilih Home Mode dari list Mode. \n 7. Sesuaikan pengaturan: \n    - Document Type \n    - Image Type \n    - Destination \n    - Thumbnail (jika memilih Photograph). \n 8. Klik Preview untuk mengatur kualitas dan kecerahan jika dibutuhkan. \n 9. Klik Scan. \n 10. Setelah ter-scan, akan muncul jendela File Save Setting. \n 1\n1. \n-  Atur pengaturan hasil scan dan klik OK. \n\n Cara melakukan scan menggunakan Epson DS-1630: \n\n \n1. \n-  Scan per lembar: \n    a. Pastikan komputer/laptop terinstal program Epson Software dan scanner terhubung. \n    b. Letakkan dokumen di kaca pemindai. \n    c. Tekan tombol Start untuk scan. \n    d. Hasil scan bisa dilihat di Epson Scan. \n 2. Scan banyak lembar sekaligus (Multi Page): \n    a. Pastikan komputer/laptop terinstal program Epson Software dan scanner terhubung. \n    b. Bersihkan kaca pemindai. \n    c. Masukkan kertas ke ADF (Automatic Document Feeder) dengan ukuran yang sesuai. \n    d. Buka pelindung tepi dan naikkan Stopper. \n    e. Masukkan kertas menghadap atas. \n    f. Sesuaikan pelindung tepi dan rapatkan. \n    g. Tekan tombol Start untuk memulai scan."
+                "<b>Cara melakukan scan menggunakan Epson L4150:</b> <ol><li>Pastikan user sudah menginstal program software Epson L4150 di komputer/laptop dan kabel USB terhubung.</li><li>Tekan tombol fotocopy hitam putih (B&W) dan tombol fotocopy berwarna secara bersamaan.</li><li>Hasil scan akan tersimpan sebagai PDF di komputer/laptop.</li><li>Alternatif: buka program Epson L4150 untuk menggunakan Event Manager dan buka Scanner.</li><li>Sesuaikan pengaturan sesuai kebutuhan dan klik OK untuk menyimpan pengaturan scan.</li></ol><br><b>Cara melakukan scan menggunakan smartphone atau tablet:</b> <ol><li>Download aplikasi Epson iPrint.</li><li>Letakkan dokumen yang ingin di-scan.</li><li>Buka aplikasi dan pilih printer Epson L4150, lalu pilih Scan Settings dan mulai scan dokumen.</li><li>Simpan hasil scan di perangkat atau cloud.</li></ol><br><b>Cara melakukan scan menggunakan Epson L360: </b><ol><li>Pastikan user sudah menginstal Epson Scan dan Epson Event Manager di komputer/laptop.</li><li>Letakkan dokumen di kaca scanner dan tekan tombol fotocopy hitam putih (monochrome) dan tombol fotocopy berwarna (color) secara bersamaan.</li><li>Hasil scan akan tersimpan di komputer.</li><li>Alternatif: buka program Epson Scan di komputer/laptop, pilih Home Mode, sesuaikan pengaturan, dan klik Scan.</li><li>Setelah selesai, atur pengaturan hasil scan dan klik OK.</li></ol>"
             ]
         },
         {
@@ -818,23 +819,14 @@
                 "gimana sih hasilnya ga keliatan",
                 "tulisan hasil print fa keliatan",
                 "tintanya ga terang",
-                "printernya rusak",
                 "ga bisa diprint",
-                "mesin print rusak",
                 "mesin print ngga nyala",
                 "alat print ngga nyala",
-                "alat print rusak",
                 "ngga bisa ngeprint",
                 "printnya macet",
-                "printer mati",
-                "printer nya rusak",
-                "mesin printnya mati",
-                "alat printnya mati",
                 "printnya ga jalan",
-                "printer saya tidak nyala kenapa?",
                 "warna tintanya aneh",
                 "warna yang dimau ga muncul",
-                "Printer ini sering freeze, jadi nggak bisa lanjut cetak.",
                 "Setiap kali saya cetak, hasilnya nggak konsisten, ada yang bagus, ada yang jelek.",
                 "Suara printer ini aneh, berisik banget saat cetak.",
                 "Printer ini nggak mau merespons perintah cetak, saya sudah klik banyak kali.",
@@ -844,7 +836,7 @@
                 "Hasil cetak saya buram, kayak nggak jelas gitu."
             ],
             "responses": [
-                "Perawatan printer dalam menyesuaikan kualitas cetak untuk Epson L4150: \n\n \n1. \n-  Print Head Maintenance: Lakukan perawatan kepala printer untuk menjaga kualitas cetak. \n 2. Print Head Alignment: Mensejajarkan kepala printer jika hasil cetak tidak tepat. \n 3. Cleaning the Paper Path: Bersihkan tempat proses cetakan untuk menghindari kertas macet. \n 4. Cleaning the Print Head Path: Membersihkan jalur kepala printer bergerak untuk hasil cetak yang lebih baik. \n 5. Checking the Number of Sheets Fed: Mengecek jumlah kertas yang dimasukkan untuk memastikan tidak terlalu banyak. \n\n Perawatan printer dalam menyesuaikan kualitas cetak untuk Epson L360: \n\n \n1. \n-  Checking and Cleaning the Print Head: Mengecek dan membersihkan kepala printer jika terlihat pola pita, warna memudar, atau warna aneh. \n 2. Replacing Ink inside the Ink Tubes: Mengganti tinta pada tabung tinta jika terdapat tanda pola pita atau warna hilang. \n 3. Aligning the Print Head: Menyelaraskan kepala cetak jika ada ketidakselarasan pada garis-garis vertikal atau gambar buram. \n 4. Cleaning the Paper Path: Membersihkan area kertas tercetak untuk menjaga kualitas. \n 5. Cleaning the Scanner Glass: Membersihkan kaca scanner dari noda dengan kain lembut dan kering. \n\n Perawatan scanner dalam menyesuaikan kualitas cetak untuk Epson DS-1630: \n\n \n1. \n-  Cleaning the Scanner: Membersihkan kaca pemindai untuk menghindari noda pada hasil scan. \n 2. Cleaning the ADF: Membersihkan dan melepaskan kertas yang macet di ADF (Automatic Document Feeder)."
+                "<b>Perawatan printer Epson L4150:</b> <ol><li>Print Head Maintenance: Lakukan perawatan kepala printer secara berkala untuk menjaga kualitas cetak.</li><li>Print Head Alignment: Mensejajarkan kepala printer jika hasil cetak tidak tepat.</li><li>Cleaning the Paper Path: Bersihkan tempat proses cetakan untuk menghindari kertas macet.</li><li>Cleaning the Print Head Path: Membersihkan jalur kepala printer untuk menjaga kualitas cetak.</li><li>Checking the Number of Sheets Fed: Mengecek jumlah kertas yang dimasukkan untuk memastikan tidak terlalu banyak.</li></ol></b> Perawatan printer Epson L360: </b> <ol><li>Checking and Cleaning the Print Head: Mengecek dan membersihkan kepala printer jika terdapat masalah pada hasil cetakan.</li><li>Replacing Ink inside the Ink Tubes: Mengganti tinta pada tabung jika terlihat tanda pola pita atau warna hilang.</li><li>Aligning the Print Head: Menyelaraskan kepala cetak jika ada ketidakselarasan pada garis-garis vertikal atau gambar buram.</li><li>Cleaning the Paper Path: Membersihkan area kertas tercetak untuk menjaga kualitas cetak.</li><li>Cleaning the Scanner Glass: Membersihkan kaca scanner dari noda dengan kain lembut dan kering.</li></ol><b>Perawatan scanner Epson DS-1630: </b> <ol><li>Cleaning the Scanner: Membersihkan kaca pemindai untuk menghindari noda pada hasil scan.</li><li>Cleaning the ADF: Membersihkan dan melepaskan kertas yang macet di Automatic Document Feeder (ADF).</li></ol>"
             ]
         },
         {
@@ -878,7 +870,7 @@
                 "lampu scaner nya nayala mati terus"
             ],
             "responses": [
-                "Permasalahan Scanner: \n\n \n1. \n-  Status lampu error: \n    - Lampu error berkedip pelan: Ada kertas yang macet. Buka penutup ADF dan lepaskan semua kertas yang macet. Bersihkan isi ADF, tutup penutup ADF, dan masukkan kembali dokumen yang ingin di-scan. \n    - Lampu error dan lampu ready berkedip cepat: Error yang fatal terjadi. Matikan scanner dan hidupkan lagi. Jika error masih terjadi, hubungi Epson Support. \n    - Lampu error hidup dan lampu ready mati: Update firmware gagal dan scanner dalam keadaan recovery model. Koneksikan scanner dengan kabel USB dan coba update firmware dengan komputer/laptop. Jika error masih terjadi, hubungi Epson Support. \n\n 2. Scanner tidak menyala atau mati sendiri: Pastikan kabel listrik terhubung dengan aman dan kuat. \n\n 3. Tombol Start tidak bekerja: Pastikan scanner terhubung dengan komputer/laptop. \n\n 4. Software scanner tidak bekerja dengan baik: Pastikan memori komputer/laptop mencukupi dan memiliki ruang memori yang cukup, matikan power-saving mode, pastikan scanner hidup, dan pastikan koneksi scanner dan komputer dalam keadaan baik. \n\n 5. Proses scan lambat: Coba scan dengan resolusi rendah, pastikan sistem operasi komputer/laptop memenuhi persyaratan sistem yang dibutuhkan scanner, dan matikan scanner selama 30 menit jika sudah sering digunakan secara terus menerus."
+            "Permasalahan Scanner: <ol><li>Status lampu error:</li><ul><li>Lampu error berkedip pelan: Ada kertas yang macet. Buka penutup ADF dan lepaskan semua kertas yang macet. Bersihkan isi ADF, tutup penutup ADF, dan masukkan kembali dokumen yang ingin di-scan.</li><li>Lampu error dan lampu ready berkedip cepat: Error fatal terjadi. Matikan scanner dan hidupkan lagi. Jika error masih terjadi, hubungi Epson Support.</li><li>Lampu error hidup dan lampu ready mati: Update firmware gagal dan scanner dalam keadaan recovery mode. Koneksikan scanner dengan kabel USB dan coba update firmware dengan komputer/laptop. Jika error masih terjadi, hubungi Epson Support.</li></ul><li>Scanner tidak menyala atau mati sendiri: Pastikan kabel listrik terhubung dengan aman dan kuat.</li><li>Tombol Start tidak bekerja: Pastikan scanner terhubung dengan komputer/laptop.</li><li>Software scanner tidak bekerja dengan baik: Pastikan memori komputer/laptop mencukupi, matikan power-saving mode, dan pastikan koneksi scanner dan komputer dalam keadaan baik.</li><li>Proses scan lambat: Coba scan dengan resolusi rendah, pastikan sistem operasi komputer/laptop memenuhi persyaratan, dan matikan scanner selama 30 menit jika sering digunakan.</li></ol>"
             ]
         },
         {
@@ -903,7 +895,7 @@
                 "mau pasang alat meeting gimana?"
             ],
             "responses": [
-                "Berikut adalah langkah-langkah untuk memasang perangkat meeting jarak jauh:\n\n\n1. \n-  Siapkan semua perangkat meeting seperti PC/laptop, Webcam, Speaker, Microphone (jika diperlukan), Hub/Adaptor, dan kabel-kabel yang diperlukan. Persiapkan waktu minimal 10 menit untuk pemasangan.\n\n-  Sambungkan kabel-kabel ke perangkat meeting:\n   - Hubungkan kabel Webcam (kepala kabel biru) ke lubang kabel Webcam.\n   - Hubungkan kabel Speaker (kepala kabel merah) ke lubang kabel Speaker.\n   - Jika perlu, hubungkan kabel Microphone (kepala kabel hijau terang) ke lubang kabel Microphone di Speaker.\n\n-  Hubungkan semua kabel yang telah terpasang ke Hub/Adaptor:\n   - Kabel Power Inlet ke stop kontak listrik.\n   - Kabel USB ke PC/laptop.\n   - Kabel Webcam ke Webcam.\n   - Kabel Speaker ke Speaker.\n\n-  Hubungkan kabel USB ke PC/laptop dan pasang kabel Power Inlet ke stop kontak listrik. Perangkat akan otomatis menyala, ditandai dengan lampu biru dan suara speaker.\n\n-  Buka aplikasi program meeting (Zoom, Google Meet, dll).\n\n-  Masuk ke pengaturan video dan audio, lalu cari dan pilih nama perangkat yang telah dihubungkan, seperti memilih Echo Cancelling Speakerphone di Zoom.\n\n-  Setelah semua pengaturan selesai, Anda bisa melaksanakan kegiatan meeting."
+            "Berikut adalah langkah-langkah untuk memasang perangkat meeting jarak jauh: <ol><li>Siapkan semua perangkat meeting seperti PC/laptop, Webcam, Speaker, Microphone, Hub/Adaptor, dan kabel-kabel yang diperlukan. Persiapkan waktu minimal 10 menit untuk pemasangan.</li><li>Sambungkan kabel-kabel ke perangkat meeting:</li><ul><li>Hubungkan kabel Webcam (kepala kabel biru) ke lubang kabel Webcam.</li><li>Hubungkan kabel Speaker (kepala kabel merah) ke lubang kabel Speaker.</li><li>Jika perlu, hubungkan kabel Microphone (kepala kabel hijau terang) ke lubang Microphone di Speaker.</li></ul><li>Hubungkan semua kabel ke Hub/Adaptor dan ke stop kontak listrik. Perangkat akan otomatis menyala, ditandai dengan lampu biru dan suara speaker.</li><li>Buka aplikasi meeting (Zoom, Google Meet, dll.), masuk ke pengaturan video dan audio, lalu pilih perangkat yang terhubung.</li><li>Setelah semua pengaturan selesai, Anda bisa melaksanakan kegiatan meeting.</li></ol>"
             ]
         },
         {
@@ -922,7 +914,7 @@
                 "Microphone, Webcam, Speaker mati ga berfungsi ngga nyala"
             ],
             "responses": [
-                "Berikut adalah hal-hal yang harus diperhatikan dalam menjaga dan merawat perangkat meeting:\n\n\n1. \n-  Jangan mengguncang perangkat seperti Microphone, Webcam, Speaker, dan lainnya.\n-  Jika terkena basah, segera lap dan keringkan bagian yang terkena. Pastikan perangkat tidak tersiram air.\n-  Setelah selesai digunakan, segera matikan perangkat.\n-  Cek kelengkapan perangkat meeting, seperti kabel dan remote. Pastikan tidak ada yang hilang. Jika ada yang hilang, segera hubungi Satker IT.\n-  Periksa kebersihan perangkat. Jika terdapat debu atau kotoran, segera bersihkan dengan lap atau tisu.\n-  Periksa fungsi dari perangkat meeting, kabel, dan remote untuk memastikan semuanya berfungsi dengan baik."
+                "Berikut adalah hal-hal yang harus diperhatikan dalam menjaga dan merawat perangkat meeting: <ol><li>Jangan mengguncang perangkat seperti Microphone, Webcam, Speaker, dan lainnya.</li><li>Jika terkena basah, segera lap dan keringkan bagian yang terkena. Pastikan perangkat tidak tersiram air.</li><li>Setelah selesai digunakan, segera matikan perangkat.</li><li>Cek kelengkapan perangkat meeting, seperti kabel dan remote. Pastikan tidak ada yang hilang. Jika ada yang hilang, segera hubungi Satker IT.</li><li>Periksa kebersihan perangkat. Jika terdapat debu atau kotoran, segera bersihkan dengan lap atau tisu.</li><li>Periksa fungsi perangkat, kabel, dan remote untuk memastikan semuanya berfungsi dengan baik.</li></ol>"
             ]
         },
         {
@@ -957,7 +949,7 @@
     
             ],
             "responses": [
-                "Berikut adalah alat yang dibutuhkan untuk mengkoneksikan perangkat dengan Smart TV PT Timah Industri:\n- Kabel USB (untuk menghubungkan Transmitter ke TV dan/atau menghubungkan Receiver ke PC untuk mengisi baterai Receiver)\n- Kabel HDMI (untuk menghubungkan Transmitter ke TV)\n- PC/Laptop\n- Android/iOS (bisa dihubungkan)\n- Smart TV\n\nMenghubungkan perangkat PC/Laptop ke Smart TV:\n\n1. \n-  Siapkan alat dan pasangkan transmitter ke TV.\n-  Pasangkan Receiver ke port HDMI di PC/Laptop.\n-  Tunggu beberapa saat sampai tampilan PC/Laptop muncul di TV.\n-  Jika tampilan tidak muncul dan berkedip, baterai Receiver mungkin habis. Pasangkan kabel USB dari Receiver ke PC untuk mengisi baterainya.\n\nMenghubungkan perangkat Android/iOS ke Smart TV:\n\n1. \n-  Untuk iOS, aktifkan Wi-Fi dan sambungkan ke hotspot device Wireless HDMI Extender Adapter.\n-  Cari hotspot dengan nama RX-BF06A684 dan sambungkan dengan password 12345678.\n-  Tunggu beberapa saat hingga tampilan iOS muncul di Smart TV.\n-  Untuk Android, buka Settings atau aplikasi Smart View/Smart Mirroring/Wireless Project.\n-  Setiap merk smartphone Android mungkin memiliki penamaan yang berbeda.\n-  Klik aplikasi tersebut dan cari device dengan nama RX-BF06A684.\n-  Sambungkan device dan tunggu beberapa saat hingga tampilan Android muncul di Smart TV."
+            "Berikut adalah alat yang dibutuhkan untuk mengkoneksikan perangkat dengan Smart TV PT Timah Industri:<ul><li>Kabel USB (untuk menghubungkan Transmitter ke TV dan/atau menghubungkan Receiver ke PC untuk mengisi baterai Receiver)</li><li>Kabel HDMI (untuk menghubungkan Transmitter ke TV)</li><li>PC/Laptop</li><li>Android/iOS (bisa dihubungkan)</li><li>Smart TV</li></ul>Menghubungkan perangkat PC/Laptop ke Smart TV:<ol><li>Siapkan alat dan pasangkan transmitter ke TV.</li><li>Pasangkan Receiver ke port HDMI di PC/Laptop.</li><li>Tunggu beberapa saat sampai tampilan PC/Laptop muncul di TV.</li><li>Jika tampilan tidak muncul dan berkedip, baterai Receiver mungkin habis. Pasangkan kabel USB dari Receiver ke PC untuk mengisi baterainya.</li></ol>Menghubungkan perangkat Android/iOS ke Smart TV:<ol><li>Untuk iOS, aktifkan Wi-Fi dan sambungkan ke hotspot device Wireless HDMI Extender Adapter.</li><li>Cari hotspot dengan nama RX-BF06A684 dan sambungkan dengan password 12345678.</li><li>Tunggu beberapa saat hingga tampilan iOS muncul di Smart TV.</li><li>Untuk Android, buka Settings atau aplikasi Smart View/Smart Mirroring/Wireless Project. Setiap merk smartphone Android mungkin memiliki penamaan yang berbeda.</li><li>Klik aplikasi tersebut dan cari device dengan nama RX-BF06A684. Sambungkan device dan tunggu beberapa saat hingga tampilan Android muncul di Smart TV.</li></ol>"
             ]
         },
         {
@@ -978,7 +970,7 @@
                 
             ],
             "responses": [
-                "Berikut adalah cara mengisi baterai Receiver dari perangkat Wireless HDMI Extender Adapter:\n\n1. \n-  Pastikan Receiver perlu diisi baterainya.\n-  Tanda bahwa Receiver butuh diisi adalah lampu biru berkedip dan tampilan berkedap-kedip saat menghubungkan PC/Laptop ke Smart TV.\n-  Untuk mengisi baterainya, pasangkan kabel USB ke Receiver dan sambungkan ke PC/Laptop atau gunakan kepala charger.\n-  Biarkan mengisi hingga daya baterai terpenuhi."
+                "Berikut adalah cara mengisi baterai Receiver dari perangkat Wireless HDMI Extender Adapter:<ol><li>Pastikan Receiver perlu diisi baterainya. Tanda bahwa Receiver butuh diisi adalah lampu biru berkedip dan tampilan berkedap-kedip saat menghubungkan PC/Laptop ke Smart TV.</li><li>Untuk mengisi baterainya, pasangkan kabel USB ke Receiver dan sambungkan ke PC/Laptop atau gunakan kepala charger.</li><li>Biarkan mengisi hingga daya baterai terpenuhi.</li></ol>"
             ]
         },
         {
@@ -1018,7 +1010,7 @@
                 "Bagaimana cara memperbaiki gambar yang tidak fokus di proyektor?"
             ],
             "responses": [
-                "Berikut adalah cara memasang Epson Infocus EB-W51:\n\n1. \n-  Siapkan PC/laptop yang akan digunakan, layar proyektor (jika tidak ada, gunakan dinding berwarna solid atau papan tulis), serta Infocus beserta remote dan kabel-kabelnya.\n   - Kabel Power Inlet\n   - Kabel HDMI\n\n-  Pasang kabel Power Inlet dan kabel HDMI ke Infocus.\n-  Hubungkan kabel HDMI ke PC/laptop dan masukkan kabel Power Inlet ke stop kontak listrik untuk menyalakan Infocus.\n-  Tekan tombol Power untuk menghidupkan Infocus. Tunggu beberapa saat sampai tampilan muncul di layar.\n   - Catatan: Jika layar biru muncul, periksa kabel HDMI yang terpasang di PC/laptop dan Infocus. Buka dan pasang kembali kabelnya, serta periksa pengaturan proyektor di PC/laptop.\n-  Buka tutup lensa, ubah dari A/V Mute menjadi Open.\n-  Pastikan pengaturan proyektor di PC/laptop diatur ke Duplicate agar tampilan di PC/laptop muncul di Infocus.\n-  Setelah tampilan layar muncul, Anda dapat melanjutkan kegiatan dengan lancar.\n\n\n Berikut adalah panduan lengkap untuk memasang, mengatur, dan merawat Epson Infocus EB-W51:\n\nPemasangan Infocus:\n\n1. \n-  Siapkan PC/laptop, layar proyektor (jika tidak ada, gunakan dinding berwarna solid atau papan tulis), serta Infocus beserta remote dan kabel-kabelnya (Kabel Power Inlet dan Kabel HDMI).\n-  Pasang kabel Power Inlet dan kabel HDMI ke Infocus.\n-  Hubungkan kabel HDMI ke PC/laptop dan masukkan kabel Power Inlet ke stop kontak listrik untuk menyalakan Infocus.\n-  Tekan tombol Power untuk menghidupkan Infocus dan tunggu sampai tampilan muncul di layar. Jika muncul layar biru, periksa kabel HDMI dan pengaturan proyektor di PC/laptop.\n-  Buka tutup lensa dari A/V Mute menjadi Open.\n-  Pastikan pengaturan proyektor di PC/laptop diatur ke Duplicate agar tampilan di PC/laptop muncul di Infocus.\n-  Setelah tampilan layar muncul, Anda bisa melanjutkan kegiatan dengan lancar.\n\nPengaturan Infocus:\n- Di PC/laptop terdapat empat pilihan pengaturan proyektor: PC Screen Only, Duplicate, Extend, dan Second Screen Only. Anda dapat mengaksesnya melalui ikon notifications dan memilih Project.\n- Untuk menyesuaikan tampilan, gunakan Zoom Ring (memperbesar/memperkecil), Focus Ring (menajamkan fokus), dan Horizontal Keystone Slider (memperbaiki bentuk layar horizontal).\n- Atur volume suara dengan tombol volume di Control Panel dan gunakan tombol untuk memperbaiki tampilan secara vertikal.\n- Gunakan Foot Release Level untuk mengeluarkan Front Adjustable Foot dengan menekan bagian abu-abu dan mengangkat Infocus perlahan.\n\nPerawatan Infocus:\n\n1. \n-  Jangan mengguncang Infocus.\n-  Jika terkena basah, segera lap dan keringkan bagian yang terkena. Jangan sampai tersiram air.\n-  Setelah selesai digunakan, matikan Infocus.\n-  Cek kelengkapan seperti kabel dan remote. Jika ada yang hilang, hubungi Satker IT.\n-  Periksa kebersihan Infocus dan bersihkan debu atau kotoran dengan lap atau tisu.\n-  Periksa fungsi Infocus, kabel, dan remote untuk memastikan semuanya berfungsi dengan baik."
+            "Berikut adalah cara memasang Epson Infocus EB-W51:<ol><li>Siapkan PC/laptop yang akan digunakan, layar proyektor (jika tidak ada, gunakan dinding berwarna solid atau papan tulis), serta Infocus beserta remote dan kabel-kabelnya.</li><li>Pasang kabel Power Inlet dan kabel HDMI ke Infocus.</li><li>Hubungkan kabel HDMI ke PC/laptop dan masukkan kabel Power Inlet ke stop kontak listrik untuk menyalakan Infocus.</li><li>Tekan tombol Power untuk menghidupkan Infocus. Tunggu beberapa saat sampai tampilan muncul di layar.</li><li>Jika layar biru muncul, periksa kabel HDMI yang terpasang di PC/laptop dan Infocus. Buka dan pasang kembali kabelnya, serta periksa pengaturan proyektor di PC/laptop.</li><li>Buka tutup lensa, ubah dari A/V Mute menjadi Open.</li><li>Pastikan pengaturan proyektor di PC/laptop diatur ke Duplicate agar tampilan di PC/laptop muncul di Infocus.</li><li>Setelah tampilan layar muncul, Anda dapat melanjutkan kegiatan dengan lancar.</li></ol>"
             ]
         },
         {
@@ -1045,7 +1037,7 @@
                 "Apa yang harus dilakukan jika saya tidak menerima notifikasi dari Microsoft Authenticator?"
             ],
             "responses": [
-                "Berikut adalah panduan lengkap untuk aktivasi MFA (Multi-Factor Authenticator) untuk Office 365:\n\nA. Apa itu MFA?\nMulti-Factor Authenticator (MFA) adalah proses masuk akun yang mengharuskan pengguna untuk memasukkan lebih banyak informasi daripada hanya kata sandi. Ini membantu mencegah akses yang tidak sah jika kata sandi telah disusupi.\n\nB. Instal Aplikasi Microsoft Authenticator:\n\n1. \n-  Download dan instal aplikasi Microsoft Authenticator dari Play Store (Android) atau App Store (iPhone).\n-  Tunggu sampai aplikasi terinstal di perangkat.\n-  Setelah terinstal, lanjutkan ke langkah selanjutnya.\n\nC. Menghubungkan Akun Office 365 dengan Microsoft Authenticator:\n\n1. \n-  Login ke akun Office 365 di http://portal.office.com/.\n-  Aktifkan MFA saat diminta dan siapkan aplikasi Microsoft Authenticator.\n-  Klik Next hingga muncul tampilan untuk menambahkan akun.\n-  Buka aplikasi Microsoft Authenticator, klik ikon plus, pilih 'Work or School Account', dan scan QR code yang muncul.\n-  Tunggu proses aktivasi selesai, kemudian klik Next. Anda akan diminta untuk mencoba aplikasi Microsoft Authenticator.\n-  Saat muncul notifikasi Approve sign-in?, klik notifikasi tersebut. Jika tidak merasa mencoba login, klik NO, IT\u2019S NOT ME.\n-  Klik Next setelah mendapatkan notifikasi Notification approved.\n\nD. Login Menggunakan Microsoft Authenticator:\n\n1. \n-  Masuk ke http://portal.office.com/, masukkan email dan password, kemudian klik Next.\n-  Masukkan kode dari aplikasi Microsoft Authenticator yang berubah setiap login.\n-  Buka smartphone dan klik Approve sign-in? Jika tidak merasa mencoba login, klik NO, IT\u2019S NOT ME.\n-  Tunggu hingga halaman email terbuka.\n\nDengan mengikuti langkah-langkah di atas, Anda dapat mengaktifkan MFA dan meningkatkan keamanan akun Office 365 Anda."
+                "Berikut adalah panduan lengkap untuk aktivasi MFA (Multi-Factor Authenticator) untuk Office 365: <ol><li> Apa itu MFA?<br>Multi-Factor Authenticator (MFA) adalah proses masuk akun yang mengharuskan pengguna untuk memasukkan lebih banyak informasi daripada hanya kata sandi. Ini membantu mencegah akses yang tidak sah jika kata sandi telah disusupi.</br> </li><li> Instal Aplikasi Microsoft Authenticator:<ul><li>  Download dan instal aplikasi Microsoft Authenticator dari Play Store (Android) atau App Store (iPhone).</li><li> Tunggu sampai aplikasi terinstal di perangkat.</li><li>Setelah terinstal, lanjutkan ke langkah selanjutnya.</li></ul></li><li> Menghubungkan Akun Office 365 dengan Microsoft Authenticator: <Sekarang><li> Login ke akun Office 365 di http://portal.office.com/. </li><li>  Aktifkan MFA saat diminta dan siapkan aplikasi Microsoft Authenticator.</li><li>  Klik Next hingga muncul tampilan QR code untuk menambahkan akun .</li><li> Buka aplikasi Microsoft Authenticator, klik ikon plus, pilih 'Work or School Account', dan scan QR code yang muncul.</li><li>  Tunggu proses aktivasi selesai, kemudian klik Next. Anda akan diminta untuk mencoba aplikasi Microsoft Authenticator.</li><li> Saat muncul notifikasi Approve sign-in?, klik notifikasi tersebut. Jika tidak merasa mencoba login, klik NO, ITS NOT ME. </li><li>  Klik Next setelah mendapatkan notifikasi Notification approved. </li><li>Sekarang setiap user yang akan login ke Email dan Teams akan menggunakanmMicrosoft Authenticator untuk verifikasi login. Berikut ini adalah caranya : <ul><li>Masuk ke http://portal.office.com/, masukkan email dan password, kemudian klik Next. </li><li> Masukkan kode dari aplikasi Microsoft Authenticator yang berubah setiap login. </li><li>Buka smartphone dan klik Approve sign-in? Jika tidak merasa mencoba login, klik NO, ITS NOT ME.</li><li> Tunggu hingga halaman email terbuka.</li></ul><li>Dengan mengikuti langkah-langkah di atas, Anda dapat mengaktifkan MFA dan meningkatkan keamanan akun Office 365 Anda.</li></ol>"
             ]
         },
         {
@@ -1061,7 +1053,7 @@
                 "login ke umd gimana?"
             ],
             "responses": [
-                "Berikut adalah langkah-langkah untuk melakukan login ke aplikasi E-UMD:\n\nA. Apa itu E-UMD?\nAplikasi E-UMD digunakan dalam proses pembuatan UM, NPP Pembayaran (Reimbursment), dan NPP Dinas/ExIm (SPD/SPDL/Export Import). Aplikasi ini dapat diakses di mana saja dan kapan saja.\n\nB. Cara Login E-UMD melalui Website:\n\n1. \n-  Buka aplikasi browser (Google Chrome, Mozilla Firefox, atau Microsoft Edge) di PC Anda.\n-  Ketik alamat website E-UMD PT Timah Industri (https://eumd.timahindustri.com) dan tekan Enter.\n-  Masukkan Username dan Password Anda:\n    - Username: Alamat email Anda tanpa '@timahindustri.com'.\n    - Password: Password default adalah '3umd2024@' (password bisa diubah oleh user).\n-  Setelah login, Anda bisa mengakses E-UMD melalui website baik di PC maupun smartphone.\n\nNote:\n- Pastikan tidak ada spasi sebelum atau sesudah username untuk menghindari kesalahan login.\n- Perhatikan besar kecilnya huruf pada password karena kolom isian password case-sensitive.\n\nJika Anda masih mengalami kendala login, pastikan informasi yang dimasukkan benar atau hubungi Satker IT untuk bantuan lebih lanjut."
+                "Berikut adalah langkah-langkah untuk melakukan login ke aplikasi E-UMD: <oli><li> Apa itu E-UMD?<br>Aplikasi E-UMD digunakan dalam proses pembuatan UM, NPP Pembayaran (Reimbursment), dan NPP Dinas/ExIm (SPD/SPDL/Export Import). Aplikasi ini dapat diakses di mana saja dan kapan saja.</br> </li><li> Cara Login E-UMD melalui Website: <ol><li> Buka aplikasi browser (Google Chrome, Mozilla Firefox, atau Microsoft Edge) di PC Anda. </li><li> Ketik alamat website E-UMD PT Timah Industri (https://eumd.timahindustri.com) dan tekan Enter.</li><li>  Masukkan Username dan Password Anda: <ul><li> Username: Alamat email Anda tanpa '@timahindustri.com'.</li><li> Password: Password default adalah '3umd2024@' (password bisa diubah oleh user).</li></ul></li>  <li>Setelah login, Anda bisa mengakses E-UMD melalui website baik di PC maupun smartphone.</li><li>Note: Pastikan tidak ada spasi sebelum atau sesudah username untuk menghindari kesalahan login.</li><li>Perhatikan besar kecilnya huruf pada password karena kolom isian password case-sensitive.</li><li>Jika Anda masih mengalami kendala login, pastikan informasi yang dimasukkan benar atau hubungi Satker IT untuk bantuan lebih lanjut.</li></ol>"
             ]
         },
         {
@@ -1079,7 +1071,7 @@
                 "Apa saja yang bisa diakses di menu Help pada aplikasi E-UMD?"
             ],
             "responses": [
-                "Menu utama aplikasi E-UMD terbagi menjadi enam bagian:\n\n\n1. \n-  Home: Halaman dashboard dari aplikasi E-UMD.\n\n-  Task: Di sini, user dapat melihat pekerjaan/tugas yang perlu diselesaikan. Ada dua opsi yang dapat dilakukan: Approve (Setujui Pengajuan) dan Reject (Revisi Pengajuan). Untuk melihat detail tugas, pilih salah satu pengajuan.\n\n-  Uang Muka: User dapat melihat riwayat pembuatan Uang Muka dan membuat permintaan Uang Muka untuk Dinas (SPD/SPDL), Operasional/Lapangan, atau Pelatihan.\n\n-  PJUM: Menu ini memungkinkan user melihat status PJUM (Open, Progress, Selesai) dan membuat pertanggungjawaban uang muka.\n\n-  NPP Pembayaran: Menu ini digunakan untuk membuat NPP Pembayaran (Reimbursment) dan NPP Dinas/NPP ExIm (SPD/SPDL/Export Import).\n\n-  Help: Di sini user dapat melihat video tutorial dan file tutorial untuk panduan penggunaan aplikasi E-UMD."
+                "Menu utama aplikasi E-UMD terbagi menjadi enam bagian: <ol><li> Home: Halaman dashboard dari aplikasi E-UMD.</li><li>Task: Di sini, user dapat melihat pekerjaan/tugas yang perlu diselesaikan. Ada dua opsi yang dapat dilakukan: Approve (Setujui Pengajuan) dan Reject (Revisi Pengajuan). Untuk melihat detail tugas, pilih salah satu pengajuan.</li><li>Uang Muka: User dapat melihat riwayat pembuatan Uang Muka dan membuat permintaan Uang Muka untuk Dinas (SPD/SPDL), Operasional/Lapangan, atau Pelatihan. </li><li> PJUM: Menu ini memungkinkan user melihat status PJUM (Open, Progress, Selesai) dan membuat pertanggungjawaban uang muka.</li><li>  NPP Pembayaran: Menu ini digunakan untuk membuat NPP Pembayaran (Reimbursment) dan NPP Dinas/NPP ExIm (SPD/SPDL/Export Import).</li><li>Help: Di sini user dapat melihat video tutorial dan file tutorial untuk panduan penggunaan aplikasi E-UMD.</li></ol>"
             ]
         },
         {
@@ -1099,7 +1091,7 @@
                 "Apa peran modul KEU dalam aplikasi E-UMD?"
             ],
             "responses": [
-                "Aplikasi E-UMD terdiri dari empat modul utama:\n\n\n1. \n-  Modul NPP UM dan NPP Non-UM: Pada modul ini, user dari seluruh divisi dapat melakukan pengajuan dan persetujuan NPP di tingkat divisi masing-masing.\n\n-  Modul AKT: Modul ini digunakan oleh user dari seksi akuntansi untuk melakukan verifikasi dokumen pengajuan NPP Pembayaran.\n\n-  Modul KEU: Di modul ini, user dari departemen keuangan dapat melakukan verifikasi, persetujuan pembayaran, dan pemberian uang muka kepada user yang mengajukan.\n\n-  Modul Approval: Modul ini memungkinkan user untuk melakukan approval melalui aplikasi website."
+                "Aplikasi E-UMD terdiri dari empat modul utama: <ol><li> Modul NPP UM dan NPP Non-UM: Pada modul ini, user dari seluruh divisi dapat melakukan pengajuan dan persetujuan NPP di tingkat divisi masing-masing.</li><li> Modul AKT: Modul ini digunakan oleh user dari seksi akuntansi untuk melakukan verifikasi dokumen pengajuan NPP Pembayaran.</li><li> Modul KEU: Di modul ini, user dari departemen keuangan dapat melakukan verifikasi, persetujuan pembayaran, dan pemberian uang muka kepada user yang mengajukan.</li><li>Modul Approval: Modul ini memungkinkan user untuk melakukan approval melalui aplikasi website.</li></ul>"
             ]
         },
         {
@@ -1121,7 +1113,7 @@
                 "Bagaimana cara melihat histori uang muka di umd?"
             ],
             "responses": [
-                "Berikut langkah-langkah untuk melakukan pengajuan uang muka di aplikasi E-UMD:\n\n\n1. \n-  Masuk ke menu Uang Muka, lalu pilih Pembuatan UM.\n\n-  Untuk membuat UM baru, klik ADD NEW ITEM.\n\n-  Isi form pengajuan uang muka:\n   - Nama Pengaju: Ketik dan pilih nama pengaju, NIK dan email otomatis terisi.\n   - Satuan Kerja: Terisi otomatis.\n   - Rescent: Pilih rescent.\n   - Permintaan Uang Muka: Pilih kategori UM (Uang Muka Dinas, Operasional/Lapangan, atau Pelatihan).\n   - Keperluan / Ke: Tulis tujuan pembuatan UM.\n   - No Memo / SPD: Otomatis terisi.\n   - Tanggal: Otomatis terinput.\n   - Keterangan: Isi keterangan uang muka tanpa menekan enter lebih dari 3 kali.\n   - Mata Uang: Pilih mata uang pembayaran.\n   - Total: Masukkan jumlah biaya yang diminta.\n   - Pembayaran: Pilih sistem pembayaran (Transfer atau Cash).\n   - Approval Atasan: Pilih atasan untuk approval (bisa lebih dari satu).\n\n-  Klik Submit untuk melanjutkan proses UM.\n\n-  Untuk melihat histori UM, pilih Histori UM di menu Uang Muka."
+                "Berikut langkah-langkah untuk melakukan pengajuan uang muka di aplikasi E-UMD: <ol><li> Masuk ke menu Uang Muka, lalu pilih Pembuatan UM.</li><Isi> Untuk membuat UM baru, klik ADD NEW ITEM. <br>Isi form pengajuan uang muka</br> <ul><li> Nama Pengaju: Ketik dan pilih nama pengaju, NIK dan email otomatis terisi.</li><li> Satuan Kerja: Terisi otomatis.</li><li>Rescent: Pilih rescent. </li><li>Permintaan Uang Muka: Pilih kategori UM (Uang Muka Dinas, Operasional/Lapangan, atau Pelatihan).</li><li> Keperluan / Ke: Tulis tujuan pembuatan UM.</li><li> No Memo / SPD: Otomatis terisi.</li><li>Tanggal: Otomatis terinput.</li><li>Keterangan: Isi keterangan uang muka tanpa menekan enter lebih dari 3 kali.</li><li>Mata Uang: Pilih mata uang pembayaran.</li><li> Total: Masukkan jumlah biaya yang diminta.</li><li> Pembayaran: Pilih sistem pembayaran (Transfer atau Cash).</li><li> Approval Atasan: Pilih atasan untuk approval (bisa lebih dari satu).</li><li>  Klik Submit untuk melanjutkan proses UM. </li></ul><li>Untuk melihat histori UM, pilih Histori UM di menu Uang Muka.</li></ol>"
             ]
         },
         {
@@ -1147,7 +1139,7 @@
                 "Langkah-langkah untuk submit PJUM di aplikasi e umd?"
             ],
             "responses": [
-                "Berikut langkah-langkah untuk melakukan pertanggungjawaban uang muka di aplikasi E-UMD:\n\n\n1. \n-  Masuk ke menu PJUM dan pilih Status PJUM Open.\n\n-  Akan muncul list UM yang bisa dipertanggungjawabkan. Pilih UM yang akan dibuat PJUM, lalu klik ikon nomor 1 untuk memulai proses.\n\n-  Upload file tanda bukti yang diperlukan untuk pertanggungjawaban UM.\n\n-  Setelah upload, kembali ke Status PJUM Open, pilih kembali UM yang telah di-upload filenya, dan isi form PJUM:\n   - No. UM: Terisi otomatis sesuai UM yang dipilih.\n   - Dibayar Kepada: Terisi otomatis, pastikan email sudah benar.\n   - No NPP: Terisi otomatis oleh sistem.\n   - Satuan Kerja: Terisi otomatis sesuai departemen pengaju.\n   - Rescent: Terisi otomatis sesuai rescent UM.\n   - Jenis Biaya: Pilih jenis biaya.\n   - Keterangan: Terisi otomatis oleh sistem.\n   - Jumlah Tagihan: Total UM yang terpakai.\n   - Potongan Uang Muka: Jumlah UM yang diajukan.\n   - Jumlah Dibayar: Terisi otomatis setelah mengisi jumlah tagihan.\n   - Approval Atasan: Pilih atasan untuk approval (bisa lebih dari satu).\n\n-  Klik Submit untuk melanjutkan proses PJUM.\n\n-  Untuk melihat status PJUM yang telah diajukan, pilih PJUM dan klik Status PJUM Progress."
+                "Berikut langkah-langkah untuk melakukan pertanggungjawaban uang muka di aplikasi E-UMD:<ol><li>  Masuk ke menu PJUM dan pilih Status PJUM Open.</li><li>  Akan muncul list UM yang bisa dipertanggungjawabkan. Pilih UM yang akan dibuat PJUM, lalu klik ikon nomor 1 untuk memulai proses.</li><li> Upload file tanda bukti yang diperlukan untuk pertanggungjawaban UM.</li><li>Setelah upload, kembali ke Status PJUM Open, pilih kembali UM yang telah di-upload filenya, dan isi form PJUM: <ul><li> No. UM: Terisi otomatis sesuai UM yang dipilih. </li><li> Dibayar Kepada: Terisi otomatis, pastikan email sudah benar.</li><li>No NPP: Terisi otomatis oleh sistem. </li><li>Satuan Kerja: Terisi otomatis sesuai departemen pengaju. </li><li> Rescent: Terisi otomatis sesuai rescent UM. </li><li>Jenis Biaya: Pilih jenis biaya. </li><li>Keterangan: Terisi otomatis oleh sistem. </li><li>Jumlah Tagihan: Total UM yang terpakai. </li><li> Potongan Uang Muka: Jumlah UM yang diajukan. </li><li>Jumlah Dibayar: Terisi otomatis setelah mengisi jumlah tagihan. </li><li> Approval Atasan: Pilih atasan untuk approval (bisa lebih dari satu). </li><li>Klik Submit untuk melanjutkan proses PJUM. </li></ul><li> Untuk melihat status PJUM yang telah diajukan, pilih PJUM dan klik Status PJUM Progress.</li></ol>"
             ]
         },
         {
@@ -1168,7 +1160,7 @@
                 "Langkah-langkah untuk submit NPP Pembayaran di aplikasi E-UMD?"
             ],
             "responses": [
-                "Berikut langkah-langkah untuk mengajukan NPP Pembayaran di aplikasi E-UMD:\n\n\n1. \n-  Masuk ke menu PJUM dan pilih Status PJUM Open.\n\n-  Pada menu ini, Anda bisa melihat proses NPP Pembayaran. Untuk mengajukan/membuat NPP Pembayaran, klik ADD NEW ITEM.\n\n-  Isi form NPP Pembayaran:\n   - Nama: Ketik nama perorangan/pihak ketiga yang akan dibayarkan.\n   - NIK: Ketik NIK perorangan. Kosongkan jika untuk pihak ketiga.\n   - Satuan Kerja: Terisi otomatis berdasarkan satuan kerja Anda.\n   - Rescent: Pilih rescent.\n   - Jenis Biaya: Pilih jenis biaya.\n   - No NPP: Terisi otomatis oleh sistem.\n   - Tanggal: Terisi otomatis sesuai tanggal pembuatan NPP Pembayaran.\n   - Keterangan: Tuliskan keterangan NPP Pembayaran.\n   - No Invoice: Tuliskan nomor invoice.\n   - Jenis Pembayaran: Pilih jenis pembayaran yang akan dilakukan (NPP Pembayaran atau NPP Dinas/NPP ExIm).\n   - Mata Uang: Pilih mata uang pembayarannya.\n   - Tagihan Umum/Jasa: Jika non-barang, ketikan jumlah yang dibayar.\n   - PPH21: Pilih ada atau tidak ada NPWP.\n   - PPH23: Pilih ada atau tidak ada PPH 23.\n   - Tagihan Barang: Jika barang, ketikan jumlah yang dibayar.\n   - PPH 22: Pilih ada atau tidak ada PPH 22.\n   - Faktur: Pilih sesuai nomor faktur pajak.\n   - Denda: Ketikan jumlah denda jika ada.\n   - Potongan: Ketikan jumlah potongan jika ada.\n   - Total: Terisi otomatis oleh sistem.\n   - Pembayaran: Pilih Cash atau Transfer.\n   - Approval Atasan: Pilih lebih dari satu atasan untuk approval.\n\n-  Klik Submit untuk mengajukan NPP Pembayaran ke proses selanjutnya."
+                "Berikut langkah-langkah untuk mengajukan NPP Pembayaran di aplikasi E-UMD: <ol><li> Masuk ke menu PJUM dan pilih Status PJUM Open.</li><Isi> Pada menu ini, Anda bisa melihat proses NPP Pembayaran. Untuk mengajukan/membuat NPP Pembayaran, klik ADD NEW ITEM.<br>Isi form NPP Pembayaran: </br> <><li> Nama: Ketik nama perorangan/pihak ketiga yang akan dibayarkan.</li><li> NIK: Ketik NIK perorangan. Kosongkan jika untuk pihak ketiga.</li><li>Satuan Kerja: Terisi otomatis berdasarkan satuan kerja Anda.</li><li>Rescent: Pilih rescent.</li><li> Jenis Biaya: Pilih jenis biaya.</li><li>No NPP: Terisi otomatis oleh sistem.</li><li>Tanggal: Terisi otomatis sesuai tanggal pembuatan NPP Pembayaran.</li><li>Keterangan: Tuliskan keterangan NPP Pembayaran.</li><li> No Invoice: Tuliskan nomor invoice.</li><li> Jenis Pembayaran: Pilih jenis pembayaran yang akan dilakukan (NPP Pembayaran atau NPP Dinas/NPP ExIm).</li><li>Mata Uang: Pilih mata uang pembayarannya.</li><li>Tagihan Umum/Jasa: Jika non-barang, ketikan jumlah yang dibayar.</li><li> PPH21: Pilih ada atau tidak ada NPWP. </li><li> PPH23: Pilih ada atau tidak ada PPH 23. </li><li>Tagihan Barang: Jika barang, ketikan jumlah yang dibayar.</li><li> PPH 22: Pilih ada atau tidak ada PPH 22. </li><li> Faktur: Pilih sesuai nomor faktur pajak </li><li> Denda: Ketikan jumlah denda jika ada.</li><li>Potongan: Ketikan jumlah potongan jika ada.</li><li>Total: Terisi otomatis oleh sistem.</li><li> Pembayaran: Pilih Cash atau Transfer.</li><li> Approval Atasan: Pilih lebih dari satu atasan untuk approval.</li><li>Klik Submit untuk mengajukan NPP Pembayaran ke proses selanjutnya.</li></ul></ol>"
             ]
         },
         {
@@ -1188,7 +1180,7 @@
                 "Bagaimana cara melihat task approval di aplikasi E-UMD?"
             ],
             "responses": [
-                "Berikut langkah-langkah untuk meng-approve transaksi di aplikasi E-UMD:\n\n\n1. \n-  Login ke website E-UMD PT Timah Industri.\n\n-  Klik Task. Jika ada transaksi yang membutuhkan approval, transaksi tersebut akan terlihat di kolom Task.\n\n-  Klik transaksi yang ingin diproses. Di halaman Task, Anda akan melihat form transaksi.\n   - Klik Tolak untuk mereject transaksi dan mengembalikan kepada user pembuat.\n   - Klik Terima untuk menyetujui transaksi agar dapat diproses ke langkah selanjutnya."
+                "Berikut langkah-langkah untuk meng-approve transaksi di aplikasi E-UMD: <ol><li> Login ke website E-UMD PT Timah Industri</li><li> Klik Task. Jika ada transaksi yang membutuhkan approval, transaksi tersebut akan terlihat di kolom Task.</li><li> Klik transaksi yang ingin diproses. Di halaman Task, Anda akan melihat form transaksi.</li><li> Klik Tolak untuk mereject transaksi dan mengembalikan kepada user pembuat. </li><li>Klik Terima untuk menyetujui transaksi agar dapat diproses ke langkah selanjutnya.</li></ol>"
             ]
         },
         {
@@ -1216,7 +1208,7 @@
                 "Bagaimana cara mengupdate informasi profil di umd?"
             ],
             "responses": [
-                "Berikut adalah langkah-langkah untuk mengedit data diri di aplikasi E-UMD:\n\n\n1. \n-  Login ke website E-UMD PT Timah Industri.\n\n-  Klik ikon profile picture yang berada di pojok kanan atas, kemudian klik View Profile. Di halaman View Profile, Anda bisa mengedit data diri:\n   - General: Anda bisa mengedit nama, nomor telepon, dan alamat tempat tinggal.\n   - Employee Status: Anda bisa mengedit NIK dan jabatan.\n   - Security: Anda bisa mengganti password di sini.\n\n-  Untuk mengedit, klik tombol Edit pada bagian yang ingin diubah."
+                "Berikut adalah langkah-langkah untuk mengedit data diri di aplikasi E-UMD: <br>Login ke website E-UMD PT Timah Industri. </br><br>Klik ikon profile picture yang berada di pojok kanan atas, kemudian klik View Profile. Di halaman View Profile, Anda bisa mengedit data diri:</br><ul><li> General: Anda bisa mengedit nama, nomor telepon, dan alamat tempat tinggal.</li><li> Employee Status: Anda bisa mengedit NIK dan jabatan.</li><li> Security: Anda bisa mengganti password di sini. </li><li> Untuk mengedit, klik tombol Edit pada bagian yang ingin diubah.</li></ul></ol>"
             ]
         },
         {
@@ -1257,7 +1249,7 @@
                 "Dimana saya bisa mengaktifkan pelatihan di Oracle?"
             ],
             "responses": [
-                "PT Timah Industri akan menggunakan ERP Oracle NetSuite. Sebelum user dapat menggunakannya, terlebih dahulu user akan diberikan pelatihan melalui Oracle Cloud Learning, layanan pelatihan online berbasis web yang bisa diakses 7x24 jam melalui https://learn.oracle.com/. Website ini berisi materi pelatihan Oracle NetSuite yang dapat dipelajari kapan saja.\n\nUntuk memulai pelatihan, user harus melakukan registrasi akun Oracle:\n\n1. \n-  Buka link https://profile.oracle.com/myprofile/account/create-account.jspx.\n-  Isi form dengan email timahindustri, nama depan, nama belakang, jabatan, dan data lainnya.\n-  Setelah mengisi semua, klik 'Create Account'.\n-  Cek email Anda untuk verifikasi dan aktivasi akun.\n\nSetelah memiliki akun, login dan aktifkan pelatihan dengan langkah berikut:\n\n1. \n-  Klik link: https://www.oracle.com/webapps/redirect/signon?nexturl=https://learn.oracle.com/ords/training/dl4_activation.activateOrder?key=DF54653AD8667D2C.\n-  Login menggunakan akun yang sudah dibuat, lalu klik 'Sign in'.\n-  Centang kotak 'I agree to the Oracle University Terms & Conditions', kemudian klik 'Activate'.\n-  Setelah aktivasi selesai, user dapat memulai pelatihan di https://learn.oracle.com/."
+                "PT Timah Industri akan menggunakan ERP Oracle NetSuite. Sebelum user dapat menggunakannya, terlebih dahulu user akan diberikan pelatihan melalui Oracle Cloud Learning, layanan pelatihan online berbasis web yang bisa diakses 7x24 jam melalui https://learn.oracle.com/. Website ini berisi materi pelatihan Oracle NetSuite yang dapat dipelajari kapan saja. <br>Untuk memulai pelatihan, user harus melakukan registrasi akun Oracle:</br>  <ol><li>Buka link https://profile.oracle.com/myprofile/account/create-account.jspx. </li><li>  Isi form dengan email timahindustri, nama depan, nama belakang, jabatan, dan data lainnya.</li><li> Setelah mengisi semua, klik 'Create Account'.</li><li> Cek email Anda untuk verifikasi dan aktivasi akun. </li><li>Setelah memiliki akun, login dan aktifkan pelatihan dengan langkah berikut: <il><li> Klik link: https://www.oracle.com/webapps/redirect/signon?nexturl=https://learn.oracle.com/ords/training/dl4_activation.activateOrder?key=DF54653AD8667D2C. </li><li>  Login menggunakan akun yang sudah dibuat, lalu klik 'Sign in'.</li><li>Centang kotak 'I agree to the Oracle University Terms & Conditions', kemudian klik 'Activate'.</li><li>Setelah aktivasi selesai, user dapat memulai pelatihan di https://learn.oracle.com </li></ul></ol>"
             ]
         },
         {
@@ -1290,7 +1282,7 @@
                 "cara logout dari oracle cloud?"
             ],
             "responses": [
-                "Cara memulai pelatihan dan menggunakan fungsi-fungsi di Oracle Cloud Learning Subscriptions:\n\n\n1. \n-  Setelah login dan mengaktifkan pelatihan, klik tombol Go pada 'Customer Learning Cloud Support Pass Company Pass-Standard' untuk memulai.\n\n-  Tampilan materi akan muncul, dan Anda bisa memfilter materi sesuai kebutuhan. Misalnya, untuk bagian keuangan, pilih 'Finance/Accounting End User' di Job Function dan filter tipe materi ke Course dan bahasa ke English.\n\n-  Pilih materi yang ingin dipelajari, dan video akan terbuka. Klik ikon Play untuk memulai pelatihan.\n\n-  Jika memerlukan subtitle, aktifkan English CC di bagian bawah video.\n\n-  Pada bagian kanan, ada tiga tab: Playlist, Transcript, dan About. Playlist menampilkan daftar materi, Transcript menunjukkan teks dari video, dan About memberikan deskripsi materi.\n\n-  Pada bagian kanan atas, terdapat ikon untuk Course, Live Events, Progress, Favorites, Help, dan Profile. Anda bisa mengikuti pelatihan live melalui Live Events, melihat progress pelatihan, menandai materi favorit, atau mendapatkan bantuan.\n\n-  Untuk Live Events, filter jadwal berdasarkan region (contoh: APAC untuk Indonesia).\n\n8. Di bagian Progress, Anda dapat melihat kemajuan pelatihan, dan admin/manajer dapat memantau progress pengguna."
+                "Cara memulai pelatihan dan menggunakan fungsi-fungsi di Oracle Cloud Learning Subscriptions: <ol><li>Setelah login dan mengaktifkan pelatihan, klik tombol Go pada 'Customer Learning Cloud Support Pass Company Pass-Standard' untuk memulai. </li><li> Tampilan materi akan muncul, dan Anda bisa memfilter materi sesuai kebutuhan. Misalnya, untuk bagian keuangan, pilih 'Finance/Accounting End User' di Job Function dan filter tipe materi ke Course dan bahasa ke English. </li><li>Pilih materi yang ingin dipelajari, dan video akan terbuka. </li><li>Klik ikon Play untuk memulai pelatihan.</li><li> Jika memerlukan subtitle, aktifkan English CC di bagian bawah video. </li><li> Pada bagian kanan, ada tiga tab: Playlist, Transcript, dan About. <ul><li>Playlist menampilkan daftar materi</li><li> Transcript menunjukkan teks dari video </li><li> About memberikan deskripsi materi.</li><ul><li>Pada bagian kanan atas, terdapat ikon untuk Course, Live Events, Progress, Favorites, Help, dan Profile. </li><li>Anda bisa mengikuti pelatihan live melalui Live Events, melihat progress pelatihan, menandai materi favorit, atau mendapatkan bantuan.</li><li>  Untuk Live Events, filter jadwal berdasarkan region (contoh: APAC untuk Indonesia). </li><li> Di bagian Progress, Anda dapat melihat kemajuan pelatihan, dan admin/manajer dapat memantau progress pengguna.</li></ol>"
             ]
         },
         {
@@ -1305,6 +1297,7 @@
                 "Bagaimana cara login ke SANDBOX di NetSuite?",
                 "Bagaimana cara login ke akun Production di Oracle NetSuite?",
                 "Langkah-langkah login ke Oracle NetSuite?",
+                "bedanya akun sandbox dan production?",
                 "Apa yang harus dilakukan jika ingin mencoba fungsi di NetSuite?",
                 "Bagaimana cara logout dari Oracle NetSuite?",
                 "Saya tidak bisa login ke Oracle NetSuite, bagaimana caranya?",
@@ -1318,12 +1311,11 @@
                 "Kenapa loading NetSuite sangat lambat?",
                 "Kenapa saya tidak bisa logout dari akun Oracle NetSuite?",
                 "Saya kesulitan menemukan pilihan SANDBOX di NetSuite, bisa bantu?",
-                "Kenapa saya tiba-tiba log out sendiri saat sedang menggunakan NetSuite?",
                 "Kenapa akun Production saya terkunci?",
                 "Apa yang harus saya lakukan jika saya salah memasukkan password berkali-kali?"
             ],
             "responses": [
-                "Oracle NetSuite adalah aplikasi ERP yang digunakan PT Timah Industri, memiliki dua akun yang bisa diakses: Production dan SANDBOX. Berikut adalah langkah-langkah untuk login dan menggunakannya:\n\n\n1. \n-  Buka website Oracle NetSuite di www.netsuite.com.\n\n-  Masukkan email perusahaan dan password default 'Netsuite2022@', lalu klik 'Log in'.\n\n-  Pilih apakah Anda ingin login ke akun Production atau SANDBOX.\n   - Production: Digunakan untuk aktivitas ERP yang nyata, setiap perubahan akan berdampak langsung pada operasi bisnis.\n   - SANDBOX: Digunakan untuk mencoba fitur dan percobaan tanpa dampak krusial.\n\n-  Setelah login, Anda akan diminta memilih pertanyaan keamanan dan memberikan jawaban. Pilih pertanyaan yang mudah diingat dan gunakan jawaban satu kata yang terdiri dari tiga huruf.\n\n-  Klik 'Save' setelah mengisi pertanyaan keamanan, dan Anda bisa mulai menggunakan Oracle NetSuite.\n\n-  Untuk logout, klik ikon profil di pojok kanan atas layar dan pilih 'Log Out'.\n\nTips: Cobalah login ke akun SANDBOX terlebih dahulu untuk memahami fungsi ERP tanpa risiko pada data riil."
+                "Oracle NetSuite adalah aplikasi ERP yang digunakan PT Timah Industri, memiliki dua akun yang bisa diakses: Production dan SANDBOX. <br>Berikut adalah langkah-langkah untuk login dan menggunakannya:</br> <ol><li>Buka website Oracle NetSuite di www.netsuite.com. </li><li>Masukkan email perusahaan dan password default 'Netsuite2022@', lalu klik 'Log in'.</li><li> Pilih apakah Anda ingin login ke akun Production atau SANDBOX.</li><li> Di Production, user akan langsung terjun secara langsung ke aktivitas ERP (Real Process) sehingga Ketika user mengubah atau membuat sesuatu, dampaknya akan langsung terlihat. Disini sangat krusial, sehingga user diharapkan sebelum Oracle Netsuite GO-Live tidak melakukan apapun kecuali memeriksa apakah user dapat login ke dalam Production.</li><li>Di SANDBOX, user akan dapat melakukan percobaan bagaimana fungsi-fungsi ERP di Oracle Netsuite (Trial Process). Disini user bisa mengubah ataupun mencoba-coba fungsi-fungsi yang ada di Oracle Netsuite karena dampaknya tidak krusial. </li><li> Setelah login, Anda akan diminta memilih pertanyaan keamanan dan memberikan jawaban. </li><li>Pilih pertanyaan yang mudah diingat dan gunakan jawaban satu kata yang terdiri dari tiga huruf lalu Klik 'Save'</li><li> Setelah mengisi pertanyaan keamanan, dan Anda bisa mulai menggunakan Oracle NetSuite.</li><li> Untuk logout, klik ikon profil di pojok kanan atas layar dan pilih 'Log Out'. </li><li>Tips: Cobalah login ke akun SANDBOX terlebih dahulu untuk memahami fungsi ERP tanpa risiko pada data riil.</li></ol>"
             ]
         },
         {
@@ -1353,7 +1345,7 @@
                 "Kolom Cost Centre tidak terisi otomatis, bagaimana cara memperbaikinya?"
             ],
             "responses": [
-                "Berikut langkah-langkah untuk membuat Purchase Requisition (PR) di Oracle NetSuite:\n\n\n1. \n-  Login ke akun Oracle NetSuite dan pastikan role Anda benar untuk mengajukan PR.\n\n-  Pilih Transactions \u2192 Purchases \u2192 Enter Requisitions atau List \u2192 New Transaction jika menggunakan role Employee Center.\n\n-  Klik tab Requisitions, lalu klik Enter Requisition untuk memulai membuat PR.\n\n-  Isi form PR sebagai berikut:\n   - Receive By: Isi tanggal estimasi penerimaan barang/jasa.\n   - Memo: Tulis judul atau catatan PR.\n   - Cost Centre: Pastikan sudah terisi dengan departemen user.\n   - Req Currency: Pilih mata uang, defaultnya IDR untuk rupiah.\n   - Req Exchange Rate: Nilai tukar otomatis terisi, default untuk rupiah adalah \n1. \n- 00.\n   - Item: Pilih item code dari barang yang dibutuhkan. Gunakan %nama item% untuk pencarian cepat.\n   - Quantity: Isi jumlah barang yang dibutuhkan.\n   - Description: Tulis deskripsi barang.\n   - Estimated Rate: Isi harga satuan barang tanpa titik atau koma. Hasil total akan terisi otomatis di Estimated Amount.\n\n-  Jika ingin menambahkan item lebih dari satu, klik Add untuk menambah baris.\n\n-  Setelah semuanya diisi, pilih salah satu opsi penyimpanan:\n   - Save & New: Menyimpan tanpa submit.\n   - Save & Print: Menyimpan dan mendapatkan softcopy PR dalam bentuk PDF.\n   - Save & Submit for Approval: Menyimpan dan mengirimkan PR untuk approval.\n\n-  Jika status approval terpenuhi, PR akan berstatus Pending Order dan siap diproses oleh bagian Purchasing."
+                "Berikut langkah-langkah untuk membuat Purchase Requisition (PR) di Oracle NetSuite: <ol><li> Login ke akun Oracle NetSuite dan pastikan role Anda benar untuk mengajukan PR.</li> <li> Pilih Transactions lalu pilih Purchases dan klik Enter Requisitions atau List New Transaction jika menggunakan role Employee Center.</li> <li>  Klik tab Requisitions, lalu klik Enter Requisition untuk memulai membuat PR.</li>Isi form PR sebagai berikut:<ul><li> Receive By: Isi tanggal estimasi penerimaan barang/jasa. </li> <li>Memo: Tulis judul atau catatan PR. </li> <li> Cost Centre: Pastikan sudah terisi dengan departemen user. </li> <li> Req Currency: Pilih mata uang, defaultnya IDR untuk rupiah. </li> <li> Req Exchange Rate: Nilai tukar otomatis terisi,  dengan nilai tukar mata uang. Untuk rupiah,defaultnya 1.00 sudah terisi dari awal sehingga tidak perlu untuk dirubah. Untuk nilai mata uang lain yang berlaku, bisa ditanyakan ke bagian keuangan </li><li> Item: Pilih item code dari barang yang dibutuhkan. Gunakan %nama item% untuk pencarian cepat. </li><li> Quantity: Isi jumlah barang yang dibutuhkan.</li><li> Description: Tulis deskripsi barang. </li><li>Estimated Rate: Isi harga satuan barang tanpa titik atau koma. Hasil total akan terisi otomatis di Estimated Amount.</li><li> Jika ingin menambahkan item lebih dari satu, klik Add untuk menambah baris.</li><li> Setelah semuanya diisi, pilih salah satu opsi penyimpanan: </li><li>Save & New: Menyimpan tanpa submit.</li><li> Save & Print: Menyimpan dan mendapatkan softcopy PR dalam bentuk PDF.</li><li> Save & Submit for Approval: Menyimpan dan mengirimkan PR untuk approval.</li></ul><li> Jika status approval terpenuhi, PR akan berstatus Pending Order dan siap diproses oleh bagian Purchasing.</li></ol>"
             ]
         },
         {
@@ -1381,13 +1373,16 @@
                 "Kenapa saya tidak bisa mengakses daftar PR dari akun saya?"
             ],
             "responses": [
-                "Untuk melihat daftar Purchase Requisition (PR) yang telah dibuat, ikuti langkah-langkah berikut:\n\n\n1. \n-  Pada menu Transactions, pilih Purchases kemudian klik Enter Requisitions dan pilih List. Jika tidak ada menu List, cukup klik Enter Requisitions.\n\n-  Anda bisa mengatur Filters untuk melihat PR yang dibuat oleh user lain. Pada bagian Employee, pilih All. Jika tetap tidak bisa melihat PR lain, silakan hubungi Satker TI.\n\nUntuk mengedit PR, hanya PR yang belum di-submit untuk approval atau yang ditolak oleh atasan yang dapat diedit. Buka PR yang ingin diedit, klik tombol Edit, lakukan perubahan, lalu jangan lupa klik Save untuk menyimpan.\n\nJika Anda ingin menghapus PR, buka PR yang ingin dihapus, pilih Actions, dan klik Delete. Jika tidak menemukan pilihan Delete, Anda bisa meminta bantuan dari Satker TI."
+                "Untuk melihat daftar Purchase Requisition (PR) yang telah dibuat, ikuti langkah-langkah berikut: <ol> <li>Pada menu Transactions, pilih Purchases kemudian klik Enter Requisitions dan pilih List. Jika tidak ada menu List, cukup klik Enter Requisitions.</li> <li> Anda bisa mengatur Filters untuk melihat PR yang dibuat oleh user lain. Pada bagian Employee, pilih All. Jika tetap tidak bisa melihat PR lain, silakan hubungi Satker TI. </li> <li>Untuk mengedit PR, hanya PR yang belum di-submit untuk approval atau yang ditolak oleh atasan yang dapat diedit</li> <li> Buka PR yang ingin diedit, klik tombol Edit, lakukan perubahan, lalu jangan lupa klik Save untuk menyimpan.</li> <li>Jika Anda ingin menghapus PR, buka PR yang ingin dihapus, pilih Actions, dan klik Delete. </li> <li>Jika tidak menemukan pilihan Delete, Anda bisa meminta bantuan dari Satker TI</li> </ol>."
             ]
         },
         {
             "tag": "mengubah_password",
             "patterns": [
                 "Bagaimana cara mengubah password di Oracle NetSuite?",
+                "Bagaimana cara mengubah kata sandi di Oracle NetSuite?",
+                "Bagaimana cara ganti password di Oracle NetSuite?",
+                "Bagaimana cara ganti kata sandi di Oracle NetSuite?",
                 "Saya ingin mengganti password akun NetSuite saya, apa langkahnya?",
                 "Bagaimana cara reset password saya di Oracle NetSuite?",
                 "Apa yang harus saya lakukan untuk mengganti password di NetSuite?",
@@ -1398,10 +1393,12 @@
                 "Apakah saya bisa mengubah password tanpa bantuan admin?",
                 "Kenapa saya tidak bisa menemukan menu untuk mengganti password?",
                 "Saya sudah mencoba mengganti password, tapi tidak bisa, kenapa?",
-                "Bagaimana cara tahu jika password baru saya sudah berhasil diubah?"
+                "Bagaimana cara tahu jika password baru saya sudah berhasil diubah?",
+                "cara ganti password di oracle?",
+                "cara ganti kata sandi di akun oracle"
             ],
             "responses": [
-                "Untuk mengubah password Oracle NetSuite, ikuti langkah-langkah berikut:\n\n\n1. \n-  Buka bagian Settings di pojok kiri bawah Dashboard Oracle NetSuite.\n\n-  Cari dan klik Change Password.\n\n-  Setelah tampilan Change Password muncul, masukkan password saat ini di CURRENT PASSWORD. Isi password baru di NEW PASSWORD dan ulangi password baru di CONFIRM NEW PASSWORD. Pastikan semua kriteria password yang ditunjukkan di sebelah kanan memiliki centang hijau.\n\n-  Klik Save setelah semua kolom terisi. Jika password berhasil diubah, Anda akan melihat tampilan konfirmasi.\n\nJika Anda tidak bisa menemukan opsi untuk mengganti password atau mengalami masalah lainnya, silakan hubungi admin untuk bantuan."
+                "Untuk mengubah password Oracle NetSuite, ikuti langkah-langkah berikut: <ol><li>Buka bagian Settings di pojok kiri bawah Dashboard Oracle NetSuite. </li> <li>Cari dan klik Change Password.</li> <li>Setelah tampilan Change Password muncul, masukkan password saat ini di CURRENT PASSWORD</li> <li> Isi password baru di NEW PASSWORD dan ulangi password baru di CONFIRM NEW PASSWORD</li> <li> Pastikan semua kriteria password yang ditunjukkan di sebelah kanan memiliki centang hijau.</li> <li> Klik Save setelah semua kolom terisi </li> <li>Jika password berhasil diubah, Anda akan melihat tampilan konfirmasi. </li> <li>Jika Anda tidak bisa menemukan opsi untuk mengganti password atau mengalami masalah lainnya, silakan hubungi admin untuk bantuan.</li> </ol>"
             ]
         },
 
@@ -1410,6 +1407,12 @@
         "patterns": [
             "Kenapa internet di kantor sering lambat?",
             "Mengapa koneksi internet suka terputus?",
+            "internet lambat",
+            "internet tidak stabil",
+            "internet lemot",
+            "wifi lambat",
+            "wifi tidak stabil",
+            "wifi lemot",
             "Apa yang menyebabkan internet di kantor tidak stabil?",
             "Bagaimana cara mengatasi internet yang lemot di kantor?"
         ],
@@ -1446,11 +1449,17 @@
         "patterns": [
             "Kenapa komputer saya tiba-tiba menjadi lambat?",
             "Apa penyebab komputer sering lemot?",
+            "komputer  lemot?",
+            "komputer  ngelag?",
+            "pc  lemot?",
+            "pc  ngelag?",
+            "laptop  lemot?",
+            "laptop  ngelag?",
             "Bagaimana cara mempercepat kinerja komputer yang lambat?",
             "Kenapa aplikasi di komputer saya memuat sangat lama?"
         ],
         "responses": [
-            "Kemungkinan komputer Anda membutuhkan pembaruan sistem atau terlalu banyak aplikasi yang berjalan. Coba tutup aplikasi yang tidak digunakan dan restart komputer. Jika masih lambat, laporkan ke aplikasi ticketing untuk pemeriksaan lebih lanjut."
+            "Kemungkinan perangkat Anda membutuhkan pembaruan sistem atau terlalu banyak aplikasi yang berjalan. Coba tutup aplikasi yang tidak digunakan dan restart komputer. Jika masih lambat, laporkan ke aplikasi ticketing untuk pemeriksaan lebih lanjut."
         ]
     },
     {
@@ -1760,7 +1769,9 @@
             "Bagaimana cara memperbaiki format tanggal yang salah di Excel?",
             "Kenapa tanggal saya tidak muncul dengan benar di Excel?",
             "Apa yang harus saya lakukan jika format tanggal di Excel salah?",
-            "Bagaimana cara mengubah format tanggal di Excel?"
+            "Bagaimana cara mengubah format tanggal di Excel?",
+            "tanggal excel",
+            "tanggal exel"
         ],
         "responses": [
             "Pastikan sel yang berisi tanggal diformat dengan benar. Anda bisa mengubah format sel dengan mengklik kanan, memilih 'Format Cells', dan kemudian memilih kategori 'Date'. Jika format tetap salah, coba gunakan fungsi DATE atau TEXT untuk memperbaikinya."
@@ -1772,7 +1783,10 @@
             "Apa saja rumus-rumus penting yang sering digunakan di Excel?",
             "Bagaimana cara menggunakan rumus Excel dengan efektif?",
             "Apa rumus yang paling umum dipakai di Excel?",
-            "Apa saja rumus Excel yang harus saya ketahui?"
+            "Apa saja rumus Excel yang harus saya ketahui?",
+            "rumus excel",
+            "rumus exel"
+
         ],
         "responses": [
             "Berikut adalah beberapa rumus penting yang sering digunakan di Excel: <b>SUM</b> untuk menjumlahkan angka, <b>AVERAGE</b> untuk menghitung rata-rata, <b>COUNT</b> untuk menghitung jumlah sel yang berisi angka, <b>COUNTA</b> untuk menghitung sel yang tidak kosong, <b>IF</b> untuk pengkondisian, <b>VLOOKUP</b> untuk mencari nilai dalam kolom, <b>HLOOKUP</b> untuk mencari nilai dalam baris, <b>CONCATENATE</b> untuk menggabungkan teks, <b>TEXT</b> untuk format angka ke teks, <b>TRIM</b> untuk menghapus spasi, <b>LEFT</b> untuk mengambil karakter dari kiri, <b>RIGHT</b> untuk mengambil karakter dari kanan, dan <b>MID</b> untuk mengambil karakter dari tengah teks."
@@ -1782,14 +1796,87 @@
     "tag": "hardware_issues",
     "patterns": [
         "Apa yang harus saya lakukan jika mouse saya tidak berfungsi?",
+        "Mouse saya tidak berfungsi?",
+        "mouse tidak bergerak",
         "Bagaimana cara mengatasi keyboard yang tidak merespons?",
         "Apa yang harus dilakukan jika layar monitor saya tidak menyala?",
+        "layar monitor saya tidak menyala?",
         "Bagaimana cara memperbaiki masalah perangkat keras di komputer saya?"
     ],
     "responses": [
         "Jika mouse tidak berfungsi, coba periksa koneksi kabelnya atau ganti baterai jika menggunakan mouse nirkabel. Jika keyboard tidak merespons, pastikan koneksinya baik dan tidak ada kotoran yang menghalangi tombol. Untuk layar monitor yang tidak menyala, periksa kabel daya dan koneksi ke komputer. Jika masalah berlanjut, laporkan kepada tim IT untuk pemeriksaan lebih lanjut."
             ]
-        }
+        },
+              {
+                "tag": "buat_tiket",
+                "patterns": [
+                  "Saya mau buat tiket",
+                  "Buat tiket baru",
+                  "Saya ingin melaporkan masalah",
+                  "Tolong buatkan tiket",
+                  "Ada yang bermasalah",
+                  "Saya mengalami kesulitan",
+                  "Saya butuh bantuan",
+                  "Tolong bantu saya buat tiket",
+                  "Tolong buatkan tiket untuk saya",
+                  "Saya perlu membuat tiket",
+                  "Saya ingin mengajukan keluhan",
+                  "Ada masalah dengan perangkat saya",
+                  "Laptop saya tidak berfungsi",
+                  "Printer saya rusak",
+                  "Saya tidak bisa masuk ke sistem",
+                  "Saya memerlukan dukungan teknis",
+                  "Bisakah Anda membuatkan tiket untuk saya?",
+                  "Saya butuh tiket untuk masalah ini",
+                  "Saya perlu membuat laporan masalah",
+                  "saya mau bikin tiket",
+                  "buat tiketing",
+                  "bikin tiketing untuk saya",
+                  "buatkan saya ticketing",
+                  "buatkan saya tiketing"
+                ],
+                "responses": [
+                  "Tiket telah dibuat. Mohon berikan detail masalah yang Anda hadapi.",
+                  "Tiket sudah berhasil dibuat. Apa masalah yang ingin Anda laporkan?",
+                  "Tiket telah berhasil dibuat. Silakan beri tahu saya detail masalahnya.",
+                  "Tiket Anda sudah dibuat. Mari kita bahas masalahnya lebih lanjut.",
+                  "Saya telah membuat tiket untuk Anda. Silakan jelaskan masalahnya."
+                ]
+              },
+              {
+                "tag": "lihat_tiket",
+                "patterns": [
+                  "Lihat tiket saya",
+                  "Apa status tiket saya?",
+                  "Tampilkan tiket yang saya buat",
+                  "Saya ingin melihat tiket saya",
+                  "Tiket saya mana?",
+                  "saya mau liat tiket",
+                  "saya mau ngeliat tiket",
+                  "saya mau liat tiketing",
+                  "saya mau liat ticketing",
+                  "saya mau lihat ticketing",
+                  "Cek tiket saya",
+                  "cek tiket",
+                  "Tolong tunjukkan tiket saya",
+                  "Saya butuh informasi tentang tiket saya",
+                  "Berikan saya status tiket",
+                  "Apa kabar tiket saya?",
+                  "Saya ingin tahu tentang tiket yang saya buat",
+                  "Ada update untuk tiket saya?",
+                  "Bagaimana dengan tiket yang sudah saya ajukan?",
+                  "Saya ingin mengecek status tiket saya",
+                  "Apa yang terjadi dengan tiket saya?",
+                  "Tiket saya sudah selesai atau belum?"
+                ],
+                "responses": [
+                  "Berikut adalah tiket Anda: [Tiket 1, Tiket 2, Tiket 3]",
+                  "Tiket Anda saat ini: [Tiket 1, Tiket 2, Tiket 3]",
+                  "Status tiket Anda adalah: [Status tiket].",
+                  "Ini daftar tiket yang telah Anda buat: [Tiket 1, Tiket 2].",
+                  "Tiket Anda saat ini sedang diproses. Statusnya: [Status]."
+                ]
+              }          
     ]
 }
     
