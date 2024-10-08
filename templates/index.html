@@ -57,20 +57,25 @@
         const API_KEY = '123456789abcdef'; // Ganti dengan API Key yang sebenarnya
         let isFirstMessage = true;
 
+        // Fungsi untuk mendapatkan tanggal saat ini
         function getCurrentDate() {
             const now = new Date();
             const optionsDate = { year: 'numeric', month: 'long', day: 'numeric' };
             return now.toLocaleDateString([], optionsDate);
         }
 
+        // Fungsi untuk mendapatkan waktu saat ini
         function getCurrentTime() {
             const now = new Date();
             const optionsTime = { hour: '2-digit', minute: '2-digit', hour12: false };
             return now.toLocaleTimeString([], optionsTime);
         }
 
+        // Fungsi untuk mengirim pesan ke backend
         function sendMessage() {
             const userInput = document.getElementById("user-input").value;
+            const userId = 'user_123'; // Ganti dengan ID pengguna yang sebenarnya
+
             if (userInput.trim() === "") return; // Cegah pengiriman pesan kosong
 
             if (isFirstMessage) {
@@ -82,6 +87,7 @@
                 isFirstMessage = false;
             }
 
+            // Tambahkan pesan pengguna ke kotak chat
             const chatBox = document.getElementById("chat-box");
             const userMessageDiv = document.createElement("div");
             userMessageDiv.className = "message user-message";
@@ -96,19 +102,24 @@
             chatBox.scrollTop = chatBox.scrollHeight;
             document.getElementById("user-input").value = "";
 
+            // Mengirim pesan ke backend menggunakan fetch API
             fetch('/chat', { // Ubah ke rute endpoint yang sesuai
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                     'x-api-key': API_KEY, // Pastikan API Key cocok dengan backend
                 },
-                body: JSON.stringify({ message: userInput })
+                body: JSON.stringify({ 
+                    message: userInput,
+                    user_id: userId  // Sertakan ID pengguna
+                })
             })
             .then(response => response.json())
             .then(data => {
+                // Buat elemen untuk menampilkan tanggapan bot
                 const botMessageDiv = document.createElement("div");
                 botMessageDiv.className = "message bot-message";
-                botMessageDiv.innerHTML = data.response; // Tampilkan tanggapan dari JSON
+                botMessageDiv.innerHTML = data.response || "Maaf, saya tidak mengerti."; // Tampilkan tanggapan dari JSON
 
                 const timeDivBot = document.createElement("div");
                 timeDivBot.className = "timestamp text-gray-500 text-sm";
@@ -134,6 +145,7 @@
             });
         }
 
+        // Tambahkan event listener untuk mengirim pesan dengan tombol Enter
         document.getElementById("user-input").addEventListener("keypress", function(event) {
             if (event.key === "Enter" && !event.shiftKey) {
                 event.preventDefault();

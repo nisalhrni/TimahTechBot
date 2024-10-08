@@ -5,7 +5,7 @@ import pickle
 import numpy as np
 import json
 import random
-import requests  # Untuk komunikasi dengan API backend
+import requests
 from tensorflow.keras.models import load_model
 from flask_cors import CORS
 import os
@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 # Muat file .env untuk API key
 load_dotenv()
-API_KEY = os.getenv("API_KEY")  # Ambil API key dari environment variables
+API_KEY = os.getenv("API_KEY")
 
 # Load model dan file lainnya
 model = load_model('chatbot_model.h5')
@@ -25,6 +25,9 @@ app = Flask(__name__)
 CORS(app)
 
 lemmatizer = WordNetLemmatizer()
+
+# Simpan status percakapan pengguna
+user_status = {}
 
 # Membersihkan kalimat input pengguna
 def clean_up_sentence(sentence):
@@ -86,9 +89,11 @@ def create_ticket(user_details, user_id, title, description):
         if response.status_code == 201:
             return "Tiket berhasil dibuat!"
         else:
-            return f"Terjadi kesalahan saat membuat tiket: {response.status_code}"
+            return f"Terjadi kesalahan saat membuat tiket: {response.status_code} - {response.json().get('message', 'Unknown Error')}"
+    except requests.ConnectionError:
+        return "Tidak bisa menghubungi server. Silakan coba lagi nanti."
     except Exception as e:
-        return f"Gagal menghubungi server: {str(e)}"
+        return f"Gagal membuat tiket: {str(e)}"
 
 # Fungsi untuk melihat tiket melalui backend API
 def view_tickets(user_id):
@@ -112,36 +117,39 @@ def view_tickets(user_id):
 
 # Mendapatkan respons chatbot
 def chatbot_response(msg, user_id=None):
-    """
-    Fungsi untuk memproses input user dan memberikan respon dari chatbot,
-    termasuk membuat tiket dan melihat tiket dengan ID pengguna yang bersangkutan.
-    """
     try:
-        # Prediksi intent berdasarkan pesan dari pengguna
+        # Cek apakah pengguna sedang dalam proses pembuatan tiket
+        if user_id in user_status and user_status[user_id].get('intent') == 'buat_tiket':
+            if 'title' not in user_status[user_id]:
+                user_status[user_id]['title'] = msg
+                return "Silakan berikan detail masalah Anda."
+            elif 'description' not in user_status[user_id]:
+                user_status[user_id]['description'] = msg
+                # Buat tiket setelah mendapatkan judul dan deskripsi
+                response = create_ticket(user_details=user_status[user_id]['description'],
+                                         user_id=user_id,
+                                         title=user_status[user_id]['title'],
+                                         description=user_status[user_id]['description'])
+                user_status.pop(user_id)  # Hapus status setelah tiket dibuat
+                return response
+
+        # Prediksi intent berdasarkan pesan pengguna
         ints = predict_class(msg, model)
-        
+
         if ints:
             intent = ints[0]['intent']
             
             # Jika intent adalah "buat_tiket"
             if intent == "buat_tiket":
-                # Contoh mendapatkan detail tiket dari input pengguna
-                # Misalnya ambil input tambahan dari pengguna tentang masalah
-                title = "Masalah Placeholder"  # Anda bisa mengembangkan logika untuk mengumpulkan lebih banyak detail
-                description = msg  # Deskripsi masalah dari input pengguna
-
-                # Kirim data ke API backend untuk membuat tiket
-                response = create_ticket(user_details=msg, user_id=user_id, title=title, description=description)
+                user_status[user_id] = {'intent': 'buat_tiket'}
+                return "Silakan masukkan judul untuk tiket Anda."
             
             # Jika intent adalah "lihat_tiket"
             elif intent == "lihat_tiket":
-                # Gunakan ID pengguna untuk mengambil tiket
                 response = view_tickets(user_id)
-
+            
             else:
-                # Jika intent lain, ambil respons dari intents.json
                 response = getResponse(ints, intents)
-
         else:
             response = "Maaf, saya tidak mengerti."
     
@@ -150,15 +158,17 @@ def chatbot_response(msg, user_id=None):
 
     return response
 
-
+# Route untuk halaman depan
 @app.route("/", methods=['GET'])
 def hello():
     return jsonify({"message": "Welcome to Timah TechBot API!"})
 
+# Route untuk UI admin chat
 @app.route("/admin/roomchat")
 def chat_ui():
     return render_template("index.html")
 
+# Route untuk obrolan chatbot
 @app.route('/chat', methods=['POST'])
 def chat():
     unauthorized_response = check_api_key()
@@ -167,15 +177,24 @@ def chat():
 
     data = request.get_json()
     user_message = data.get("message")
-    user_id = data.get("user_id")  # Pastikan user_id dikirim dari klien
+    user_id = data.get("user_id")
 
     if not user_message:
         return jsonify({"message": "No message provided"}), 400
 
+    if not user_id:
+        return jsonify({"message": "User ID not provided"}), 400
+
+    # Pastikan bahwa response bukan 'undefined'
     response = chatbot_response(user_message, user_id)
+    
+    # Cek apakah response valid dan bukan 'undefined'
+    if response is None or response == "":
+        response = "Maaf, terjadi kesalahan dalam memproses permintaan Anda."
+
     return jsonify({"response": response})
 
-# Tambahkan route baru untuk membuat tiket
+# Route untuk membuat tiket
 @app.route('/create_ticket', methods=['POST'])
 def create_ticket_route():
     unauthorized_response = check_api_key()
@@ -193,7 +212,7 @@ def create_ticket_route():
     response = create_ticket(user_details=description, user_id=user_id, title=title, description=description)
     return jsonify({"message": response})
 
-# Tambahkan route baru untuk melihat tiket
+# Route untuk melihat tiket
 @app.route('/view_tickets', methods=['GET'])
 def view_tickets_route():
     unauthorized_response = check_api_key()
